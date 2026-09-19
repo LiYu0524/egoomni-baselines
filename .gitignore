@@ -1,0 +1,9 @@
+.proxy_env
+__pycache__/
+*.pyc
+eval/logs/
+eval/preds_v0_cpu_reference/
+models/
+envs/
+miniconda3/
+repos/
