@@ -30,6 +30,14 @@ Evaluates audio-visual LLMs on egoOmni test (`/ai4good1-shared/liyu/egoOmni/test
   uniformly subsampled to 128 units (32k context); greedy decoding (`num_beams=1, repetition_penalty=1.0`) instead of the card's
   `sampling=False` default (beam 3, repetition penalty 1.2) so every baseline shares the same decoding; audio extracted by ffmpeg
   (16 kHz mono pcm, what moviepy produces) instead of moviepy.
+- **Gemini 3.8 Flash** (API, via an OpenAI-compatible gateway's `/v1beta/.../generateContent`): the gateway exposes no Files API, so each
+  clip is re-encoded once (2 fps, ≤1280 px, CRF 26, AAC 64 k mono; a ladder steps down for clips that would exceed ~14 MB) and sent inline
+  as base64, cached on local disk and reused across an item's turns. Default media resolution. Temperature 0, `maxOutputTokens` 2048
+  (thinking is on by default and needs headroom — a 256-token cap truncates before the answer).
+  **Usage-reporting caveat**: the API itemizes `AUDIO` in `promptTokensDetails` for only ~2/3 of requests and otherwise folds those tokens
+  into `VIDEO` (verified: identical total tokens and identical ~88 tokens/s, and 40/40 sampled transcodes carry an audio stream). So
+  `modality_used` is derived from the media that was sent, not from token itemization; `audio_itemized` records which reporting style came
+  back. `repair_gemini_modality.py` applied this correction to the first run's rows (1168 rows; `.bak` files kept on the box).
 - **72B**: DeepSpeed ZeRO-3 data-parallel over 8 ranks (the mechanism of the repo's `test_8.sh`). Every param all-gather is a collective,
   so all ranks must run the same modules: clips with/without audio are processed in two lockstep phases, each padded with dummy generations.
 
@@ -42,7 +50,7 @@ GPU_UTIL=0.2 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./launch_judge.sh <tag> [...] 
 $EGO_ENVS/judge/bin/python -m egoomni_eval.score --tag <tag> --protocol gold|self
 run_stage2.sh / run_stage3.sh   # the chained pipeline used for the first full run (see logs/stage*.log)
 ```
-Tags: `videollama2_7b_av`, `salmonn2plus_7b`, `salmonn2plus_72b`, `minicpmo_2_6_8b`. Workers are resumable (skip rows already in their shard file).
+Tags: `videollama2_7b_av`, `salmonn2plus_7b`, `salmonn2plus_72b`, `minicpmo_2_6_8b`, `gemini_3_8_flash`. Workers are resumable (skip rows already in their shard file).
 
 ## Adding a model (the 5 Omni baselines)
 Subclass `egoomni_eval/models/base.py::ModelAdapter` in its own conda env: `load()`, `prepare_media(clip, has_audio)` (CPU-heavy; runs on
@@ -51,4 +59,6 @@ register in `models/__init__.py`, add an entry to `launch_infer.sh`. Nothing els
 
 ## Throughput (8×A100-80GB, first full run)
 VideoLLaMA2.1-AV: 2.7 s/gen, 25 min total. SALMONN 2+ 7B: ~8 s/gen (CPU decode fully overlapped), ~1.5 h. SALMONN 2+ 72B ZeRO-3: ~130 s/gen/rank ⇒ ~16 s/gen effective.
-MiniCPM-o 2.6: ~8.5 s/gen (1-fps decord decode dominates), ~1.8 h. Judge: ~20 verdicts/s (TP=8 @ 20 % memory, co-resident).
+MiniCPM-o 2.6: ~8.5 s/gen (1-fps decord decode dominates), ~1.8 h.
+Gemini 3.8 Flash: 24 HTTP workers (no GPU), ~0.8 req/s end to end, 2.4 h, **$35.14** total = $0.0056/request; spend is tracked per row
+(`cost_usd` from `GEMINI_PRICE_IN`/`OUT`) and `cost_monitor.py` writes `STOP_API` at the cap, which makes every worker exit cleanly. Judge: ~20 verdicts/s (TP=8 @ 20 % memory, co-resident).

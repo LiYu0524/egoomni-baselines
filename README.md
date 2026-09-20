@@ -1,6 +1,6 @@
 # egoOmni baselines
 
-Inference outputs and the evaluation harness for four audio-visual LLM baselines on the **egoOmni** test set
+Inference outputs and the evaluation harness for five audio-visual LLM baselines (four open-weight + one API) on the **egoOmni** test set
 (`grooLegend/egoOmni` on Hugging Face: 3765 items = 3040 single-turn EN + 725 multi-turn ZH, 5040 answer turns, 1905 clips).
 
 | model | weights | predictions | judge |
@@ -9,13 +9,17 @@ Inference outputs and the evaluation harness for four audio-visual LLM baselines
 | video-SALMONN 2+ 7B | `tsinghua-ee/video-SALMONN2_plus_7B_full` | `eval/preds/salmonn2plus_7b/` | pending |
 | video-SALMONN 2+ 72B | `tsinghua-ee/video-SALMONN2_plus_72B_full` | `eval/preds/salmonn2plus_72b/` | pending |
 | MiniCPM-o 2.6 (8B) | `openbmb/MiniCPM-o-2_6` | `eval/preds/minicpmo_2_6_8b/` | pending |
+| Gemini 3.8 Flash | API (`gemini-3.8-flash`, default media resolution) | `eval/preds/gemini_3_8_flash/` | pending |
 
-All four prediction sets are complete: 7040 rows each (5040 `gold` + 2000 `self` protocol rows), 0 inference errors.
+All five prediction sets are complete: 7040 rows each (5040 `gold` + 2000 `self` protocol rows). The open-weight runs had 0 inference
+errors; the Gemini run has 3 superseded error rows left in place as an audit trail (each key also has a successful row, which is the one
+`score.py` uses). Gemini cost **$35.14** for 6315 API requests ($0.0056/request, 34.4M input + 2.5M output/thinking tokens).
 
 ## Protocol (details in [`eval/README.md`](eval/README.md))
 - Full clip as input; audio fed iff the clip has an audio stream (41 % of clips have none). Each model at its official settings
   (VideoLLaMA2.1: 16 frames + BEATs; SALMONN 2+: 768 frames / 61250 px / 0.1 s, the paper's eval setting; MiniCPM-o 2.6: official omni
-  mode, 1-second units of frame + audio, clips > 128 s uniformly subsampled to 128 units). Greedy, ≤256 new tokens.
+  mode, 1-second units of frame + audio, clips > 128 s uniformly subsampled to 128 units; Gemini 3.8 Flash: clip re-encoded to 2 fps /
+  ≤1280 px / AAC 64 k and sent inline, default media resolution ≈ 88 tokens per second of clip). Greedy, ≤256 new tokens.
 - Prompts: open questions get a one-line "answer briefly" suffix (EN/ZH); MCQ (79 items) = options + "answer with the letter".
 - Multi-turn: `gold` = round k conditioned on dataset answers of rounds <k (headline); `self` = conditioned on the model's own answers.
 - Scoring: MCQ by letter match; open answers by an LLM judge (`eval/egoomni_eval/judge.py`; local Qwen3-32B via vLLM by default,
@@ -25,6 +29,8 @@ All four prediction sets are complete: 7040 rows each (5040 `gold` + 2000 `self`
 `key` (`<item_id>#r<turn>`), `item_id`, `turn_idx`, `n_turns`, `protocol`, `clip_rel`, `has_audio`, `duration`, `lang`, `fmt`,
 `question`, `messages` (the exact chat history sent), `gold`, `options`, `correct_options`, `meta` (category, subcategory, track,
 min_modalities, …), `pred`, `error`, `modality_used`, `n_input_tokens`, `latency_s`, `prep_wait_s`, `ts`.
+API rows add `usage` (prompt/video/audio/text/output/thoughts tokens), `cost_usd`, `finish_reason`, `api_latency_s`, `media_bytes`,
+`media_preset`, `model_version`, `audio_itemized`.
 
 ## First result — VideoLLaMA2.1-7B-AV (judge: Qwen3-32B)
 overall **20.65 %** (gold) / 18.95 % (self) · single-turn 21.1 % · multi-turn round 20.0 % (gold) / 15.7 % (self) ·
@@ -36,6 +42,7 @@ checkpoint validation via `scripts/salmonn_validate_*.py`). Then:
 ```bash
 cd eval && python prepare_clips.py                      # ffprobe → clips_meta.json (already included)
 ./launch_infer.sh videollama2|salmonn7b|salmonn72b|minicpmo   # 8 GPUs; 72B uses DeepSpeed ZeRO-3 data-parallel
+CAP=100 ./launch_api.sh gemini-3.8-flash 24                   # API baseline: 24 HTTP workers + cost_monitor.py (writes STOP_API at the cap)
 ./launch_judge.sh <tag> && python -m egoomni_eval.score --tag <tag> --protocol gold|self
 ```
 Known deviations from the upstream inference code (GPU-side frame preprocessing for SALMONN, multi-turn prompt cut, ZeRO-3 audio/no-audio

@@ -18,13 +18,14 @@ import traceback
 from concurrent.futures import ThreadPoolExecutor
 
 from . import EVAL_DIR, ROOT
-from .data import build_item_plans, load_clips_meta, load_items, load_subset_ids, read_jsonl, request_for
+from .data import build_item_plans, load_clips_meta, load_items, load_subset_ids, read_pred_dir, request_for
 from .models import get_adapter
+from .models.base import StopWorker
 
 
 def parse():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--adapter", required=True, choices=["videollama2", "salmonn2plus", "minicpmo"])
+    ap.add_argument("--adapter", required=True, choices=["videollama2", "salmonn2plus", "minicpmo", "gemini"])
     ap.add_argument("--model_dir", required=True)
     ap.add_argument("--tag", required=True, help="output name, e.g. salmonn2plus_7b")
     ap.add_argument("--protocols", default="gold,self")
@@ -60,7 +61,7 @@ def assign_shards(plans, nshards, protocols):
 def main():
     a = parse()
     protocols = [p for p in a.protocols.split(",") if p]
-    if not os.path.isabs(a.model_dir):
+    if a.adapter != "gemini" and not os.path.isabs(a.model_dir):      # API adapters take a model name, not a path
         a.model_dir = os.path.join(ROOT, a.model_dir)
     local_rank = 0
     if a.zero3:
@@ -76,7 +77,7 @@ def main():
         mine = mine[:a.limit]
     op = os.path.join(a.out_root, a.out_name or a.tag, f"shard{a.shard}.jsonl")
     os.makedirs(os.path.dirname(op), exist_ok=True)
-    prev = {(r["key"], r["protocol"]): r for r in read_jsonl(op)}
+    prev = {(r["key"], r["protocol"]): r for r in read_pred_dir(os.path.dirname(op))}   # all shards: safe to change --nshards on resume
     done = {k for k, r in prev.items() if r.get("pred") is not None or not a.retry_errors}
     tk = lambda p, k: f"{p.item_id}#r{k}"
 
@@ -204,6 +205,10 @@ def main():
                         answers[(proto, k)] = res["pred"]
                         state["last"][name] = (media, req.messages)
                         emit(req, res, None, t1, tprep)
+                    except StopWorker as e:
+                        log(f"STOP: {e} — exiting cleanly (rows so far are saved; rerun resumes)")
+                        pool.shutdown(wait=False, cancel_futures=True)
+                        return
                     except Exception as e:  # noqa: BLE001
                         emit(req, None, f"{type(e).__name__}: {e}\n{traceback.format_exc()[-1500:]}", t1, tprep)
                         log(f"ERROR {req.key}/{proto}: {type(e).__name__}: {str(e)[:160]}")
