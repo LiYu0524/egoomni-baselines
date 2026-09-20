@@ -25,6 +25,11 @@ Evaluates audio-visual LLMs on egoOmni test (`/ai4good1-shared/liyu/egoOmni/test
   and writes `results/preprocessing_deviation_dev300.json`.
 - **Multi-turn prompt cut**: the repo's `run_test` cut (`sum(labels==IGNORE)`) is single-turn only; we cut at the last `<|im_start|>assistant\n`
   (identical for single-turn).
+- **MiniCPM-o 2.6**: official omni recipe (`get_video_chunk_content`: frame at t=i+1 s + audio [i,i+1) s per `<unit>`, `model.chat(omni_input=True,
+  use_tts_template=True, max_slice_nums=1, use_image_id=False)`, `get_sys_prompt(mode="omni")`), with: clips > `--max_units` (128) seconds
+  uniformly subsampled to 128 units (32k context); greedy decoding (`num_beams=1, repetition_penalty=1.0`) instead of the card's
+  `sampling=False` default (beam 3, repetition penalty 1.2) so every baseline shares the same decoding; audio extracted by ffmpeg
+  (16 kHz mono pcm, what moviepy produces) instead of moviepy.
 - **72B**: DeepSpeed ZeRO-3 data-parallel over 8 ranks (the mechanism of the repo's `test_8.sh`). Every param all-gather is a collective,
   so all ranks must run the same modules: clips with/without audio are processed in two lockstep phases, each padded with dummy generations.
 
@@ -37,7 +42,7 @@ GPU_UTIL=0.2 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 ./launch_judge.sh <tag> [...] 
 $EGO_ENVS/judge/bin/python -m egoomni_eval.score --tag <tag> --protocol gold|self
 run_stage2.sh / run_stage3.sh   # the chained pipeline used for the first full run (see logs/stage*.log)
 ```
-Tags: `videollama2_7b_av`, `salmonn2plus_7b`, `salmonn2plus_72b`. Workers are resumable (skip rows already in their shard file).
+Tags: `videollama2_7b_av`, `salmonn2plus_7b`, `salmonn2plus_72b`, `minicpmo_2_6_8b`. Workers are resumable (skip rows already in their shard file).
 
 ## Adding a model (the 5 Omni baselines)
 Subclass `egoomni_eval/models/base.py::ModelAdapter` in its own conda env: `load()`, `prepare_media(clip, has_audio)` (CPU-heavy; runs on
@@ -46,4 +51,4 @@ register in `models/__init__.py`, add an entry to `launch_infer.sh`. Nothing els
 
 ## Throughput (8×A100-80GB, first full run)
 VideoLLaMA2.1-AV: 2.7 s/gen, 25 min total. SALMONN 2+ 7B: ~8 s/gen (CPU decode fully overlapped), ~1.5 h. SALMONN 2+ 72B ZeRO-3: ~130 s/gen/rank ⇒ ~16 s/gen effective.
-Judge: ~20 verdicts/s (TP=8 @ 20 % memory, co-resident).
+MiniCPM-o 2.6: ~8.5 s/gen (1-fps decord decode dominates), ~1.8 h. Judge: ~20 verdicts/s (TP=8 @ 20 % memory, co-resident).

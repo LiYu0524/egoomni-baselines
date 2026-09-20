@@ -26,6 +26,7 @@ case "$1" in
          ms Qwen/Qwen2.5-VL-7B-Instruct
          ms openai-mirror/whisper-large-v3 --exclude "*.fp32*" "*.msgpack" "*.bin" "*.h5" ;;
   ms72b) ms Qwen/Qwen2.5-VL-72B-Instruct ;;
+  minicpmo) ms OpenBMB/MiniCPM-o-2_6 ;;
   hf)    source $EGO_ROOT/.proxy_env
          hfdl tsinghua-ee/video-SALMONN-2_plus_7B
          hfdl tsinghua-ee/video-SALMONN-2_plus_72B ;;

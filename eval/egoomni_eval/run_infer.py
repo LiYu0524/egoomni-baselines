@@ -24,7 +24,7 @@ from .models import get_adapter
 
 def parse():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--adapter", required=True, choices=["videollama2", "salmonn2plus"])
+    ap.add_argument("--adapter", required=True, choices=["videollama2", "salmonn2plus", "minicpmo"])
     ap.add_argument("--model_dir", required=True)
     ap.add_argument("--tag", required=True, help="output name, e.g. salmonn2plus_7b")
     ap.add_argument("--protocols", default="gold,self")
@@ -43,6 +43,7 @@ def parse():
     ap.add_argument("--max_pixels", type=int, default=61250)
     ap.add_argument("--interval", type=float, default=0.1)
     ap.add_argument("--no_gpu_preprocess", action="store_true", help="salmonn: resize/normalize on CPU (repo default, ~50x slower)")
+    ap.add_argument("--max_units", type=int, default=128, help="minicpmo: max 1-second units per clip (longer clips are uniformly subsampled)")
     return ap.parse_args()
 
 
@@ -120,7 +121,7 @@ def main():
     Adapter = get_adapter(a.adapter)
     gpus = list(range(len(os.environ.get("CUDA_VISIBLE_DEVICES", "0").split(","))))
     adapter = Adapter(a.model_dir, gpus, zero3=a.zero3, max_frames=a.max_frames, max_pixels=a.max_pixels, interval=a.interval,
-                      gpu_preprocess=not a.no_gpu_preprocess, cpu_threads=a.cpu_threads)
+                      gpu_preprocess=not a.no_gpu_preprocess, cpu_threads=a.cpu_threads, max_units=a.max_units)
     t0 = time.time(); adapter.load(); log(f"model loaded in {time.time()-t0:.0f}s")
 
     pool = ThreadPoolExecutor(max_workers=max(1, a.prefetch))

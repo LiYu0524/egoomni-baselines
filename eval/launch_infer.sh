@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# usage: launch_infer.sh <videollama2|salmonn7b|salmonn72b> [extra run_infer args, e.g. --subset subsets/dev300.json --limit 20]
+# usage: launch_infer.sh <videollama2|salmonn7b|salmonn72b|minicpmo> [extra run_infer args, e.g. --subset subsets/dev300.json --limit 20]
 # Runs gold+self protocols in one pass: 8 single-GPU workers (72B: one torchrun ZeRO-3 job over 8 GPUs). Blocks until done.
 set -uo pipefail
 source /ai4good1-shared/liyu/egoOmni_baselines/env.sh
@@ -9,6 +9,7 @@ case $M in
   videollama2) ENV=$EGO_ENVS/videollama2;  ADAPTER=videollama2;  DIR=models/VideoLLaMA2.1-7B-AV;         TAG=videollama2_7b_av; ZERO3=0 ;;
   salmonn7b)   ENV=$EGO_ENVS/salmonn2plus; ADAPTER=salmonn2plus; DIR=models/video-SALMONN2_plus_7B_full; TAG=salmonn2plus_7b;   ZERO3=0 ;;
   salmonn72b)  ENV=$EGO_ENVS/salmonn2plus; ADAPTER=salmonn2plus; DIR=models/video-SALMONN2_plus_72B_full; TAG=salmonn2plus_72b; ZERO3=1 ;;
+  minicpmo)    ENV=$EGO_ENVS/minicpmo;     ADAPTER=minicpmo;     DIR=models/MiniCPM-o-2_6;                  TAG=minicpmo_2_6_8b;   ZERO3=0 ;;
   *) echo "unknown model $M"; exit 1 ;;
 esac
 NGPU=${NGPU:-8}

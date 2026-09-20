@@ -41,6 +41,7 @@ scripts/restore_envs.sh                            # after a container rebuild
 | env | key pins | notes |
 |---|---|---|
 | `videollama2` | torch 2.2.0+cu118, transformers 4.42.3, flash-attn 2.5.8 (prebuilt wheel), opencv 4.5.5.64, `pip install -e repos/VideoLLaMA2` | exactly repo requirements.txt + README steps |
+| `minicpmo` | torch 2.3.1+cu121, transformers 4.44.2, librosa 0.9.0, vocos 0.1.0, vector-quantize-pytorch 1.18.5, decord, moviepy 1.0.3 (model-card pins) | `scripts/build_env_minicpmo.sh`; weights `OpenBMB/MiniCPM-o-2_6` via ModelScope (`download_models.sh minicpmo`) |
 | `salmonn2plus` | torch 2.7.1, transformers 4.51.3, peft 0.15.2, liger-kernel 0.5.10, deepspeed 0.16.0, flash-attn **2.8.0.post2** (prebuilt for torch 2.7), torchaudio **2.7.1** | repo pins flash_attn 2.7.4.post1 (no torch-2.7 wheel; API-compatible) and torchaudio 2.5.1 (incompatible with torch 2.7.1) |
 
 ## Usage
