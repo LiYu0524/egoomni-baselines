@@ -1,0 +1,36 @@
+{
+  "rows": 3976,
+  "videos": 500,
+  "with_audio": 3974,
+  "categories": {
+    "Temporal Reasoning": 1100,
+    "Audio-Visual Segment Narration": 1200,
+    "Sound Source Association": 600,
+    "Audio-Visual Dense Narration": 500,
+    "Audio Visual Hallucination (Action)": 196,
+    "Audio Visual Hallucination (Sound)": 196,
+    "Audio Visual Hallucination (Object)": 184
+  },
+  "smoke_rows": 20,
+  "shortest_windows_s": [
+    0.125,
+    0.938,
+    1.438,
+    1.438,
+    1.938,
+    2.75
+  ],
+  "files": [
+    "egoavu_bench_eval",
+    "egoavu_bench_eval_s0of2",
+    "egoavu_bench_eval_s1of2",
+    "egoavu_bench_eval_s0of3",
+    "egoavu_bench_eval_s1of3",
+    "egoavu_bench_eval_s2of3",
+    "egoavu_bench_eval_s0of4",
+    "egoavu_bench_eval_s1of4",
+    "egoavu_bench_eval_s2of4",
+    "egoavu_bench_eval_s3of4",
+    "egoavu_bench_smoke"
+  ]
+}

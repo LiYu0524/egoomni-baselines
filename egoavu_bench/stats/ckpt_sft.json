@@ -1,0 +1,73 @@
+{
+  "tag": "ckpt_sft",
+  "rows": 3976,
+  "join_verified": true,
+  "empty_outputs": 0,
+  "truncated_at_1024_tokens": [
+    42,
+    216,
+    265,
+    281,
+    358,
+    368,
+    1177,
+    1252,
+    1530,
+    1578,
+    1595,
+    1599,
+    1650,
+    1692,
+    2214,
+    2463,
+    2649,
+    3386
+  ],
+  "output_vs_gold_tokens_by_category": {
+    "Audio Visual Hallucination (Action)": {
+      "n": 196,
+      "mean_output_tokens": 13.5,
+      "mean_gold_tokens": 26.6
+    },
+    "Audio Visual Hallucination (Object)": {
+      "n": 184,
+      "mean_output_tokens": 13.0,
+      "mean_gold_tokens": 27.8
+    },
+    "Audio Visual Hallucination (Sound)": {
+      "n": 196,
+      "mean_output_tokens": 17.4,
+      "mean_gold_tokens": 27.6
+    },
+    "Audio-Visual Dense Narration": {
+      "n": 500,
+      "mean_output_tokens": 156.8,
+      "mean_gold_tokens": 223.2
+    },
+    "Audio-Visual Segment Narration": {
+      "n": 1200,
+      "mean_output_tokens": 26.7,
+      "mean_gold_tokens": 141.3
+    },
+    "Sound Source Association": {
+      "n": 600,
+      "mean_output_tokens": 24.0,
+      "mean_gold_tokens": 40.9
+    },
+    "Temporal Reasoning": {
+      "n": 1100,
+      "mean_output_tokens": 17.6,
+      "mean_gold_tokens": 51.4
+    }
+  },
+  "predict_runtime_s": 6237.5237,
+  "categories": {
+    "Temporal Reasoning": 1100,
+    "Audio-Visual Segment Narration": 1200,
+    "Sound Source Association": 600,
+    "Audio-Visual Dense Narration": 500,
+    "Audio Visual Hallucination (Action)": 196,
+    "Audio Visual Hallucination (Sound)": 196,
+    "Audio Visual Hallucination (Object)": 184
+  }
+}

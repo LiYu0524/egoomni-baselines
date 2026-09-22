@@ -11,6 +11,9 @@ Inference outputs and the evaluation harness for five audio-visual LLM baselines
 | MiniCPM-o 2.6 (8B) | `openbmb/MiniCPM-o-2_6` | `eval/preds/minicpmo_2_6_8b/` | pending |
 | Gemini 3.8 Flash | API (`gemini-3.8-flash`, default media resolution) | `eval/preds/gemini_3_8_flash/` | pending |
 
+**Also here — EgoAVU-Bench:** [`egoavu_bench/`](egoavu_bench/README.md) holds inference outputs (no judging) of two
+Qwen2.5-Omni-7B LoRAs (`ckpt_sft`, `ckpt_epoch2`) on all 3,976 EgoAVU-Bench QAs, laid out for the official EgoAVU judge scripts.
+
 All five prediction sets are complete: 7040 rows each (5040 `gold` + 2000 `self` protocol rows). The open-weight runs had 0 inference
 errors; the Gemini run has 3 superseded error rows left in place as an audit trail (each key also has a successful row, which is the one
 `score.py` uses). Gemini cost **$35.14** for 6315 API requests ($0.0056/request, 34.4M input + 2.5M output/thinking tokens).
