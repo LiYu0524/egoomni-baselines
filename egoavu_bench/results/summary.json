@@ -1,0 +1,352 @@
+{
+ "models": {
+  "ckpt_sft": {
+   "SSA": 1.532,
+   "AVDN_S": 1.726,
+   "AVDN_M": 7.99,
+   "AVDN_R": 11.92,
+   "AVSN_S": 1.681,
+   "AVSN_M": 4.39,
+   "AVSN_R": 9.75,
+   "TR": 43.6,
+   "TR_ci95": [
+    39.2,
+    48.0
+   ],
+   "TR_n": 500,
+   "AVH": 12.98,
+   "AVH_by_subtype": {
+    "Action": 15.31,
+    "Object": 22.64,
+    "Sound": 1.0
+   },
+   "AVH_n": 304,
+   "AVH_yes_rate": 91.4,
+   "judge_S_all_categories": {
+    "SSA": {
+     "n": 600,
+     "S": 1.532,
+     "ci95": [
+      1.472,
+      1.593
+     ]
+    },
+    "AVDN": {
+     "n": 500,
+     "S": 1.726,
+     "ci95": [
+      1.662,
+      1.786
+     ]
+    },
+    "AVSN": {
+     "n": 1200,
+     "S": 1.681,
+     "ci95": [
+      1.641,
+      1.72
+     ]
+    },
+    "TR": {
+     "n": 1100,
+     "S": 2.266,
+     "ci95": [
+      2.181,
+      2.36
+     ]
+    },
+    "AVH-Action": {
+     "n": 196,
+     "S": 2.051,
+     "ci95": [
+      1.862,
+      2.25
+     ]
+    },
+    "AVH-Object": {
+     "n": 184,
+     "S": 2.0,
+     "ci95": [
+      1.815,
+      2.196
+     ]
+    },
+    "AVH-Sound": {
+     "n": 196,
+     "S": 1.929,
+     "ci95": [
+      1.76,
+      2.087
+     ]
+    }
+   },
+   "judge_S_closed_open_split": {
+    "TR/closed": {
+     "n": 500,
+     "S": 2.792
+    },
+    "TR/open": {
+     "n": 600,
+     "S": 1.828
+    },
+    "AVH-Action/closed": {
+     "n": 98,
+     "S": 1.561
+    },
+    "AVH-Action/open": {
+     "n": 98,
+     "S": 2.541
+    },
+    "AVH-Object/closed": {
+     "n": 106,
+     "S": 1.689
+    },
+    "AVH-Object/open": {
+     "n": 78,
+     "S": 2.423
+    },
+    "AVH-Sound/closed": {
+     "n": 100,
+     "S": 1.04
+    },
+    "AVH-Sound/open": {
+     "n": 96,
+     "S": 2.854
+    }
+   },
+   "median_output_to_gold_word_ratio": {
+    "AVSN": 0.19,
+    "AVDN": 0.44,
+    "SSA": 0.54,
+    "TR": 0.38
+   },
+   "closed_ended_extraction": {
+    "TR": {
+     "exact_option_text": 459,
+     "letter": 27,
+     "fuzzy_option_text": 14
+    },
+    "AVH": {
+     "first_word": 304
+    }
+   },
+   "judge_unparseable": 0
+  },
+  "ckpt_epoch2": {
+   "SSA": 1.563,
+   "AVDN_S": 1.702,
+   "AVDN_M": 4.93,
+   "AVDN_R": 9.91,
+   "AVSN_S": 1.669,
+   "AVSN_M": 5.11,
+   "AVSN_R": 10.76,
+   "TR": 45.0,
+   "TR_ci95": [
+    40.6,
+    49.4
+   ],
+   "TR_n": 500,
+   "AVH": 36.1,
+   "AVH_by_subtype": {
+    "Action": 44.9,
+    "Object": 43.4,
+    "Sound": 20.0
+   },
+   "AVH_n": 304,
+   "AVH_yes_rate": 67.8,
+   "judge_S_all_categories": {
+    "SSA": {
+     "n": 600,
+     "S": 1.563,
+     "ci95": [
+      1.495,
+      1.635
+     ]
+    },
+    "AVDN": {
+     "n": 500,
+     "S": 1.702,
+     "ci95": [
+      1.638,
+      1.762
+     ]
+    },
+    "AVSN": {
+     "n": 1200,
+     "S": 1.669,
+     "ci95": [
+      1.63,
+      1.709
+     ]
+    },
+    "TR": {
+     "n": 1100,
+     "S": 2.283,
+     "ci95": [
+      2.191,
+      2.375
+     ]
+    },
+    "AVH-Action": {
+     "n": 196,
+     "S": 2.638,
+     "ci95": [
+      2.418,
+      2.862
+     ]
+    },
+    "AVH-Object": {
+     "n": 184,
+     "S": 2.353,
+     "ci95": [
+      2.13,
+      2.592
+     ]
+    },
+    "AVH-Sound": {
+     "n": 196,
+     "S": 2.327,
+     "ci95": [
+      2.117,
+      2.546
+     ]
+    }
+   },
+   "judge_S_closed_open_split": {
+    "TR/closed": {
+     "n": 500,
+     "S": 2.872
+    },
+    "TR/open": {
+     "n": 600,
+     "S": 1.792
+    },
+    "AVH-Action/closed": {
+     "n": 98,
+     "S": 2.602
+    },
+    "AVH-Action/open": {
+     "n": 98,
+     "S": 2.673
+    },
+    "AVH-Object/closed": {
+     "n": 106,
+     "S": 2.519
+    },
+    "AVH-Object/open": {
+     "n": 78,
+     "S": 2.128
+    },
+    "AVH-Sound/closed": {
+     "n": 100,
+     "S": 1.78
+    },
+    "AVH-Sound/open": {
+     "n": 96,
+     "S": 2.896
+    }
+   },
+   "median_output_to_gold_word_ratio": {
+    "AVSN": 0.22,
+    "AVDN": 0.23,
+    "SSA": 0.57,
+    "TR": 0.36
+   },
+   "closed_ended_extraction": {
+    "TR": {
+     "exact_option_text": 494,
+     "letter": 4,
+     "fuzzy_option_text": 2
+    },
+    "AVH": {
+     "first_word": 304
+    }
+   },
+   "judge_unparseable": 0
+  }
+ },
+ "paired_differences": {
+  "ckpt_epoch2 - ckpt_sft": {
+   "SSA": {
+    "mean_diff": 0.032,
+    "ci95": [
+     -0.03,
+     0.095
+    ]
+   },
+   "AVDN": {
+    "mean_diff": -0.024,
+    "ci95": [
+     -0.08,
+     0.03
+    ]
+   },
+   "AVSN": {
+    "mean_diff": -0.012,
+    "ci95": [
+     -0.054,
+     0.03
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.016,
+    "ci95": [
+     -0.061,
+     0.097
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 0.587,
+    "ci95": [
+     0.357,
+     0.821
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 0.353,
+    "ci95": [
+     0.136,
+     0.587
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 0.398,
+    "ci95": [
+     0.199,
+     0.587
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": 1.4,
+    "ci95": [
+     -2.6,
+     5.4
+    ]
+   }
+  }
+ },
+ "paper_reference": {
+  "paper: Qwen2.5-Omni-7B (base)": {
+   "SSA": 1.5,
+   "AVDN_S": 2.37,
+   "AVDN_M": 10.69,
+   "AVDN_R": 14.74,
+   "AVSN_S": 1.99,
+   "AVSN_M": 9.99,
+   "AVSN_R": 13.39,
+   "TR": 53.2,
+   "AVH": 42.69
+  },
+  "paper: Ours (LoRA)": {
+   "SSA": 3.15,
+   "AVDN_S": 2.6,
+   "AVDN_M": 12.2,
+   "AVDN_R": 17.19,
+   "AVSN_S": 2.45,
+   "AVSN_M": 22.53,
+   "AVSN_R": 28.34,
+   "TR": 64.31,
+   "AVH": 61.69
+  }
+ }
+}

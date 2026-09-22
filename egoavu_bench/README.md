@@ -1,8 +1,23 @@
-# EgoAVU-Bench — inference outputs for two Qwen2.5-Omni-7B LoRAs
+# EgoAVU-Bench — two Qwen2.5-Omni-7B LoRAs: predictions + official-standard scores
 
 Raw predictions of two LoRA fine-tunes of **Qwen2.5-Omni-7B (Thinker)** on all **3,976 QAs** of EgoAVU-Bench
 (`egoavu_bench_combined.csv`, 500 videos, 7 categories, sha256 `7d4ca546b1838e44068796a2665f25ce567d447f87b37e787e871e5d3757cb3a`).
-**Inference only — nothing was judged or scored here.** The files are laid out for the official EgoAVU evaluation scripts.
+**v1 (2026-09-23): scored to the official EgoAVU standard** — details, CIs and per-item files in [`results/`](results/README.md).
+A base-model control (untuned Qwen2.5-Omni-7B, same pipeline) is running; v2 adds it and calibrates the AVH column.
+
+| model | SSA S | AVDN S | AVDN M | AVDN R | AVSN S | AVSN M | AVSN R | TR Acc | AVH Acc* |
+|---|---|---|---|---|---|---|---|---|---|
+| **ckpt_sft** | 1.53 | 1.73 | 7.99 | 11.92 | 1.68 | 4.39 | 9.75 | 43.60 | 12.98 |
+| **ckpt_epoch2** | 1.56 | 1.70 | 4.93 | 9.91 | 1.67 | 5.11 | 10.76 | 45.00 | 36.10 |
+| paper: Qwen2.5-Omni-7B (base) | 1.50 | 2.37 | 10.69 | 14.74 | 1.99 | 9.99 | 13.39 | 53.20 | 42.69 |
+| paper: Ours (LoRA) | 3.15 | 2.60 | 12.20 | 17.19 | 2.45 | 22.53 | 28.34 | 64.31 | 61.69 |
+
+\* v1 AVH = the 304 yes/no probes only (macro over subtypes); the paper's AVH also scores the open-ended AVH items, so this column is
+not yet comparable — see [`results/README.md`](results/README.md). Both LoRAs are far below the paper's LoRA and mostly below the
+paper's untuned base (terse outputs, a strong "Yes" bias on hallucination probes, much lighter training); the two checkpoints differ
+significantly only on AVH.
+
+The prediction files below are laid out for the official EgoAVU evaluation scripts.
 
 | file | model | rows | empty | hit 1,024-token cap |
 |---|---|---|---|---|
