@@ -5,7 +5,7 @@ Inference outputs and evaluation code for two benchmarks:
 | benchmark | size | models | where | status |
 |---|---|---|---|---|
 | **egoOmni** — final test set (`test.qa.jsonl`, 3,882 QAs = 3,765 original + 117 restored) | 3,882 QAs | VideoLLaMA2.1-AV-7B, video-SALMONN 2+ 7B / 72B, MiniCPM-o 2.6, Gemini 3.8 Flash, EgoAVU r100k LoRA (ours) | [`eval/`](eval/README.md) | predictions for **3,877 / 3,882** QAs on all six models (5 restored QAs have no video); judged: VideoLLaMA2.1-AV-7B only |
-| **EgoAVU-Bench** | 3,976 QAs, 500 videos | two Qwen2.5-Omni-7B LoRAs (`ckpt_sft`, `ckpt_epoch2`) | [`egoavu_bench/`](egoavu_bench/README.md) | predictions complete (3,976 / 3,976 each); **v1 scored to the official standard** ([`results/`](egoavu_bench/results/README.md)); base-model control pending (v2) |
+| **EgoAVU-Bench** | 3,976 QAs, 500 videos | two Qwen2.5-Omni-7B LoRAs (`ckpt_sft`, `ckpt_epoch2`) + untuned Qwen2.5-Omni-7B control | [`egoavu_bench/`](egoavu_bench/README.md) | predictions complete (3,976 / 3,976 each); **v2: scored to the official standard + untuned-base control** ([`results/`](egoavu_bench/results/README.md)) — neither LoRA beats the base except `ckpt_epoch2` on hallucination probes |
 
 Every problem hit and how it was handled: [`docs/ISSUES_AND_HANDLING.md`](docs/ISSUES_AND_HANDLING.md).
 

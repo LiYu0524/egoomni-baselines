@@ -1,0 +1,8 @@
+file_name,category,score
+base_qwen25omni7b.json,Temporal Reasoning,2.311
+base_qwen25omni7b.json,Audio-Visual Segment Narration,1.917
+base_qwen25omni7b.json,Sound Source Association,1.502
+base_qwen25omni7b.json,Audio-Visual Dense Narration,1.782
+base_qwen25omni7b.json,Audio Visual Hallucination (Action),2.551
+base_qwen25omni7b.json,Audio Visual Hallucination (Sound),1.893
+base_qwen25omni7b.json,Audio Visual Hallucination (Object),2.272

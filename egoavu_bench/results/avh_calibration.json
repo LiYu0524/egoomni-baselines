@@ -1,0 +1,260 @@
+{
+ "base_qwen25omni7b": {
+  "open_correct_if_judge>=2": {
+   "by_subtype": {
+    "Action": {
+     "acc": 61.73,
+     "k": 121,
+     "n": 196
+    },
+    "Object": {
+     "acc": 46.2,
+     "k": 85,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 43.88,
+     "k": 86,
+     "n": 196
+    }
+   },
+   "macro": 50.6,
+   "mean_abs_diff_to_paper_base": 10.45
+  },
+  "open_correct_if_judge>=3": {
+   "by_subtype": {
+    "Action": {
+     "acc": 46.43,
+     "k": 91,
+     "n": 196
+    },
+    "Object": {
+     "acc": 37.5,
+     "k": 69,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 28.06,
+     "k": 55,
+     "n": 196
+    }
+   },
+   "macro": 37.33,
+   "mean_abs_diff_to_paper_base": 6.72
+  },
+  "open_correct_if_judge>=4": {
+   "by_subtype": {
+    "Action": {
+     "acc": 36.73,
+     "k": 72,
+     "n": 196
+    },
+    "Object": {
+     "acc": 29.89,
+     "k": 55,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 15.31,
+     "k": 30,
+     "n": 196
+    }
+   },
+   "macro": 27.31,
+   "mean_abs_diff_to_paper_base": 15.38
+  },
+  "open_correct_if_judge>=5": {
+   "by_subtype": {
+    "Action": {
+     "acc": 20.41,
+     "k": 40,
+     "n": 196
+    },
+    "Object": {
+     "acc": 22.28,
+     "k": 41,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 2.04,
+     "k": 4,
+     "n": 196
+    }
+   },
+   "macro": 14.91,
+   "mean_abs_diff_to_paper_base": 27.78
+  }
+ },
+ "ckpt_sft": {
+  "open_correct_if_judge>=2": {
+   "by_subtype": {
+    "Action": {
+     "acc": 45.92,
+     "k": 90,
+     "n": 196
+    },
+    "Object": {
+     "acc": 45.11,
+     "k": 83,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 43.88,
+     "k": 86,
+     "n": 196
+    }
+   },
+   "macro": 44.97,
+   "mean_abs_diff_to_paper_base": 5.54
+  },
+  "open_correct_if_judge>=3": {
+   "by_subtype": {
+    "Action": {
+     "acc": 29.59,
+     "k": 58,
+     "n": 196
+    },
+    "Object": {
+     "acc": 28.26,
+     "k": 52,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 30.1,
+     "k": 59,
+     "n": 196
+    }
+   },
+   "macro": 29.32,
+   "mean_abs_diff_to_paper_base": 13.37
+  },
+  "open_correct_if_judge>=4": {
+   "by_subtype": {
+    "Action": {
+     "acc": 22.45,
+     "k": 44,
+     "n": 196
+    },
+    "Object": {
+     "acc": 23.37,
+     "k": 43,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 17.86,
+     "k": 35,
+     "n": 196
+    }
+   },
+   "macro": 21.23,
+   "mean_abs_diff_to_paper_base": 21.46
+  },
+  "open_correct_if_judge>=5": {
+   "by_subtype": {
+    "Action": {
+     "acc": 9.69,
+     "k": 19,
+     "n": 196
+    },
+    "Object": {
+     "acc": 15.76,
+     "k": 29,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 1.02,
+     "k": 2,
+     "n": 196
+    }
+   },
+   "macro": 8.82,
+   "mean_abs_diff_to_paper_base": 33.86
+  }
+ },
+ "ckpt_epoch2": {
+  "open_correct_if_judge>=2": {
+   "by_subtype": {
+    "Action": {
+     "acc": 62.76,
+     "k": 123,
+     "n": 196
+    },
+    "Object": {
+     "acc": 50.0,
+     "k": 92,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 54.08,
+     "k": 106,
+     "n": 196
+    }
+   },
+   "macro": 55.61,
+   "mean_abs_diff_to_paper_base": 12.93
+  },
+  "open_correct_if_judge>=3": {
+   "by_subtype": {
+    "Action": {
+     "acc": 49.49,
+     "k": 97,
+     "n": 196
+    },
+    "Object": {
+     "acc": 39.13,
+     "k": 72,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 39.29,
+     "k": 77,
+     "n": 196
+    }
+   },
+   "macro": 42.64,
+   "mean_abs_diff_to_paper_base": 7.2
+  },
+  "open_correct_if_judge>=4": {
+   "by_subtype": {
+    "Action": {
+     "acc": 38.27,
+     "k": 75,
+     "n": 196
+    },
+    "Object": {
+     "acc": 31.52,
+     "k": 58,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 29.08,
+     "k": 57,
+     "n": 196
+    }
+   },
+   "macro": 32.96,
+   "mean_abs_diff_to_paper_base": 9.73
+  },
+  "open_correct_if_judge>=5": {
+   "by_subtype": {
+    "Action": {
+     "acc": 22.96,
+     "k": 45,
+     "n": 196
+    },
+    "Object": {
+     "acc": 27.17,
+     "k": 50,
+     "n": 184
+    },
+    "Sound": {
+     "acc": 11.22,
+     "k": 22,
+     "n": 196
+    }
+   },
+   "macro": 20.45,
+   "mean_abs_diff_to_paper_base": 22.24
+  }
+ }
+}

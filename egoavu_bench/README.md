@@ -2,20 +2,25 @@
 
 Raw predictions of two LoRA fine-tunes of **Qwen2.5-Omni-7B (Thinker)** on all **3,976 QAs** of EgoAVU-Bench
 (`egoavu_bench_combined.csv`, 500 videos, 7 categories, sha256 `7d4ca546b1838e44068796a2665f25ce567d447f87b37e787e871e5d3757cb3a`).
-**v1 (2026-09-23): scored to the official EgoAVU standard** — details, CIs and per-item files in [`results/`](results/README.md).
-A base-model control (untuned Qwen2.5-Omni-7B, same pipeline) is running; v2 adds it and calibrates the AVH column.
+**v2 (2026-09-23): scored to the official EgoAVU standard, with a base-model control** — details, CIs and per-item files in
+[`results/`](results/README.md).
 
 | model | SSA S | AVDN S | AVDN M | AVDN R | AVSN S | AVSN M | AVSN R | TR Acc | AVH Acc* |
 |---|---|---|---|---|---|---|---|---|---|
+| **base_qwen25omni7b** | 1.50 | 1.78 | 15.93 | 15.53 | 1.92 | 10.47 | 15.30 | 44.60 | 23.62 |
 | **ckpt_sft** | 1.53 | 1.73 | 7.99 | 11.92 | 1.68 | 4.39 | 9.75 | 43.60 | 12.98 |
 | **ckpt_epoch2** | 1.56 | 1.70 | 4.93 | 9.91 | 1.67 | 5.11 | 10.76 | 45.00 | 36.10 |
 | paper: Qwen2.5-Omni-7B (base) | 1.50 | 2.37 | 10.69 | 14.74 | 1.99 | 9.99 | 13.39 | 53.20 | 42.69 |
 | paper: Ours (LoRA) | 3.15 | 2.60 | 12.20 | 17.19 | 2.45 | 22.53 | 28.34 | 64.31 | 61.69 |
 
-\* v1 AVH = the 304 yes/no probes only (macro over subtypes); the paper's AVH also scores the open-ended AVH items, so this column is
-not yet comparable — see [`results/README.md`](results/README.md). Both LoRAs are far below the paper's LoRA and mostly below the
-paper's untuned base (terse outputs, a strong "Yes" bias on hallucination probes, much lighter training); the two checkpoints differ
-significantly only on AVH.
+\* AVH = the 304 yes/no probes (macro over subtypes); the paper's AVH also scores the open-ended AVH items by an unstated rule —
+calibrated variant and discussion in [`results/README.md`](results/README.md).
+
+**The control run makes the comparison meaningful.** The untuned Qwen2.5-Omni-7B, through the identical pipeline, reproduces the
+paper's base closely on the unambiguous metrics (SSA 1.502 vs 1.50, AVSN S 1.917 vs 1.99, AVSN M 10.47 vs 9.99), so the pipeline is
+sound. Against that control, **neither LoRA improves**: AVSN judge S drops significantly for both (−0.24), METEOR/ROUGE-L collapse
+because the fine-tuned answers are far shorter, and TR accuracy is unchanged. The one gain is hallucination behaviour in
+`ckpt_epoch2` (AVH yes/no 36.1 vs 23.6 for the base), while `ckpt_sft` is worse (13.0; it answers "Yes" to 91 % of probes).
 
 The prediction files below are laid out for the official EgoAVU evaluation scripts.
 

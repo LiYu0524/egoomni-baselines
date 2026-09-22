@@ -1,0 +1,804 @@
+{"bench_idx": 3476, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3477, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3478, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3479, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3480, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3481, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3482, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3483, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3484, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3485, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3486, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3487, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3488, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3489, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3490, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3491, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3492, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3493, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3494, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3495, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3496, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3497, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3498, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3499, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3500, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3501, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3502, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3503, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3504, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3505, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3506, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3507, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3508, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3509, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3510, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3511, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3512, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3513, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3514, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3515, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3516, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3517, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3518, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3519, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3520, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3521, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3522, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3523, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3524, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3525, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3526, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3527, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3528, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3529, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3530, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3531, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3532, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3533, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3534, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3535, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3536, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3537, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3538, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3539, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3540, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3541, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3542, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3543, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3544, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3545, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3546, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3547, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "phrase", "correct": false}
+{"bench_idx": 3548, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3549, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3550, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3551, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3552, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3553, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3554, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3555, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3556, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3557, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3558, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3559, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3560, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3561, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3562, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3563, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3564, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3565, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3566, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "phrase", "correct": true}
+{"bench_idx": 3567, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3568, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3569, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3570, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3571, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3572, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3573, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3574, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3575, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3576, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3577, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3578, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3579, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3580, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3581, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3582, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3583, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3584, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3585, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3586, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3587, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3588, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3589, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3590, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3591, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3592, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3593, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3594, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3595, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3596, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3597, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3598, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3599, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3600, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3601, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3602, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3603, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3604, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3605, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3606, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3607, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3608, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3609, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3610, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3611, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3612, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3613, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3614, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3615, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3616, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3617, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3618, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3619, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "phrase", "correct": false}
+{"bench_idx": 3620, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3621, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3622, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3623, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3624, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3625, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3626, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3627, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3628, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3629, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "phrase", "correct": true}
+{"bench_idx": 3630, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3631, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3632, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3633, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3634, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3635, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3636, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3637, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3638, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3639, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3640, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3641, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3642, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3643, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3644, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3645, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3646, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "phrase", "correct": true}
+{"bench_idx": 3647, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3648, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3649, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3650, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3651, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3652, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3653, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3654, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3655, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3656, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3657, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3658, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "phrase", "correct": true}
+{"bench_idx": 3659, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3660, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3661, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3662, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3663, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3664, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3665, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3666, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3667, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3668, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3669, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3670, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "phrase", "correct": true}
+{"bench_idx": 3671, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3672, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3673, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3674, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3675, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3676, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "phrase", "correct": true}
+{"bench_idx": 3677, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3678, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3679, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3680, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3681, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3682, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3683, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3684, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3685, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3686, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3687, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3688, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3689, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3690, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3691, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3692, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3693, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3694, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3695, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3696, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3697, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3698, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3699, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3700, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3701, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3702, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3703, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3704, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3705, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3706, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "phrase", "correct": false}
+{"bench_idx": 3707, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3708, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3709, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3710, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3711, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3712, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3713, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3714, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "phrase", "correct": false}
+{"bench_idx": 3715, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3716, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3717, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3718, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3719, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3720, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3721, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3722, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3723, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3724, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3725, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3726, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3727, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3728, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3729, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3730, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3731, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3732, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3733, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3734, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3735, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3736, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3737, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3738, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3739, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3740, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3741, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3742, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3743, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3744, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3745, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3746, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3747, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3748, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3749, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3750, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3751, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3752, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3753, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3754, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3755, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3756, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3757, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3758, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3759, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3760, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3761, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3762, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3763, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3764, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3765, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3766, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3767, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3768, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3769, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3770, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3771, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3772, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3773, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3774, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3775, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3776, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3777, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3778, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3779, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3780, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3781, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3782, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3783, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3784, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3785, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3786, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3787, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3788, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3789, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3790, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3791, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3792, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3793, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3794, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3795, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3796, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3797, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3798, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3799, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3800, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3801, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3802, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "phrase", "correct": false}
+{"bench_idx": 3803, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3804, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3805, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3806, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3807, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3808, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3809, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3810, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3811, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3812, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3813, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3814, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3815, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3816, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3817, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3818, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3819, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3820, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3821, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3822, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3823, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3824, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3825, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3826, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3827, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3828, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3829, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3830, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3831, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3832, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3833, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3834, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3835, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3836, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3837, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3838, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3839, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3840, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3841, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3842, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3843, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3844, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3845, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3846, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3847, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3848, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3849, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3850, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3851, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3852, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3853, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3854, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "phrase", "correct": false}
+{"bench_idx": 3855, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3856, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3857, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3858, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3859, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3860, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3861, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3862, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3863, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3864, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3865, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3866, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3867, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3868, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3869, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3870, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3871, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3872, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3873, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3874, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3875, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3876, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3877, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3878, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3879, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3880, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3881, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3882, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3883, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3884, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3885, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3886, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3887, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3888, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3889, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3890, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3891, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "phrase", "correct": true}
+{"bench_idx": 3892, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3893, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3894, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3895, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3896, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3897, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3898, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3899, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3900, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3901, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3902, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "phrase", "correct": false}
+{"bench_idx": 3903, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3904, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3905, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3906, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3907, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3908, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3909, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3910, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3911, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3912, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3913, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3914, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "phrase", "correct": false}
+{"bench_idx": 3915, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3916, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3917, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3918, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3919, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3920, "task": "TR_mcq", "gold": "C", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3921, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3922, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3923, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3924, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3925, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3926, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3927, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3928, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3929, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "phrase", "correct": false}
+{"bench_idx": 3930, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3931, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3932, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3933, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3934, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3935, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3936, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3937, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3938, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3939, "task": "TR_mcq", "gold": "A", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3940, "task": "TR_mcq", "gold": "B", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3941, "task": "TR_mcq", "gold": "A", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3942, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3943, "task": "TR_mcq", "gold": "A", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3944, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3945, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 3946, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3947, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3948, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3949, "task": "TR_mcq", "gold": "B", "pred": "D", "rule": "letter", "correct": false}
+{"bench_idx": 3950, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3951, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3952, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "phrase", "correct": true}
+{"bench_idx": 3953, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3954, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3955, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3956, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3957, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3958, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3959, "task": "TR_mcq", "gold": "B", "pred": "B", "rule": "letter", "correct": true}
+{"bench_idx": 3960, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3961, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3962, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3963, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3964, "task": "TR_mcq", "gold": "C", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3965, "task": "TR_mcq", "gold": "D", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3966, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3967, "task": "TR_mcq", "gold": "A", "pred": "A", "rule": "letter", "correct": true}
+{"bench_idx": 3968, "task": "TR_mcq", "gold": "D", "pred": "C", "rule": "phrase", "correct": false}
+{"bench_idx": 3969, "task": "TR_mcq", "gold": "C", "pred": "B", "rule": "letter", "correct": false}
+{"bench_idx": 3970, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3971, "task": "TR_mcq", "gold": "B", "pred": "C", "rule": "letter", "correct": false}
+{"bench_idx": 3972, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "letter", "correct": true}
+{"bench_idx": 3973, "task": "TR_mcq", "gold": "D", "pred": "A", "rule": "letter", "correct": false}
+{"bench_idx": 3974, "task": "TR_mcq", "gold": "C", "pred": "C", "rule": "phrase", "correct": true}
+{"bench_idx": 3975, "task": "TR_mcq", "gold": "D", "pred": "D", "rule": "letter", "correct": true}
+{"bench_idx": 2901, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2903, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2905, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2907, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2909, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2911, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2913, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "yes_no_word", "correct": true}
+{"bench_idx": 2915, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2917, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2919, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2921, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2923, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2925, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2927, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2928, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 2929, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2931, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2933, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2935, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2937, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2939, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2940, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 2941, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2943, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2945, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2947, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2949, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2951, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2953, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2955, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2957, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2959, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2961, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2963, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2965, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2967, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2969, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2971, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2973, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2975, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2977, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2979, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2981, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2983, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2985, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2987, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2989, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2991, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2993, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2995, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 2997, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 2999, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3001, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3003, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3005, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3007, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3009, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3011, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3013, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3015, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3017, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3019, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3021, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3023, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3025, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3027, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3029, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3031, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3033, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3034, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3035, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3037, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3039, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3040, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3041, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3043, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3045, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3047, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3049, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3051, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3053, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3055, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3057, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3059, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3061, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3063, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3065, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3067, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3069, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3071, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3073, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3075, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3077, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3079, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3081, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3083, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3085, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3087, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3089, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3091, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3092, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3093, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3095, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3097, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3098, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3099, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3101, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3103, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3105, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3107, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3109, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3111, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3113, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3115, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3117, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3119, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3121, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3122, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3123, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3125, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3127, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3129, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3131, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3133, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3135, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3137, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3139, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3141, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3143, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3145, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3147, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3149, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3151, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3153, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3155, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3156, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3157, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3159, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3161, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3163, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3165, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3167, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3169, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3171, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3173, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3175, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3177, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3179, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3181, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3183, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3185, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3187, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3189, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3191, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3193, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3195, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3197, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3199, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3201, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3203, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3204, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3205, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3207, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3209, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3211, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3213, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3215, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3217, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3219, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3221, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3223, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3225, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3227, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3229, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3231, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3233, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3235, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3237, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3239, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3241, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3243, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3245, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3247, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3249, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3251, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3253, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3255, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3256, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3257, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3259, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3261, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3263, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3265, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3267, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3268, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3269, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3271, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3273, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3274, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3275, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3277, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3279, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3281, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3283, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3285, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3287, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3289, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3291, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3293, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3295, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3297, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3299, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3301, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3302, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3303, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3304, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3305, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3307, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3309, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3311, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3313, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3315, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3317, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3319, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3321, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3323, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3325, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3327, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3329, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3331, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3333, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3335, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3337, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3339, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3341, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3343, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3345, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3347, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3349, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3351, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3353, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3355, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3356, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3357, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3359, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3361, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3363, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3365, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3367, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3369, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3371, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3373, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3375, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3377, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3379, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3381, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3383, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3385, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3387, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3389, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3391, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3393, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3395, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3397, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3399, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3401, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3403, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3405, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3407, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3409, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3411, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3413, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3415, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3416, "task": "AVH_yesno", "subtype": "Object", "gold": "yes", "pred": "yes", "rule": "first_word", "correct": true}
+{"bench_idx": 3417, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3419, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3421, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3423, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3425, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3427, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3429, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3431, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3433, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3435, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3437, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3439, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3441, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3443, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3445, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3447, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3449, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3451, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3453, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3455, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3457, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3459, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3461, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3463, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3465, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3467, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3469, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3471, "task": "AVH_yesno", "subtype": "Action", "gold": "no", "pred": "no", "rule": "first_word", "correct": true}
+{"bench_idx": 3473, "task": "AVH_yesno", "subtype": "Sound", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
+{"bench_idx": 3475, "task": "AVH_yesno", "subtype": "Object", "gold": "no", "pred": "yes", "rule": "first_word", "correct": false}
