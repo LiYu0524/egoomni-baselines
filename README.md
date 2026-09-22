@@ -12,6 +12,13 @@ Inference outputs and the evaluation harness for five audio-visual LLM baselines
 | Gemini 3.8 Flash | API (`gemini-3.8-flash`, default media resolution) | `eval/preds/gemini_3_8_flash/` | pending |
 | **EgoAVU r100k LoRA (ours)** — Qwen2.5-Omni-7B + LoRA r8, EgoAVU r100k subset, 5 ep | adapter not in this repo | `eval/preds/egoavu_r100k/` | pending |
 
+> **Problems and how they were handled:** every issue hit during setup and inference — blocked downloads, dependency conflicts,
+> silent audio drop, SALMONN checkpoint choice, a ZeRO-3 deadlock, the Gemini usage-report quirk, the unjudged models, and the
+> restored items — is written up in [`docs/ISSUES_AND_HANDLING.md`](docs/ISSUES_AND_HANDLING.md).
+>
+> **32 of the 168 restored items have no results for any model** (their video is not available); see
+> [the section below](#the-32-restored-items-without-results) and the full list in the doc.
+
 **Our model — EgoAVU r100k LoRA (added 2026-09-22):** Qwen2.5-Omni-7B thinker + the final (epoch-5) LoRA of the EgoAVU r100k run,
 evaluated on the original 3765 items **and** the 136 restored_v3 items in one set: 7176 rows (5176 `gold` + 2000 `self`), 0 errors, 0 empty.
 Inference is LLaMAFactory predict with the LoRA's training media settings (2 fps, ≤64 frames, ≤200,704 px/frame, `use_audio_in_video`,
@@ -38,9 +45,10 @@ carry no clip, only a window `original_qa.video_clip_range` in the full Ego4D vi
 | inside one existing egoOmni clip of the same video | 115 |
 | full Ego4D video (13 videos available; 5 cuts use the left half of a 2880-wide side-by-side source, as the dataset clips of those videos do; every cut pixel-verified against an overlapping dataset clip) | 20 |
 | stitched from two overlapping clips | 1 |
-| **skipped** — window outside every clip and no source video (20 videos) | 32 |
+| **skipped — no results for any model** (window outside every clip, no source video; 20 videos) | 32 |
 
-**136 evaluable items**, all five models complete: 136/136 rows each, 0 errors, 90 audio-visual / 46 video-only.
+**136 evaluable items**, all six models complete: 136/136 rows each, 0 errors, 90 audio-visual / 46 video-only (EgoAVU r100k
+keeps them inside its main shard files).
 Gemini 3.8 Flash cost for this set: $0.52. Paths: `eval/preds/<tag>/restored_v3/` (72B in 4 cluster slices `p0..p3`),
 item file `eval/data/restored_v3/qa_restored_v3.json` (harness schema, `source_kind: restored_single`, id = `sample_id`),
 per-item provenance and skip reasons `eval/data/restored_v3/restored_v3_manifest.json`, clip metadata `eval/clips_meta_restored_v3.json`.
@@ -49,6 +57,16 @@ Caveats: the file presents each restored item as a standalone single-turn questi
 136 were originally later rounds of a dialogue (`depends_on_earlier_rounds: true`, e.g. the GP items ask "To complete that goal, …");
 `minimum_modalities` for these items is derived from `original_qa.loop_annotation.required_modalities` (V 84 / A+V 50 / A 2).
 Run against the harness with `EGO_QA_PATH=…/qa_restored_v3.json EGO_CLIPS_META=eval/clips_meta_restored_v3.json`.
+
+### The 32 restored items without results
+These items are **not evaluated for any model**. Each one asks about a time window of the original Ego4D video that lies partly
+(21 items, 0.9–124 s missing) or entirely (11 items) outside every clip in the egoOmni dataset. The full Ego4D videos for those
+20 videos are neither on Hugging Face nor on our cluster, and the Ego4D download credentials we tried are no longer valid, so
+the clips could not be cut. Cutting only the covered part was rejected because it could remove the evidence the question asks
+about. The 32 items are listed with their windows and missing seconds in
+[`docs/ISSUES_AND_HANDLING.md` §8](docs/ISSUES_AND_HANDLING.md#the-32-items-without-results) and marked `skipped` in
+`eval/data/restored_v3/restored_v3_manifest.json`. To finish them, put the full videos under `ego4d_full/<video_id>.mp4` and
+rerun `eval/prepare_restored.py` and the inference scripts (resumable).
 
 ## Protocol (details in [`eval/README.md`](eval/README.md))
 - Full clip as input; audio fed iff the clip has an audio stream (41 % of clips have none). Each model at its official settings
