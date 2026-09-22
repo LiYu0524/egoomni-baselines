@@ -9,6 +9,7 @@ done about it, and what is still open. Numbers are measured on the run machine (
 |---|---|
 | Predictions, original 3765 items (5040 `gold` + 2000 `self` rows) | complete for VideoLLaMA2.1-AV-7B, video-SALMONN 2+ 7B / 72B, MiniCPM-o 2.6, Gemini 3.8 Flash, EgoAVU r100k — 0 unresolved errors |
 | Predictions, `restored_v3` supplement (168 items added on 2026-09-22) | **136 items** complete on all six models (five baselines + EgoAVU r100k); **32 items have no results** because their video is not available (§8) |
+| Against the **final** test file (3,882 QAs = 3,765 original + 117 restored) | 3,877 / 3,882 predicted on all six models; the 5 missing are restored items without video; 24 evaluated restored items are not in the final set (§8.1) |
 | LLM-judge scores | only VideoLLaMA2.1-AV-7B is judged (Qwen3-32B). Judging the others was paused at the owner's request (§7) |
 | Not done | the CPU-vs-GPU preprocessing deviation study for SALMONN (§4.3); gpt-6-astra (cost estimate only, §10) |
 | Separate benchmark | EgoAVU-Bench outputs of two other LoRAs are in [`egoavu_bench/`](../egoavu_bench/README.md) (documented there) |
@@ -143,6 +144,14 @@ evaluated that way, but 56 of the 136 were originally later rounds of a dialogue
 GP items ask "To complete that goal, what should I do next?" without the earlier turn. `minimum_modalities` for these items
 is derived from `original_qa.loop_annotation.required_modalities` (V 84 / A+V 50 / A 2), since the rows do not carry it.
 
+### 8.1 Final test file
+The final `test.qa.jsonl` arrived after this run: 3,882 rows = the same 3,765 original items (content-identical to the previous
+file) + **117 of the 168** restored items (the 117 are unchanged). Relative to what was run: 112 of the 117 are evaluated on
+all six models; **5 are among the 32 unevaluable items and remain without results**; 27 of the 32 unevaluable items were
+dropped; and 24 items that were evaluated (20 cut from full Ego4D videos, 3 from single clips, 1 stitched) were dropped too —
+their predictions stay in the repo, flagged `in_final_bench: false` in the manifest, and should be excluded when scoring the
+final set (`eval/data/restored_v3/final_bench_restored_ids.json` lists the 117 final ids).
+
 ### The 32 items without results
 
 **Why:** their window lies (partly or entirely) outside every clip in the egoOmni dataset, and the full Ego4D video is not
@@ -151,40 +160,40 @@ available — it is neither on HF nor on the cluster, and the Ego4D download cre
 window no clip covers. They involve 20 videos. **To finish them:** place the full videos (or the cut clips) under
 `ego4d_full/<video_id>.mp4` and rerun `eval/prepare_restored.py` and the inference scripts; everything else is resumable.
 
-| # | item (`sample_id` without prefix) | category | window in source video (s) | missing (s) | question |
-|---|---|---|---|---|---|
-| 1 | `0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0028` | WI / WI-TRG | 159.4–191.4 | 1.0 | Now that the air pump is no longer attached to the tire, what am I trying to accomplish? |
-| 2 | `28170c86-29ba-43e8-8699-e76161f16b98__0024` | WI / WI-NEE | 545.8–596.3 | 38.4 | Immediately after I am moving forward along the street with clear space ahead of traffic, how does that situat… |
-| 3 | `2cb81c1d-9472-4d82-8ec1-72ae355c9163__0027` | WI / WI-NEE | 164.0–196.0 | 4.0 | When I hear an offscreen person providing information immediately before the next writing phase, how does that… |
-| 4 | `2cb81c1d-9472-4d82-8ec1-72ae355c9163__0024` | WI / WI-TRG | 998.8–1030.8 | 32.0 | How does the open notebook page shape what I am trying to accomplish? |
-| 5 | `2d29b45a-169b-453f-8050-98ec147b0ccf__0026` | WI / WI-NEE | 1411.0–1443.0 | 32.0 | Immediately after I receive feedback from the prior cut, how does seeing the wood piece aligned with the blade… |
-| 6 | `3c03af71-426c-4f59-8a20-d2f506359e12__0025` | WI / WI-NEE | 41.1–151.9 | 78.8 | Immediately after I complete a stitch, when the orange thread remains slack above the embroidery hoop, how doe… |
-| 7 | `49d20f86-b516-49be-a27b-a450955c9f46__0026` | WI / WI-NEE | 819.8–858.6 | 38.8 | With a new page spread visible in the open book, what does this condition lead me to intend to do next? |
-| 8 | `54707a82-2fe4-47d2-9456-d5635e358b09__0028` | WI / WI-NEE | 119.6–151.6 | 32.0 | Immediately after the bristle swipe along the trim ends, when my brush is dry or low on paint, how does that c… |
-| 9 | `5f77b76b-24d9-4489-9561-861fc66a1917__0030` | WI / WI-TRG | 550.5–582.5 | 32.0 | Immediately after I see the bare section of the cardboard tube that still needs twine, how does that visible c… |
-| 10 | `7aa17dca-440f-4845-9831-24555a970de5__0026` | WI / WI-NEE | 475.8–521.9 | 29.1 | Immediately as I approach the road and the zebra-crossing markings, how does that condition shape what I inten… |
-| 11 | `7aa17dca-440f-4845-9831-24555a970de5__0025` | WI / WI-NEE | 1458.0–1490.0 | 20.0 | Immediately after I am traveling straight forward down the empty street at night, how does that continuing rou… |
-| 12 | `9827a535-6963-434f-ad79-1940aa622c22__0022` | WI / WI-TRG | 326.8–358.8 | 23.2 | How does the dog sitting down in front of me shape what I intend to do? |
-| 13 | `9827a535-6963-434f-ad79-1940aa622c22__0021` | WI / WI-NEE | 335.8–377.1 | 14.2 | After my dog and I have successfully stepped onto the opposite sidewalk, how does that new situation shape wha… |
-| 14 | `9827a535-6963-434f-ad79-1940aa622c22__0023` | WI / WI-NEE | 813.3–849.0 | 10.8 | With a clear sidewalk ahead, what am I trying to accomplish? |
-| 15 | `a1d36201-51e6-44db-9d3c-2bff8b1ff268__0024` | WI / WI-NEE | 229.7–286.9 | 39.1 | How does seeing the paint tray and roller loaded with paint inform what I intend to do next? |
-| 16 | `a1d36201-51e6-44db-9d3c-2bff8b1ff268__0027` | WI / WI-NEE | 582.9–614.9 | 3.6 | When I see that the roller is loaded with fresh paint, how does that condition shape what I am trying to accom… |
-| 17 | `ad08b4d6-3f23-4f3c-974c-5d9d90a727b6__0025` | WI / WI-NEE | 1092.1–1149.7 | 57.6 | Because the dog is maintaining a steady pace ahead along the street, what is my current intention? |
-| 18 | `b75bf090-1439-4b11-862b-d1dadab7f854__0024` | WI / WI-TRG | 1110.0–1142.0 | 32.0 | How did finding that the beverage can was empty shape what I intended to do with it? |
-| 19 | `c398a6bf-58cf-4318-9b98-babf649827e5__0028` | WI / WI-TRG | 41.4–73.4 | 0.8 | Immediately after noticing that the extension pole's collar had been released or adjusted, how did that condit… |
-| 20 | `c7d5d40f-840c-4be0-b79d-ab41394479a2__0030` | WI / WI-NEE | 326.6–358.6 | 14.7 | Right after I see another player add a playing card to the table, how does that changed game situation shape w… |
-| 21 | `c7d5d40f-840c-4be0-b79d-ab41394479a2__0028` | WI / WI-TRG | 719.9–751.9 | 32.0 | How does the visible arrangement of the playing cards shape what I am trying to accomplish? |
-| 22 | `d70be6cb-867f-4657-9a87-5d44ab30527a__0026` | WI / WI-NEE | 864.9–935.4 | 51.1 | Immediately after the preceding rope adjustment, how does the need to check or guide the rope's position shape… |
-| 23 | `eab3bfc0-d611-4a40-89b4-7f9747b55e6a__0027` | WI / WI-TRG | 693.5–725.5 | 1.9 | Immediately before I act, when the notebook is resting slanted across the textbook, how does that visible cond… |
-| 24 | `eab3bfc0-d611-4a40-89b4-7f9747b55e6a__0028` | WI / WI-NEE | 693.5–725.5 | 1.9 | With the textbook open beside my notebook, what do I intend to do next? |
-| 25 | `eab3bfc0-d611-4a40-89b4-7f9747b55e6a__0026` | WI / WI-TRG | 895.9–927.9 | 32.0 | How does the textbook alongside the open notebook on the desk lead to my intention? |
-| 26 | `f2efd904-9a3b-4a59-b1fc-dfa982de920c__0024` | GP / GP-NXT | 0.0–62.9 | 30.9 | With the phone recording, what broad action should I take next to begin my activity? |
-| 27 | `f2efd904-9a3b-4a59-b1fc-dfa982de920c__0025` | WI / WI-TRG | 213.6–267.6 | 19.9 | How did the wooden platform directly in front of me influence my intention? |
-| 28 | `fbbfb7ed-4414-42b1-a22e-35e1a1c51647__0025` | WI / WI-TRG | 626.0–658.0 | 32.0 | How did seeing the computer case's internal components from the main chamber side shape what I intended to ins… |
-| 29 | `fc23c55f-0070-4e96-b970-7d42cb591d02__0025` | WI / WI-NEE | 335.8–367.8 | 25.3 | After another person asks, "Which one?", what do I intend to do? |
-| 30 | `fc23c55f-0070-4e96-b970-7d42cb591d02__0027` | WI / WI-TRG | 335.8–367.8 | 25.3 | When someone asks, “Which one?”, what does that question prompt me to intend? |
-| 31 | `fc23c55f-0070-4e96-b970-7d42cb591d02__0024` | GP / GP-NXT | 711.4–850.9 | 123.9 | To continue the game, what broad action should I take next? |
-| 32 | `fc23c55f-0070-4e96-b970-7d42cb591d02__0026` | WI / WI-TRG | 1434.7–1466.7 | 32.0 | Immediately before I act, how does seeing a playing card on the table without a game token shape what I intend… |
+| # | item (`sample_id` without prefix) | category | window in source video (s) | missing (s) | in final test set | question |
+|---|---|---|---|---|---|---|
+| 1 | `0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0028` | WI / WI-TRG | 159.4–191.4 | 1.0 | no (dropped) | Now that the air pump is no longer attached to the tire, what am I trying to accomplish? |
+| 2 | `28170c86-29ba-43e8-8699-e76161f16b98__0024` | WI / WI-NEE | 545.8–596.3 | 38.4 | no (dropped) | Immediately after I am moving forward along the street with clear space ahead of traffic, how does that situat… |
+| 3 | `2cb81c1d-9472-4d82-8ec1-72ae355c9163__0027` | WI / WI-NEE | 164.0–196.0 | 4.0 | no (dropped) | When I hear an offscreen person providing information immediately before the next writing phase, how does that… |
+| 4 | `2cb81c1d-9472-4d82-8ec1-72ae355c9163__0024` | WI / WI-TRG | 998.8–1030.8 | 32.0 | no (dropped) | How does the open notebook page shape what I am trying to accomplish? |
+| 5 | `2d29b45a-169b-453f-8050-98ec147b0ccf__0026` | WI / WI-NEE | 1411.0–1443.0 | 32.0 | no (dropped) | Immediately after I receive feedback from the prior cut, how does seeing the wood piece aligned with the blade… |
+| 6 | `3c03af71-426c-4f59-8a20-d2f506359e12__0025` | WI / WI-NEE | 41.1–151.9 | 78.8 | no (dropped) | Immediately after I complete a stitch, when the orange thread remains slack above the embroidery hoop, how doe… |
+| 7 | `49d20f86-b516-49be-a27b-a450955c9f46__0026` | WI / WI-NEE | 819.8–858.6 | 38.8 | no (dropped) | With a new page spread visible in the open book, what does this condition lead me to intend to do next? |
+| 8 | `54707a82-2fe4-47d2-9456-d5635e358b09__0028` | WI / WI-NEE | 119.6–151.6 | 32.0 | no (dropped) | Immediately after the bristle swipe along the trim ends, when my brush is dry or low on paint, how does that c… |
+| 9 | `5f77b76b-24d9-4489-9561-861fc66a1917__0030` | WI / WI-TRG | 550.5–582.5 | 32.0 | **yes — no result** | Immediately after I see the bare section of the cardboard tube that still needs twine, how does that visible c… |
+| 10 | `7aa17dca-440f-4845-9831-24555a970de5__0026` | WI / WI-NEE | 475.8–521.9 | 29.1 | no (dropped) | Immediately as I approach the road and the zebra-crossing markings, how does that condition shape what I inten… |
+| 11 | `7aa17dca-440f-4845-9831-24555a970de5__0025` | WI / WI-NEE | 1458.0–1490.0 | 20.0 | no (dropped) | Immediately after I am traveling straight forward down the empty street at night, how does that continuing rou… |
+| 12 | `9827a535-6963-434f-ad79-1940aa622c22__0022` | WI / WI-TRG | 326.8–358.8 | 23.2 | no (dropped) | How does the dog sitting down in front of me shape what I intend to do? |
+| 13 | `9827a535-6963-434f-ad79-1940aa622c22__0021` | WI / WI-NEE | 335.8–377.1 | 14.2 | no (dropped) | After my dog and I have successfully stepped onto the opposite sidewalk, how does that new situation shape wha… |
+| 14 | `9827a535-6963-434f-ad79-1940aa622c22__0023` | WI / WI-NEE | 813.3–849.0 | 10.8 | no (dropped) | With a clear sidewalk ahead, what am I trying to accomplish? |
+| 15 | `a1d36201-51e6-44db-9d3c-2bff8b1ff268__0024` | WI / WI-NEE | 229.7–286.9 | 39.1 | no (dropped) | How does seeing the paint tray and roller loaded with paint inform what I intend to do next? |
+| 16 | `a1d36201-51e6-44db-9d3c-2bff8b1ff268__0027` | WI / WI-NEE | 582.9–614.9 | 3.6 | no (dropped) | When I see that the roller is loaded with fresh paint, how does that condition shape what I am trying to accom… |
+| 17 | `ad08b4d6-3f23-4f3c-974c-5d9d90a727b6__0025` | WI / WI-NEE | 1092.1–1149.7 | 57.6 | no (dropped) | Because the dog is maintaining a steady pace ahead along the street, what is my current intention? |
+| 18 | `b75bf090-1439-4b11-862b-d1dadab7f854__0024` | WI / WI-TRG | 1110.0–1142.0 | 32.0 | no (dropped) | How did finding that the beverage can was empty shape what I intended to do with it? |
+| 19 | `c398a6bf-58cf-4318-9b98-babf649827e5__0028` | WI / WI-TRG | 41.4–73.4 | 0.8 | **yes — no result** | Immediately after noticing that the extension pole's collar had been released or adjusted, how did that condit… |
+| 20 | `c7d5d40f-840c-4be0-b79d-ab41394479a2__0030` | WI / WI-NEE | 326.6–358.6 | 14.7 | no (dropped) | Right after I see another player add a playing card to the table, how does that changed game situation shape w… |
+| 21 | `c7d5d40f-840c-4be0-b79d-ab41394479a2__0028` | WI / WI-TRG | 719.9–751.9 | 32.0 | no (dropped) | How does the visible arrangement of the playing cards shape what I am trying to accomplish? |
+| 22 | `d70be6cb-867f-4657-9a87-5d44ab30527a__0026` | WI / WI-NEE | 864.9–935.4 | 51.1 | no (dropped) | Immediately after the preceding rope adjustment, how does the need to check or guide the rope's position shape… |
+| 23 | `eab3bfc0-d611-4a40-89b4-7f9747b55e6a__0027` | WI / WI-TRG | 693.5–725.5 | 1.9 | **yes — no result** | Immediately before I act, when the notebook is resting slanted across the textbook, how does that visible cond… |
+| 24 | `eab3bfc0-d611-4a40-89b4-7f9747b55e6a__0028` | WI / WI-NEE | 693.5–725.5 | 1.9 | **yes — no result** | With the textbook open beside my notebook, what do I intend to do next? |
+| 25 | `eab3bfc0-d611-4a40-89b4-7f9747b55e6a__0026` | WI / WI-TRG | 895.9–927.9 | 32.0 | **yes — no result** | How does the textbook alongside the open notebook on the desk lead to my intention? |
+| 26 | `f2efd904-9a3b-4a59-b1fc-dfa982de920c__0024` | GP / GP-NXT | 0.0–62.9 | 30.9 | no (dropped) | With the phone recording, what broad action should I take next to begin my activity? |
+| 27 | `f2efd904-9a3b-4a59-b1fc-dfa982de920c__0025` | WI / WI-TRG | 213.6–267.6 | 19.9 | no (dropped) | How did the wooden platform directly in front of me influence my intention? |
+| 28 | `fbbfb7ed-4414-42b1-a22e-35e1a1c51647__0025` | WI / WI-TRG | 626.0–658.0 | 32.0 | no (dropped) | How did seeing the computer case's internal components from the main chamber side shape what I intended to ins… |
+| 29 | `fc23c55f-0070-4e96-b970-7d42cb591d02__0025` | WI / WI-NEE | 335.8–367.8 | 25.3 | no (dropped) | After another person asks, "Which one?", what do I intend to do? |
+| 30 | `fc23c55f-0070-4e96-b970-7d42cb591d02__0027` | WI / WI-TRG | 335.8–367.8 | 25.3 | no (dropped) | When someone asks, “Which one?”, what does that question prompt me to intend? |
+| 31 | `fc23c55f-0070-4e96-b970-7d42cb591d02__0024` | GP / GP-NXT | 711.4–850.9 | 123.9 | no (dropped) | To continue the game, what broad action should I take next? |
+| 32 | `fc23c55f-0070-4e96-b970-7d42cb591d02__0026` | WI / WI-TRG | 1434.7–1466.7 | 32.0 | no (dropped) | Immediately before I act, how does seeing a playing card on the table without a game token shape what I intend… |
 
 ## 9. EgoAVU r100k LoRA (our model)
 
