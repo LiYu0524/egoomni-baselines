@@ -10,6 +10,13 @@ Inference outputs and the evaluation harness for five audio-visual LLM baselines
 | video-SALMONN 2+ 72B | `tsinghua-ee/video-SALMONN2_plus_72B_full` | `eval/preds/salmonn2plus_72b/` | pending |
 | MiniCPM-o 2.6 (8B) | `openbmb/MiniCPM-o-2_6` | `eval/preds/minicpmo_2_6_8b/` | pending |
 | Gemini 3.8 Flash | API (`gemini-3.8-flash`, default media resolution) | `eval/preds/gemini_3_8_flash/` | pending |
+| **EgoAVU r100k LoRA (ours)** — Qwen2.5-Omni-7B + LoRA r8, EgoAVU r100k subset, 5 ep | adapter not in this repo | `eval/preds/egoavu_r100k/` | pending |
+
+**Our model — EgoAVU r100k LoRA (added 2026-09-22):** Qwen2.5-Omni-7B thinker + the final (epoch-5) LoRA of the EgoAVU r100k run,
+evaluated on the original 3765 items **and** the 136 restored_v3 items in one set: 7176 rows (5176 `gold` + 2000 `self`), 0 errors, 0 empty.
+Inference is LLaMAFactory predict with the LoRA's training media settings (2 fps, ≤64 frames, ≤200,704 px/frame, `use_audio_in_video`,
+`qwen2_omni` template; audio as 16 kHz mono FLAC as in training) and the same prompts/decoding as the baselines (greedy, ≤256 tokens);
+every prediction is joined back with a label/prompt check. Code: `eval/r100k/` (`build_data.py` → `job.sh` per 8-GPU cluster shard → `collect.py`).
 
 **Also here — EgoAVU-Bench:** [`egoavu_bench/`](egoavu_bench/README.md) holds inference outputs (no judging) of two
 Qwen2.5-Omni-7B LoRAs (`ckpt_sft`, `ckpt_epoch2`) on all 3,976 EgoAVU-Bench QAs, laid out for the official EgoAVU judge scripts.
