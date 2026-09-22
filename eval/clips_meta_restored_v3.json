@@ -1,0 +1,1362 @@
+{
+ "test/clips_restored_v3/0df89feb-74a6-48ca-9fe9-2c81fc1306e2/0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0025.mp4": {
+  "duration": 36.733333,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 13384758
+ },
+ "test/clips_restored_v3/0df89feb-74a6-48ca-9fe9-2c81fc1306e2/0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0026.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 6768972
+ },
+ "test/clips_restored_v3/0df89feb-74a6-48ca-9fe9-2c81fc1306e2/0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0029.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 12281482
+ },
+ "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0024.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 25146808
+ },
+ "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 25349535
+ },
+ "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 25317291
+ },
+ "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 25146808
+ },
+ "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0028.mp4": {
+  "duration": 137.533008,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 96802816
+ },
+ "test/clips_restored_v3/1f84d80d-6f8d-4e40-aabb-b33aad3ba594/1f84d80d-6f8d-4e40-aabb-b33aad3ba594__0024.mp4": {
+  "duration": 57.6,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 175529729
+ },
+ "test/clips_restored_v3/1f84d80d-6f8d-4e40-aabb-b33aad3ba594/1f84d80d-6f8d-4e40-aabb-b33aad3ba594__0025.mp4": {
+  "duration": 101.733333,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 308703314
+ },
+ "test/clips_restored_v3/1f84d80d-6f8d-4e40-aabb-b33aad3ba594/1f84d80d-6f8d-4e40-aabb-b33aad3ba594__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 85544564
+ },
+ "test/clips_restored_v3/28170c86-29ba-43e8-8699-e76161f16b98/28170c86-29ba-43e8-8699-e76161f16b98__0023.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 33246066
+ },
+ "test/clips_restored_v3/28170c86-29ba-43e8-8699-e76161f16b98/28170c86-29ba-43e8-8699-e76161f16b98__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 40743606
+ },
+ "test/clips_restored_v3/2cb81c1d-9472-4d82-8ec1-72ae355c9163/2cb81c1d-9472-4d82-8ec1-72ae355c9163__0023.mp4": {
+  "duration": 50.2,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 36566572
+ },
+ "test/clips_restored_v3/2cb81c1d-9472-4d82-8ec1-72ae355c9163/2cb81c1d-9472-4d82-8ec1-72ae355c9163__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 22006841
+ },
+ "test/clips_restored_v3/2cb81c1d-9472-4d82-8ec1-72ae355c9163/2cb81c1d-9472-4d82-8ec1-72ae355c9163__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 24922993
+ },
+ "test/clips_restored_v3/2cddb76f-24d1-4863-bd91-9a5d1922a543/2cddb76f-24d1-4863-bd91-9a5d1922a543__0026.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 87425857
+ },
+ "test/clips_restored_v3/2cddb76f-24d1-4863-bd91-9a5d1922a543/2cddb76f-24d1-4863-bd91-9a5d1922a543__0027.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 84248620
+ },
+ "test/clips_restored_v3/2d29b45a-169b-453f-8050-98ec147b0ccf/2d29b45a-169b-453f-8050-98ec147b0ccf__0024.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 31347991
+ },
+ "test/clips_restored_v3/2d29b45a-169b-453f-8050-98ec147b0ccf/2d29b45a-169b-453f-8050-98ec147b0ccf__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 31347991
+ },
+ "test/clips_restored_v3/2d29b45a-169b-453f-8050-98ec147b0ccf/2d29b45a-169b-453f-8050-98ec147b0ccf__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 51880616
+ },
+ "test/clips_restored_v3/3130e00e-873a-4afb-93a6-7b07f3cf6597/3130e00e-873a-4afb-93a6-7b07f3cf6597__0024.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 21954981
+ },
+ "test/clips_restored_v3/3130e00e-873a-4afb-93a6-7b07f3cf6597/3130e00e-873a-4afb-93a6-7b07f3cf6597__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 21954981
+ },
+ "test/clips_restored_v3/3130e00e-873a-4afb-93a6-7b07f3cf6597/3130e00e-873a-4afb-93a6-7b07f3cf6597__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 21954981
+ },
+ "test/clips_restored_v3/3130e00e-873a-4afb-93a6-7b07f3cf6597/3130e00e-873a-4afb-93a6-7b07f3cf6597__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 22599935
+ },
+ "test/clips_restored_v3/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0021.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 26623833
+ },
+ "test/clips_restored_v3/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0022.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 39527880
+ },
+ "test/clips_restored_v3/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0023.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 42364464
+ },
+ "test/clips_restored_v3/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0024.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 31243171
+ },
+ "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0027.mp4": {
+  "duration": 145.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 43891174
+ },
+ "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 8798818
+ },
+ "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0029.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 8798818
+ },
+ "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0030.mp4": {
+  "duration": 37.5,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 25815812
+ },
+ "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0031.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 20939703
+ },
+ "test/clips_restored_v3/389eea41-7ac5-4bcb-86c7-5a70f064c44f/389eea41-7ac5-4bcb-86c7-5a70f064c44f__0025.mp4": {
+  "duration": 34.9,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 40970282
+ },
+ "test/clips_restored_v3/389eea41-7ac5-4bcb-86c7-5a70f064c44f/389eea41-7ac5-4bcb-86c7-5a70f064c44f__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 31911649
+ },
+ "test/clips_restored_v3/389eea41-7ac5-4bcb-86c7-5a70f064c44f/389eea41-7ac5-4bcb-86c7-5a70f064c44f__0027.mp4": {
+  "duration": 59.6,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 55211192
+ },
+ "test/clips_restored_v3/389eea41-7ac5-4bcb-86c7-5a70f064c44f/389eea41-7ac5-4bcb-86c7-5a70f064c44f__0028.mp4": {
+  "duration": 40.499675,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 39456661
+ },
+ "test/clips_restored_v3/3c03af71-426c-4f59-8a20-d2f506359e12/3c03af71-426c-4f59-8a20-d2f506359e12__0024.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 13770063
+ },
+ "test/clips_restored_v3/3c03af71-426c-4f59-8a20-d2f506359e12/3c03af71-426c-4f59-8a20-d2f506359e12__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 12266306
+ },
+ "test/clips_restored_v3/3c03af71-426c-4f59-8a20-d2f506359e12/3c03af71-426c-4f59-8a20-d2f506359e12__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 12566431
+ },
+ "test/clips_restored_v3/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 41012044
+ },
+ "test/clips_restored_v3/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 14064194
+ },
+ "test/clips_restored_v3/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 37066613
+ },
+ "test/clips_restored_v3/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0029.mp4": {
+  "duration": 50.999675,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 51639868
+ },
+ "test/clips_restored_v3/40b86eb9-a408-4119-ba7c-402b050be506/40b86eb9-a408-4119-ba7c-402b050be506__0025.mp4": {
+  "duration": 45.6,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 75081837
+ },
+ "test/clips_restored_v3/40b86eb9-a408-4119-ba7c-402b050be506/40b86eb9-a408-4119-ba7c-402b050be506__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1280,
+  "height": 720,
+  "size_bytes": 33510597
+ },
+ "test/clips_restored_v3/40b86eb9-a408-4119-ba7c-402b050be506/40b86eb9-a408-4119-ba7c-402b050be506__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 49669568
+ },
+ "test/clips_restored_v3/40b86eb9-a408-4119-ba7c-402b050be506/40b86eb9-a408-4119-ba7c-402b050be506__0029.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 52003241
+ },
+ "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0026.mp4": {
+  "duration": 66.599675,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 39861699
+ },
+ "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0027.mp4": {
+  "duration": 35.066667,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 16835585
+ },
+ "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0028.mp4": {
+  "duration": 32.166667,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 19862818
+ },
+ "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0029.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 17760406
+ },
+ "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0030.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 22949092
+ },
+ "test/clips_restored_v3/49d20f86-b516-49be-a27b-a450955c9f46/49d20f86-b516-49be-a27b-a450955c9f46__0023.mp4": {
+  "duration": 50.633333,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 26411242
+ },
+ "test/clips_restored_v3/49d20f86-b516-49be-a27b-a450955c9f46/49d20f86-b516-49be-a27b-a450955c9f46__0024.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 15082028
+ },
+ "test/clips_restored_v3/49d20f86-b516-49be-a27b-a450955c9f46/49d20f86-b516-49be-a27b-a450955c9f46__0025.mp4": {
+  "duration": 32.633333,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 17309862
+ },
+ "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 226477163
+ },
+ "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 422369183
+ },
+ "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 231944077
+ },
+ "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0029.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 304463679
+ },
+ "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0030.mp4": {
+  "duration": 32.166667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 349692721
+ },
+ "test/clips_restored_v3/5304a43a-7373-4d85-a6ef-ba0aa41c4de8/5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0023.mp4": {
+  "duration": 49.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 124005367
+ },
+ "test/clips_restored_v3/5304a43a-7373-4d85-a6ef-ba0aa41c4de8/5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0024.mp4": {
+  "duration": 45.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 121249502
+ },
+ "test/clips_restored_v3/5304a43a-7373-4d85-a6ef-ba0aa41c4de8/5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 80545067
+ },
+ "test/clips_restored_v3/5304a43a-7373-4d85-a6ef-ba0aa41c4de8/5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0026.mp4": {
+  "duration": 47.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 109174233
+ },
+ "test/clips_restored_v3/54707a82-2fe4-47d2-9456-d5635e358b09/54707a82-2fe4-47d2-9456-d5635e358b09__0027.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 41197288
+ },
+ "test/clips_restored_v3/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b__0026.mp4": {
+  "duration": 36.733008,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 29115235
+ },
+ "test/clips_restored_v3/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b__0028.mp4": {
+  "duration": 35.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 11242549
+ },
+ "test/clips_restored_v3/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b__0029.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 22176302
+ },
+ "test/clips_restored_v3/5afe1e42-d44f-4c1d-bfd1-84de861b4492/5afe1e42-d44f-4c1d-bfd1-84de861b4492__0024.mp4": {
+  "duration": 31.999675,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 12626005
+ },
+ "test/clips_restored_v3/5afe1e42-d44f-4c1d-bfd1-84de861b4492/5afe1e42-d44f-4c1d-bfd1-84de861b4492__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 50468817
+ },
+ "test/clips_restored_v3/5f77b76b-24d9-4489-9561-861fc66a1917/5f77b76b-24d9-4489-9561-861fc66a1917__0028.mp4": {
+  "duration": 65.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 23293205
+ },
+ "test/clips_restored_v3/5f77b76b-24d9-4489-9561-861fc66a1917/5f77b76b-24d9-4489-9561-861fc66a1917__0032.mp4": {
+  "duration": 122.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 89720759
+ },
+ "test/clips_restored_v3/60e63a2b-cbf9-420a-b17a-c50848b7f096/60e63a2b-cbf9-420a-b17a-c50848b7f096__0026.mp4": {
+  "duration": 45.7,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 623266877
+ },
+ "test/clips_restored_v3/68c73d6c-8102-42ae-8d07-c5529bb933fa/68c73d6c-8102-42ae-8d07-c5529bb933fa__0026.mp4": {
+  "duration": 55.166341,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 66863876
+ },
+ "test/clips_restored_v3/68c73d6c-8102-42ae-8d07-c5529bb933fa/68c73d6c-8102-42ae-8d07-c5529bb933fa__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 24133719
+ },
+ "test/clips_restored_v3/76b6db6d-87f3-4bb2-9a32-4358cd36d65d/76b6db6d-87f3-4bb2-9a32-4358cd36d65d__0023.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 41191045
+ },
+ "test/clips_restored_v3/76b6db6d-87f3-4bb2-9a32-4358cd36d65d/76b6db6d-87f3-4bb2-9a32-4358cd36d65d__0024.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 39957890
+ },
+ "test/clips_restored_v3/7774cc59-cf39-4416-9c62-cbfcd840b160/7774cc59-cf39-4416-9c62-cbfcd840b160__0022.mp4": {
+  "duration": 47.8,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 160310797
+ },
+ "test/clips_restored_v3/7774cc59-cf39-4416-9c62-cbfcd840b160/7774cc59-cf39-4416-9c62-cbfcd840b160__0023.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 18501997
+ },
+ "test/clips_restored_v3/7774cc59-cf39-4416-9c62-cbfcd840b160/7774cc59-cf39-4416-9c62-cbfcd840b160__0024.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 38107046
+ },
+ "test/clips_restored_v3/7aa17dca-440f-4845-9831-24555a970de5/7aa17dca-440f-4845-9831-24555a970de5__0027.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 13124819
+ },
+ "test/clips_restored_v3/7aa17dca-440f-4845-9831-24555a970de5/7aa17dca-440f-4845-9831-24555a970de5__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 10908299
+ },
+ "test/clips_restored_v3/819c8af7-851f-434f-ab32-318285bc54b1/819c8af7-851f-434f-ab32-318285bc54b1__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 38652124
+ },
+ "test/clips_restored_v3/819c8af7-851f-434f-ab32-318285bc54b1/819c8af7-851f-434f-ab32-318285bc54b1__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 26942792
+ },
+ "test/clips_restored_v3/819c8af7-851f-434f-ab32-318285bc54b1/819c8af7-851f-434f-ab32-318285bc54b1__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 78407344
+ },
+ "test/clips_restored_v3/9827a535-6963-434f-ad79-1940aa622c22/9827a535-6963-434f-ad79-1940aa622c22__0020.mp4": {
+  "duration": 34.633333,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 103132586
+ },
+ "test/clips_restored_v3/9c05c378-1692-4670-a47f-3e24557cbb1c/9c05c378-1692-4670-a47f-3e24557cbb1c__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 62555993
+ },
+ "test/clips_restored_v3/9c05c378-1692-4670-a47f-3e24557cbb1c/9c05c378-1692-4670-a47f-3e24557cbb1c__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 62104772
+ },
+ "test/clips_restored_v3/a22b59f9-12b4-4abc-9bc7-006f34d713cb/a22b59f9-12b4-4abc-9bc7-006f34d713cb__0024.mp4": {
+  "duration": 33.666667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 28148957
+ },
+ "test/clips_restored_v3/a22b59f9-12b4-4abc-9bc7-006f34d713cb/a22b59f9-12b4-4abc-9bc7-006f34d713cb__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 26570818
+ },
+ "test/clips_restored_v3/a22b59f9-12b4-4abc-9bc7-006f34d713cb/a22b59f9-12b4-4abc-9bc7-006f34d713cb__0027.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 30922621
+ },
+ "test/clips_restored_v3/a22b59f9-12b4-4abc-9bc7-006f34d713cb/a22b59f9-12b4-4abc-9bc7-006f34d713cb__0028.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 31000041
+ },
+ "test/clips_restored_v3/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 13750497
+ },
+ "test/clips_restored_v3/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 12240731
+ },
+ "test/clips_restored_v3/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 13597667
+ },
+ "test/clips_restored_v3/ad08b4d6-3f23-4f3c-974c-5d9d90a727b6/ad08b4d6-3f23-4f3c-974c-5d9d90a727b6__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 362551785
+ },
+ "test/clips_restored_v3/b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44/b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44__0024.mp4": {
+  "duration": 66.3,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 69540907
+ },
+ "test/clips_restored_v3/b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44/b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 23138217
+ },
+ "test/clips_restored_v3/b75bf090-1439-4b11-862b-d1dadab7f854/b75bf090-1439-4b11-862b-d1dadab7f854__0023.mp4": {
+  "duration": 40.466667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2560,
+  "height": 1920,
+  "size_bytes": 603675272
+ },
+ "test/clips_restored_v3/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 27284292
+ },
+ "test/clips_restored_v3/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 30302487
+ },
+ "test/clips_restored_v3/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 27284292
+ },
+ "test/clips_restored_v3/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0030.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 36678677
+ },
+ "test/clips_restored_v3/c398a6bf-58cf-4318-9b98-babf649827e5/c398a6bf-58cf-4318-9b98-babf649827e5__0027.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 48075858
+ },
+ "test/clips_restored_v3/c7d5d40f-840c-4be0-b79d-ab41394479a2/c7d5d40f-840c-4be0-b79d-ab41394479a2__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 18127607
+ },
+ "test/clips_restored_v3/c7d5d40f-840c-4be0-b79d-ab41394479a2/c7d5d40f-840c-4be0-b79d-ab41394479a2__0027.mp4": {
+  "duration": 38.566667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 21611097
+ },
+ "test/clips_restored_v3/c7d5d40f-840c-4be0-b79d-ab41394479a2/c7d5d40f-840c-4be0-b79d-ab41394479a2__0029.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 19582591
+ },
+ "test/clips_restored_v3/d0e2251d-886b-4a89-b7fc-12135271cfc2/d0e2251d-886b-4a89-b7fc-12135271cfc2__0024.mp4": {
+  "duration": 83.136,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2880,
+  "height": 1440,
+  "size_bytes": 169658222
+ },
+ "test/clips_restored_v3/d0e2251d-886b-4a89-b7fc-12135271cfc2/d0e2251d-886b-4a89-b7fc-12135271cfc2__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2880,
+  "height": 1440,
+  "size_bytes": 70393449
+ },
+ "test/clips_restored_v3/d0e2251d-886b-4a89-b7fc-12135271cfc2/d0e2251d-886b-4a89-b7fc-12135271cfc2__0026.mp4": {
+  "duration": 33.6,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 2880,
+  "height": 1440,
+  "size_bytes": 75339302
+ },
+ "test/clips_restored_v3/d105bd99-44e5-4582-b545-362a0cf11420/d105bd99-44e5-4582-b545-362a0cf11420__0025.mp4": {
+  "duration": 36.6,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 27677666
+ },
+ "test/clips_restored_v3/d105bd99-44e5-4582-b545-362a0cf11420/d105bd99-44e5-4582-b545-362a0cf11420__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 20554349
+ },
+ "test/clips_restored_v3/d105bd99-44e5-4582-b545-362a0cf11420/d105bd99-44e5-4582-b545-362a0cf11420__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 26396018
+ },
+ "test/clips_restored_v3/d70be6cb-867f-4657-9a87-5d44ab30527a/d70be6cb-867f-4657-9a87-5d44ab30527a__0024.mp4": {
+  "duration": 38.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 80546869
+ },
+ "test/clips_restored_v3/d70be6cb-867f-4657-9a87-5d44ab30527a/d70be6cb-867f-4657-9a87-5d44ab30527a__0025.mp4": {
+  "duration": 31.966667,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 71850679
+ },
+ "test/clips_restored_v3/d70be6cb-867f-4657-9a87-5d44ab30527a/d70be6cb-867f-4657-9a87-5d44ab30527a__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 80143624
+ },
+ "test/clips_restored_v3/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0026.mp4": {
+  "duration": 38.3,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 11272373
+ },
+ "test/clips_restored_v3/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 28132036
+ },
+ "test/clips_restored_v3/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0028.mp4": {
+  "duration": 33.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 10798175
+ },
+ "test/clips_restored_v3/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0029.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 10112286
+ },
+ "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0026.mp4": {
+  "duration": 41.933333,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 55156148
+ },
+ "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 32003805
+ },
+ "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0028.mp4": {
+  "duration": 36.2,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 32343608
+ },
+ "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0029.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 44801713
+ },
+ "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0030.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 48221084
+ },
+ "test/clips_restored_v3/eab3bfc0-d611-4a40-89b4-7f9747b55e6a/eab3bfc0-d611-4a40-89b4-7f9747b55e6a__0025.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 10388387
+ },
+ "test/clips_restored_v3/ed8d28d1-5d1e-4370-a946-9c39fe5c679b/ed8d28d1-5d1e-4370-a946-9c39fe5c679b__0024.mp4": {
+  "duration": 46.299675,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 960,
+  "height": 720,
+  "size_bytes": 18117284
+ },
+ "test/clips_restored_v3/ed8d28d1-5d1e-4370-a946-9c39fe5c679b/ed8d28d1-5d1e-4370-a946-9c39fe5c679b__0025.mp4": {
+  "duration": 45.033008,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 82170874
+ },
+ "test/clips_restored_v3/ed8d28d1-5d1e-4370-a946-9c39fe5c679b/ed8d28d1-5d1e-4370-a946-9c39fe5c679b__0026.mp4": {
+  "duration": 47.366341,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1440,
+  "size_bytes": 77728151
+ },
+ "test/clips_restored_v3/f2efd904-9a3b-4a59-b1fc-dfa982de920c/f2efd904-9a3b-4a59-b1fc-dfa982de920c__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 85117375
+ },
+ "test/clips_restored_v3/f2efd904-9a3b-4a59-b1fc-dfa982de920c/f2efd904-9a3b-4a59-b1fc-dfa982de920c__0027.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 109311151
+ },
+ "test/clips_restored_v3/f2efd904-9a3b-4a59-b1fc-dfa982de920c/f2efd904-9a3b-4a59-b1fc-dfa982de920c__0028.mp4": {
+  "duration": 32.0,
+  "has_audio": true,
+  "audio_codec": "aac",
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1920,
+  "height": 1080,
+  "size_bytes": 58007811
+ },
+ "test/clips_restored_v3/fbbfb7ed-4414-42b1-a22e-35e1a1c51647/fbbfb7ed-4414-42b1-a22e-35e1a1c51647__0024.mp4": {
+  "duration": 38.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 23985898
+ },
+ "test/clips_restored_v3/fbbfb7ed-4414-42b1-a22e-35e1a1c51647/fbbfb7ed-4414-42b1-a22e-35e1a1c51647__0026.mp4": {
+  "duration": 32.0,
+  "has_audio": false,
+  "audio_codec": null,
+  "video_codec": "h264",
+  "fps": 30.0,
+  "width": 1440,
+  "height": 1080,
+  "size_bytes": 18654972
+ }
+}

@@ -15,6 +15,31 @@ All five prediction sets are complete: 7040 rows each (5040 `gold` + 2000 `self`
 errors; the Gemini run has 3 superseded error rows left in place as an audit trail (each key also has a successful row, which is the one
 `score.py` uses). Gemini cost **$35.14** for 6315 API requests ($0.0056/request, 34.4M input + 2.5M output/thinking tokens).
 
+## Supplement: `restored_v3` items (added 2026-09-22)
+
+The v9 test file (`test.qa.jsonl`, 3933 rows) = the original 3765 items (content unchanged: questions, answers, options and
+multi-turn turns are identical; only evidence-interval metadata and formatting differ, so the predictions above stay valid)
+**+ 168 restored items** (138 WI, 30 GP; previously `reject` or `needs_review`, `quality_verified: false`). The restored rows
+carry no clip, only a window `original_qa.video_clip_range` in the full Ego4D video, so clips were cut by
+`eval/prepare_restored.py`:
+
+| source of the clip | items |
+|---|---|
+| inside one existing egoOmni clip of the same video | 115 |
+| full Ego4D video (13 videos available; 5 cuts use the left half of a 2880-wide side-by-side source, as the dataset clips of those videos do; every cut pixel-verified against an overlapping dataset clip) | 20 |
+| stitched from two overlapping clips | 1 |
+| **skipped** — window outside every clip and no source video (20 videos) | 32 |
+
+**136 evaluable items**, all five models complete: 136/136 rows each, 0 errors, 90 audio-visual / 46 video-only.
+Gemini 3.8 Flash cost for this set: $0.52. Paths: `eval/preds/<tag>/restored_v3/` (72B in 4 cluster slices `p0..p3`),
+item file `eval/data/restored_v3/qa_restored_v3.json` (harness schema, `source_kind: restored_single`, id = `sample_id`),
+per-item provenance and skip reasons `eval/data/restored_v3/restored_v3_manifest.json`, clip metadata `eval/clips_meta_restored_v3.json`.
+
+Caveats: the file presents each restored item as a standalone single-turn question, and it is evaluated that way, but 56 of the
+136 were originally later rounds of a dialogue (`depends_on_earlier_rounds: true`, e.g. the GP items ask "To complete that goal, …");
+`minimum_modalities` for these items is derived from `original_qa.loop_annotation.required_modalities` (V 84 / A+V 50 / A 2).
+Run against the harness with `EGO_QA_PATH=…/qa_restored_v3.json EGO_CLIPS_META=eval/clips_meta_restored_v3.json`.
+
 ## Protocol (details in [`eval/README.md`](eval/README.md))
 - Full clip as input; audio fed iff the clip has an audio stream (41 % of clips have none). Each model at its official settings
   (VideoLLaMA2.1: 16 frames + BEATs; SALMONN 2+: 768 frames / 61250 px / 0.1 s, the paper's eval setting; MiniCPM-o 2.6: official omni

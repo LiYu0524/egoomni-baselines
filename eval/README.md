@@ -41,6 +41,13 @@ Evaluates audio-visual LLMs on egoOmni test (`/ai4good1-shared/liyu/egoOmni/test
 - **72B**: DeepSpeed ZeRO-3 data-parallel over 8 ranks (the mechanism of the repo's `test_8.sh`). Every param all-gather is a collective,
   so all ranks must run the same modules: clips with/without audio are processed in two lockstep phases, each padded with dummy generations.
 
+## Extra item sets (`restored_v3`)
+`egoomni_eval/__init__.py` honours `EGO_QA_PATH` / `EGO_CLIPS_META`, so any qa.json-schema file can be run through the same
+workers/judge/scorer. `prepare_restored.py` builds `restored_v3` (see top-level README); `split_restored.py` + `cluster_job.sh`
+run the 72B on 4 cluster nodes in duration-balanced slices, `run_restored_v3_devbox.sh` runs the 7B models on the dev box,
+`run_gemini_restored_v3*.sh` runs the API model, `cov_restored.py` checks coverage. `launch_infer.sh` takes `LOG_SUFFIX` to keep
+logs of parallel jobs apart.
+
 ## Layout / commands
 ```
 egoomni_eval/{data,prompts,run_infer,judge,score}.py  models/{videollama2,salmonn2plus}.py   clips_meta.json (ffprobe of all clips)

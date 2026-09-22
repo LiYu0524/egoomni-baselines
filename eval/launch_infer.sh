@@ -12,17 +12,17 @@ case $M in
   minicpmo)    ENV=$EGO_ENVS/minicpmo;     ADAPTER=minicpmo;     DIR=models/MiniCPM-o-2_6;                  TAG=minicpmo_2_6_8b;   ZERO3=0 ;;
   *) echo "unknown model $M"; exit 1 ;;
 esac
-NGPU=${NGPU:-8}
+NGPU=${NGPU:-8}   # LOG_SUFFIX=<s> keeps logs of parallel jobs apart
 mkdir -p logs
 if [ $ZERO3 = 1 ]; then
   echo "[$(date -Is)] $TAG: torchrun x$NGPU (ZeRO-3)"
   $ENV/bin/torchrun --nproc_per_node $NGPU --master_port ${MASTER_PORT:-29517} -m egoomni_eval.run_infer \
-    --adapter $ADAPTER --model_dir $DIR --tag $TAG --zero3 $EXTRA > logs/infer_${TAG}.log 2>&1
+    --adapter $ADAPTER --model_dir $DIR --tag $TAG --zero3 $EXTRA > logs/infer_${TAG}${LOG_SUFFIX:-}.log 2>&1
 else
   echo "[$(date -Is)] $TAG: $NGPU workers"
   for g in $(seq 0 $((NGPU-1))); do
     CUDA_VISIBLE_DEVICES=$g $ENV/bin/python -m egoomni_eval.run_infer --adapter $ADAPTER --model_dir $DIR --tag $TAG \
-      --shard $g --nshards $NGPU $EXTRA > logs/infer_${TAG}_shard$g.log 2>&1 &
+      --shard $g --nshards $NGPU $EXTRA > logs/infer_${TAG}${LOG_SUFFIX:-}_shard$g.log 2>&1 &
   done
   wait
 fi

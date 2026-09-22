@@ -1,0 +1,5356 @@
+[
+ {
+  "sample_id": "restored_v3:0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0025",
+  "qa_id": null,
+  "video_id": "0df89feb-74a6-48ca-9fe9-2c81fc1306e2",
+  "clip_path": "test/clips_restored_v3/0df89feb-74a6-48ca-9fe9-2c81fc1306e2/0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0025.mp4",
+  "clip_duration_sec": 36.74,
+  "source_clip_interval": {
+   "start_sec": 79.87,
+   "end_sec": 116.61
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To complete that goal, what should I do next?",
+  "original_answer": "Continue inflating the bicycle tire.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To complete that goal, what should I do next?",
+    "answer": "Continue inflating the bicycle tire."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0026",
+  "qa_id": null,
+  "video_id": "0df89feb-74a6-48ca-9fe9-2c81fc1306e2",
+  "clip_path": "test/clips_restored_v3/0df89feb-74a6-48ca-9fe9-2c81fc1306e2/0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 424.6,
+   "end_sec": 456.6
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does the visible road shape what I intend to do?",
+  "original_answer": "The visible road provides a route for me to travel by bicycle.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does the visible road shape what I intend to do?",
+    "answer": "The visible road provides a route for me to travel by bicycle."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0029",
+  "qa_id": null,
+  "video_id": "0df89feb-74a6-48ca-9fe9-2c81fc1306e2",
+  "clip_path": "test/clips_restored_v3/0df89feb-74a6-48ca-9fe9-2c81fc1306e2/0df89feb-74a6-48ca-9fe9-2c81fc1306e2__0029.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 69.16,
+   "end_sec": 101.16
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Once the pump hose was securely attached to the tire valve and the tire needed air, how did that condition shape what I intended to accomplish?",
+  "original_answer": "I intended to inflate the bicycle tire.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Once the pump hose was securely attached to the tire valve and the tire needed air, how did that condition shape what I intended to accomplish?",
+    "answer": "I intended to inflate the bicycle tire."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:169dfab8-67e3-4bdf-9e74-a810ad76d032__0024",
+  "qa_id": null,
+  "video_id": "169dfab8-67e3-4bdf-9e74-a810ad76d032",
+  "clip_path": "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0024.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 1494.82,
+   "end_sec": 1526.82
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue playing the game, what should I do next?",
+  "original_answer": "Continue playing the game.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue playing the game, what should I do next?",
+    "answer": "Continue playing the game."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:169dfab8-67e3-4bdf-9e74-a810ad76d032__0025",
+  "qa_id": null,
+  "video_id": "169dfab8-67e3-4bdf-9e74-a810ad76d032",
+  "clip_path": "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0025.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 962.27,
+   "end_sec": 994.27
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after I heard the previous player's turn end, how did that form what I intended to do?",
+  "original_answer": "It signaled that the turn had passed to me, so I intended to play Uno.",
+  "minimum_modalities": "A",
+  "required_modalities": [
+   "audio"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after I heard the previous player's turn end, how did that form what I intended to do?",
+    "answer": "It signaled that the turn had passed to me, so I intended to play Uno."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:169dfab8-67e3-4bdf-9e74-a810ad76d032__0026",
+  "qa_id": null,
+  "video_id": "169dfab8-67e3-4bdf-9e74-a810ad76d032",
+  "clip_path": "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 957.77,
+   "end_sec": 989.77
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after the previous player's turn ended, how did that event shape what I intended to do in the game?",
+  "original_answer": "The end of the previous player's turn passed the turn to me, prompting me to intend to play Uno.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after the previous player's turn ended, how did that event shape what I intended to do in the game?",
+    "answer": "The end of the previous player's turn passed the turn to me, prompting me to intend to play Uno."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:169dfab8-67e3-4bdf-9e74-a810ad76d032__0027",
+  "qa_id": null,
+  "video_id": "169dfab8-67e3-4bdf-9e74-a810ad76d032",
+  "clip_path": "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 1494.82,
+   "end_sec": 1526.82
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately when it became my turn to play, how did that shape what I intended to do?",
+  "original_answer": "It being my turn prompted me to intend to play the game.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately when it became my turn to play, how did that shape what I intended to do?",
+    "answer": "It being my turn prompted me to intend to play the game."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:169dfab8-67e3-4bdf-9e74-a810ad76d032__0028",
+  "qa_id": null,
+  "video_id": "169dfab8-67e3-4bdf-9e74-a810ad76d032",
+  "clip_path": "test/clips_restored_v3/169dfab8-67e3-4bdf-9e74-a810ad76d032/169dfab8-67e3-4bdf-9e74-a810ad76d032__0028.mp4",
+  "clip_duration_sec": 137.52,
+  "source_clip_interval": {
+   "start_sec": 352.97,
+   "end_sec": 490.49
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Just before I began, how did seeing three people gathered around the table shape what I intended to do?",
+  "original_answer": "Seeing three people assembled around the table indicated that friends were ready to gather and play together, leading me to intend to play UNO with them.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Just before I began, how did seeing three people gathered around the table shape what I intended to do?",
+    "answer": "Seeing three people assembled around the table indicated that friends were ready to gather and play together, leading me to intend to play UNO with them."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:1f84d80d-6f8d-4e40-aabb-b33aad3ba594__0024",
+  "qa_id": null,
+  "video_id": "1f84d80d-6f8d-4e40-aabb-b33aad3ba594",
+  "clip_path": "test/clips_restored_v3/1f84d80d-6f8d-4e40-aabb-b33aad3ba594/1f84d80d-6f8d-4e40-aabb-b33aad3ba594__0024.mp4",
+  "clip_duration_sec": 57.57,
+  "source_clip_interval": {
+   "start_sec": 633.44,
+   "end_sec": 691.01
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after I see the earlier soil work finished, how does seeing seedlings in the soil shape what I intend to do next?",
+  "original_answer": "Seeing the seedlings in the soil shows that the garden needs tending, so I intend to tend the garden.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after I see the earlier soil work finished, how does seeing seedlings in the soil shape what I intend to do next?",
+    "answer": "Seeing the seedlings in the soil shows that the garden needs tending, so I intend to tend the garden."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:1f84d80d-6f8d-4e40-aabb-b33aad3ba594__0025",
+  "qa_id": null,
+  "video_id": "1f84d80d-6f8d-4e40-aabb-b33aad3ba594",
+  "clip_path": "test/clips_restored_v3/1f84d80d-6f8d-4e40-aabb-b33aad3ba594/1f84d80d-6f8d-4e40-aabb-b33aad3ba594__0025.mp4",
+  "clip_duration_sec": 101.73,
+  "source_clip_interval": {
+   "start_sec": 668.61,
+   "end_sec": 770.34
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after the earlier garden-bed work, when I see plants in the soil, how does that visible condition shape what I intend to do?",
+  "original_answer": "Seeing the plants in the soil leads me to continue gardening by tending to the plants.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after the earlier garden-bed work, when I see plants in the soil, how does that visible condition shape what I intend to do?",
+    "answer": "Seeing the plants in the soil leads me to continue gardening by tending to the plants."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:1f84d80d-6f8d-4e40-aabb-b33aad3ba594__0026",
+  "qa_id": null,
+  "video_id": "1f84d80d-6f8d-4e40-aabb-b33aad3ba594",
+  "clip_path": "test/clips_restored_v3/1f84d80d-6f8d-4e40-aabb-b33aad3ba594/1f84d80d-6f8d-4e40-aabb-b33aad3ba594__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 186.76,
+   "end_sec": 218.76
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I began, how did seeing the seedling still in its tray form my intention?",
+  "original_answer": "Seeing the seedling still in its tray showed that it needed to be transplanted, forming my intention to transplant the seedling.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I began, how did seeing the seedling still in its tray form my intention?",
+    "answer": "Seeing the seedling still in its tray showed that it needed to be transplanted, forming my intention to transplant the seedling."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:28170c86-29ba-43e8-8699-e76161f16b98__0023",
+  "qa_id": null,
+  "video_id": "28170c86-29ba-43e8-8699-e76161f16b98",
+  "clip_path": "test/clips_restored_v3/28170c86-29ba-43e8-8699-e76161f16b98/28170c86-29ba-43e8-8699-e76161f16b98__0023.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 257.2,
+   "end_sec": 289.2
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "As I approach the stopped line of traffic with brake lights illuminated ahead, how does that visible situation shape what I am trying to accomplish?",
+  "original_answer": "It makes me intend to travel safely without colliding with the stopped vehicles ahead.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "As I approach the stopped line of traffic with brake lights illuminated ahead, how does that visible situation shape what I am trying to accomplish?",
+    "answer": "It makes me intend to travel safely without colliding with the stopped vehicles ahead."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:28170c86-29ba-43e8-8699-e76161f16b98__0025",
+  "qa_id": null,
+  "video_id": "28170c86-29ba-43e8-8699-e76161f16b98",
+  "clip_path": "test/clips_restored_v3/28170c86-29ba-43e8-8699-e76161f16b98/28170c86-29ba-43e8-8699-e76161f16b98__0025.mp4",
+  "clip_duration_sec": 32,
+  "source_clip_interval": {
+   "start_sec": 0,
+   "end_sec": 32
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Just before I begin moving, how does seeing that my car is parked facing a red vehicle lead me to form my intention?",
+  "original_answer": "Seeing my car parked facing the red vehicle leads me to intend to maneuver safely out of the parking stall.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Just before I begin moving, how does seeing that my car is parked facing a red vehicle lead me to form my intention?",
+    "answer": "Seeing my car parked facing the red vehicle leads me to intend to maneuver safely out of the parking stall."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:2cb81c1d-9472-4d82-8ec1-72ae355c9163__0023",
+  "qa_id": null,
+  "video_id": "2cb81c1d-9472-4d82-8ec1-72ae355c9163",
+  "clip_path": "test/clips_restored_v3/2cb81c1d-9472-4d82-8ec1-72ae355c9163/2cb81c1d-9472-4d82-8ec1-72ae355c9163__0023.mp4",
+  "clip_duration_sec": 50.2,
+  "source_clip_interval": {
+   "start_sec": 139.79,
+   "end_sec": 189.99
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue recording information in the notebook, what should I do next?",
+  "original_answer": "Continue recording information in the notebook.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue recording information in the notebook, what should I do next?",
+    "answer": "Continue recording information in the notebook."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:2cb81c1d-9472-4d82-8ec1-72ae355c9163__0025",
+  "qa_id": null,
+  "video_id": "2cb81c1d-9472-4d82-8ec1-72ae355c9163",
+  "clip_path": "test/clips_restored_v3/2cb81c1d-9472-4d82-8ec1-72ae355c9163/2cb81c1d-9472-4d82-8ec1-72ae355c9163__0025.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 701.25,
+   "end_sec": 733.25
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after I notice the blank lines in the notebook, how does that visible state shape what I am trying to accomplish?",
+  "original_answer": "The blank lines show that there is space and a need to add information, forming my intent to record information or complete the notebook task.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after I notice the blank lines in the notebook, how does that visible state shape what I am trying to accomplish?",
+    "answer": "The blank lines show that there is space and a need to add information, forming my intent to record information or complete the notebook task."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:2cb81c1d-9472-4d82-8ec1-72ae355c9163__0026",
+  "qa_id": null,
+  "video_id": "2cb81c1d-9472-4d82-8ec1-72ae355c9163",
+  "clip_path": "test/clips_restored_v3/2cb81c1d-9472-4d82-8ec1-72ae355c9163/2cb81c1d-9472-4d82-8ec1-72ae355c9163__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 370.82,
+   "end_sec": 402.82
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Seeing the open notebook with written text and blank lines, how does this visible condition shape what I am trying to accomplish?",
+  "original_answer": "Because the open notebook still has blank lines, I intend to complete the writing task.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Seeing the open notebook with written text and blank lines, how does this visible condition shape what I am trying to accomplish?",
+    "answer": "Because the open notebook still has blank lines, I intend to complete the writing task."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:2cddb76f-24d1-4863-bd91-9a5d1922a543__0026",
+  "qa_id": null,
+  "video_id": "2cddb76f-24d1-4863-bd91-9a5d1922a543",
+  "clip_path": "test/clips_restored_v3/2cddb76f-24d1-4863-bd91-9a5d1922a543/2cddb76f-24d1-4863-bd91-9a5d1922a543__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 392.71,
+   "end_sec": 424.71
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does the slack in the belay rope at the belay device shape what I am trying to accomplish?",
+  "original_answer": "The slack in the belay rope prompts me to manage the belay rope.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does the slack in the belay rope at the belay device shape what I am trying to accomplish?",
+    "answer": "The slack in the belay rope prompts me to manage the belay rope."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:2cddb76f-24d1-4863-bd91-9a5d1922a543__0027",
+  "qa_id": null,
+  "video_id": "2cddb76f-24d1-4863-bd91-9a5d1922a543",
+  "clip_path": "test/clips_restored_v3/2cddb76f-24d1-4863-bd91-9a5d1922a543/2cddb76f-24d1-4863-bd91-9a5d1922a543__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 488.31,
+   "end_sec": 520.31
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I see a white climbing helmet resting on the rock boulder in front of me, how does that visible situation shape what I intend to do?",
+  "original_answer": "Seeing the helmet available on the boulder makes me intend to equip safety gear for rock climbing.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I see a white climbing helmet resting on the rock boulder in front of me, how does that visible situation shape what I intend to do?",
+    "answer": "Seeing the helmet available on the boulder makes me intend to equip safety gear for rock climbing."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:2d29b45a-169b-453f-8050-98ec147b0ccf__0024",
+  "qa_id": null,
+  "video_id": "2d29b45a-169b-453f-8050-98ec147b0ccf",
+  "clip_path": "test/clips_restored_v3/2d29b45a-169b-453f-8050-98ec147b0ccf/2d29b45a-169b-453f-8050-98ec147b0ccf__0024.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 56.4,
+   "end_sec": 88.4
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To complete the baseboard measurement task, what should I do next?",
+  "original_answer": "I should record the measurement.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To complete the baseboard measurement task, what should I do next?",
+    "answer": "I should record the measurement."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:2d29b45a-169b-453f-8050-98ec147b0ccf__0025",
+  "qa_id": null,
+  "video_id": "2d29b45a-169b-453f-8050-98ec147b0ccf",
+  "clip_path": "test/clips_restored_v3/2d29b45a-169b-453f-8050-98ec147b0ccf/2d29b45a-169b-453f-8050-98ec147b0ccf__0025.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 56.4,
+   "end_sec": 88.4
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given the measurement reading visible on the tape measure along the baseboard, what do I intend to accomplish next?",
+  "original_answer": "I intend to record the baseboard dimension needed for cutting the trim.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given the measurement reading visible on the tape measure along the baseboard, what do I intend to accomplish next?",
+    "answer": "I intend to record the baseboard dimension needed for cutting the trim."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:2d29b45a-169b-453f-8050-98ec147b0ccf__0027",
+  "qa_id": null,
+  "video_id": "2d29b45a-169b-453f-8050-98ec147b0ccf",
+  "clip_path": "test/clips_restored_v3/2d29b45a-169b-453f-8050-98ec147b0ccf/2d29b45a-169b-453f-8050-98ec147b0ccf__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 295.39,
+   "end_sec": 327.39
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Just as the wood piece is positioned under the blade, how does that situation shape what I am trying to accomplish?",
+  "original_answer": "Seeing the wood positioned under the blade indicates that it is ready to be cut, forming my intent to trim the wood piece to size.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Just as the wood piece is positioned under the blade, how does that situation shape what I am trying to accomplish?",
+    "answer": "Seeing the wood positioned under the blade indicates that it is ready to be cut, forming my intent to trim the wood piece to size."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3130e00e-873a-4afb-93a6-7b07f3cf6597__0024",
+  "qa_id": null,
+  "video_id": "3130e00e-873a-4afb-93a6-7b07f3cf6597",
+  "clip_path": "test/clips_restored_v3/3130e00e-873a-4afb-93a6-7b07f3cf6597/3130e00e-873a-4afb-93a6-7b07f3cf6597__0024.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 83.18,
+   "end_sec": 115.18
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To complete my goal in the card game, what should I do next?",
+  "original_answer": "I should take my turn in the card game.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To complete my goal in the card game, what should I do next?",
+    "answer": "I should take my turn in the card game."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3130e00e-873a-4afb-93a6-7b07f3cf6597__0025",
+  "qa_id": null,
+  "video_id": "3130e00e-873a-4afb-93a6-7b07f3cf6597",
+  "clip_path": "test/clips_restored_v3/3130e00e-873a-4afb-93a6-7b07f3cf6597/3130e00e-873a-4afb-93a6-7b07f3cf6597__0025.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 83.18,
+   "end_sec": 115.18
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after another player places a playing card on the table, how does that event form my intention in the game?",
+  "original_answer": "Seeing another player place a card on the table prompts me to intend to play a card in response as part of the ongoing card game.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after another player places a playing card on the table, how does that event form my intention in the game?",
+    "answer": "Seeing another player place a card on the table prompts me to intend to play a card in response as part of the ongoing card game."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3130e00e-873a-4afb-93a6-7b07f3cf6597__0026",
+  "qa_id": null,
+  "video_id": "3130e00e-873a-4afb-93a6-7b07f3cf6597",
+  "clip_path": "test/clips_restored_v3/3130e00e-873a-4afb-93a6-7b07f3cf6597/3130e00e-873a-4afb-93a6-7b07f3cf6597__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 83.18,
+   "end_sec": 115.18
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When another player places a playing card on the table after the previous turn, how does that visible game state shape what I intend to do?",
+  "original_answer": "It prompts me to play a card in the ongoing card game.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When another player places a playing card on the table after the previous turn, how does that visible game state shape what I intend to do?",
+    "answer": "It prompts me to play a card in the ongoing card game."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3130e00e-873a-4afb-93a6-7b07f3cf6597__0027",
+  "qa_id": null,
+  "video_id": "3130e00e-873a-4afb-93a6-7b07f3cf6597",
+  "clip_path": "test/clips_restored_v3/3130e00e-873a-4afb-93a6-7b07f3cf6597/3130e00e-873a-4afb-93a6-7b07f3cf6597__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 89.18,
+   "end_sec": 121.18
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When another player places a playing card on the table, how does that visible change shape what I intend to do in the ongoing game?",
+  "original_answer": "Seeing the other player place a card prompts me to intend to play a card in the ongoing game.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When another player places a playing card on the table, how does that visible change shape what I intend to do in the ongoing game?",
+    "answer": "Seeing the other player place a card prompts me to intend to play a card in the ongoing game."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0021",
+  "qa_id": null,
+  "video_id": "330c1e0d-b71a-452e-8b68-fdb96fa8a6ca",
+  "clip_path": "test/clips_restored_v3/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0021.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 664.82,
+   "end_sec": 696.82
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given that the magazine has more content on additional pages, what do I intend to do with it?",
+  "original_answer": "I intend to continue browsing the magazine's content.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given that the magazine has more content on additional pages, what do I intend to do with it?",
+    "answer": "I intend to continue browsing the magazine's content."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0022",
+  "qa_id": null,
+  "video_id": "330c1e0d-b71a-452e-8b68-fdb96fa8a6ca",
+  "clip_path": "test/clips_restored_v3/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0022.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 67.43,
+   "end_sec": 99.43
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How did the transaction being finished shape what I intended to do next?",
+  "original_answer": "Because the transaction was finished, I intended to leave the counter area.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How did the transaction being finished shape what I intended to do next?",
+    "answer": "Because the transaction was finished, I intended to leave the counter area."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0023",
+  "qa_id": null,
+  "video_id": "330c1e0d-b71a-452e-8b68-fdb96fa8a6ca",
+  "clip_path": "test/clips_restored_v3/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0023.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 61.43,
+   "end_sec": 93.43
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I acted, how did the cashier standing behind the counter shape what I intended to do?",
+  "original_answer": "Seeing the cashier at the counter formed my intention to complete a purchase.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I acted, how did the cashier standing behind the counter shape what I intended to do?",
+    "answer": "Seeing the cashier at the counter formed my intention to complete a purchase."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0024",
+  "qa_id": null,
+  "video_id": "330c1e0d-b71a-452e-8b68-fdb96fa8a6ca",
+  "clip_path": "test/clips_restored_v3/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca/330c1e0d-b71a-452e-8b68-fdb96fa8a6ca__0024.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 825.34,
+   "end_sec": 857.34
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "While I am visibly in the store just before I set off, how does that setting shape what I intend to do?",
+  "original_answer": "Being in the store forms my intention to move through the store.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "While I am visibly in the store just before I set off, how does that setting shape what I intend to do?",
+    "answer": "Being in the store forms my intention to move through the store."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:35e0e637-ea14-40a6-b930-a0d063aef5d4__0027",
+  "qa_id": null,
+  "video_id": "35e0e637-ea14-40a6-b930-a0d063aef5d4",
+  "clip_path": "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0027.mp4",
+  "clip_duration_sec": 145,
+  "source_clip_interval": {
+   "start_sec": 0,
+   "end_sec": 145
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Now that most of the plantain has been peeled, what should I do next to continue preparing it for cooking?",
+  "original_answer": "Continue preparing the peeled plantain for cooking.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Now that most of the plantain has been peeled, what should I do next to continue preparing it for cooking?",
+    "answer": "Continue preparing the peeled plantain for cooking."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:35e0e637-ea14-40a6-b930-a0d063aef5d4__0028",
+  "qa_id": null,
+  "video_id": "35e0e637-ea14-40a6-b930-a0d063aef5d4",
+  "clip_path": "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 78.97,
+   "end_sec": 110.97
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After seeing a plantain slice separate onto the cutting board, what am I trying to accomplish?",
+  "original_answer": "I am continuing to prepare plantain slices for cooking.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After seeing a plantain slice separate onto the cutting board, what am I trying to accomplish?",
+    "answer": "I am continuing to prepare plantain slices for cooking."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:35e0e637-ea14-40a6-b930-a0d063aef5d4__0029",
+  "qa_id": null,
+  "video_id": "35e0e637-ea14-40a6-b930-a0d063aef5d4",
+  "clip_path": "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0029.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 78.97,
+   "end_sec": 110.97
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given that the plantain is peeled and ready to be cut, what is my intention?",
+  "original_answer": "The peeled plantain is ready to be cut, so I intend to prepare plantain slices for cooking.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given that the plantain is peeled and ready to be cut, what is my intention?",
+    "answer": "The peeled plantain is ready to be cut, so I intend to prepare plantain slices for cooking."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:35e0e637-ea14-40a6-b930-a0d063aef5d4__0030",
+  "qa_id": null,
+  "video_id": "35e0e637-ea14-40a6-b930-a0d063aef5d4",
+  "clip_path": "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0030.mp4",
+  "clip_duration_sec": 37.5,
+  "source_clip_interval": {
+   "start_sec": 136,
+   "end_sec": 173.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after the board is cleared, how does that cleared workspace shape what I intend to do next?",
+  "original_answer": "With the board cleared and another raw plantain available beside it, I intend to prepare the next raw plantain.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after the board is cleared, how does that cleared workspace shape what I intend to do next?",
+    "answer": "With the board cleared and another raw plantain available beside it, I intend to prepare the next raw plantain."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:35e0e637-ea14-40a6-b930-a0d063aef5d4__0031",
+  "qa_id": null,
+  "video_id": "35e0e637-ea14-40a6-b930-a0d063aef5d4",
+  "clip_path": "test/clips_restored_v3/35e0e637-ea14-40a6-b930-a0d063aef5d4/35e0e637-ea14-40a6-b930-a0d063aef5d4__0031.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 254.18,
+   "end_sec": 286.18
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I begin, how does seeing that the earlier plantain pieces are sliced and the remaining piece is positioned under the knife form my intent?",
+  "original_answer": "Seeing the already sliced pieces and the remaining plantain positioned under the knife shows that it is ready to be prepared for cooking.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I begin, how does seeing that the earlier plantain pieces are sliced and the remaining piece is positioned under the knife form my intent?",
+    "answer": "Seeing the already sliced pieces and the remaining plantain positioned under the knife shows that it is ready to be prepared for cooking."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:389eea41-7ac5-4bcb-86c7-5a70f064c44f__0025",
+  "qa_id": null,
+  "video_id": "389eea41-7ac5-4bcb-86c7-5a70f064c44f",
+  "clip_path": "test/clips_restored_v3/389eea41-7ac5-4bcb-86c7-5a70f064c44f/389eea41-7ac5-4bcb-86c7-5a70f064c44f__0025.mp4",
+  "clip_duration_sec": 34.9,
+  "source_clip_interval": {
+   "start_sec": 1072.71,
+   "end_sec": 1107.61
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given that the upper corner cabinet is closed, what do I intend to do to access its contents?",
+  "original_answer": "I intend to open the upper corner cabinet so I can retrieve items from it.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given that the upper corner cabinet is closed, what do I intend to do to access its contents?",
+    "answer": "I intend to open the upper corner cabinet so I can retrieve items from it."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:389eea41-7ac5-4bcb-86c7-5a70f064c44f__0026",
+  "qa_id": null,
+  "video_id": "389eea41-7ac5-4bcb-86c7-5a70f064c44f",
+  "clip_path": "test/clips_restored_v3/389eea41-7ac5-4bcb-86c7-5a70f064c44f/389eea41-7ac5-4bcb-86c7-5a70f064c44f__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 296.76,
+   "end_sec": 328.76
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does the available sink and faucet lead me to form my immediate intention?",
+  "original_answer": "The available sink and faucet lead me to intend to use sink water.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does the available sink and faucet lead me to form my immediate intention?",
+    "answer": "The available sink and faucet lead me to intend to use sink water."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:389eea41-7ac5-4bcb-86c7-5a70f064c44f__0027",
+  "qa_id": null,
+  "video_id": "389eea41-7ac5-4bcb-86c7-5a70f064c44f",
+  "clip_path": "test/clips_restored_v3/389eea41-7ac5-4bcb-86c7-5a70f064c44f/389eea41-7ac5-4bcb-86c7-5a70f064c44f__0027.mp4",
+  "clip_duration_sec": 59.6,
+  "source_clip_interval": {
+   "start_sec": 1719.33,
+   "end_sec": 1778.93
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after I can see and hear water running into the sink, how does that new condition shape what I intend to do?",
+  "original_answer": "The running water makes the sink ready for cleaning, so I intend to clean a kitchen item.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after I can see and hear water running into the sink, how does that new condition shape what I intend to do?",
+    "answer": "The running water makes the sink ready for cleaning, so I intend to clean a kitchen item."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:389eea41-7ac5-4bcb-86c7-5a70f064c44f__0028",
+  "qa_id": null,
+  "video_id": "389eea41-7ac5-4bcb-86c7-5a70f064c44f",
+  "clip_path": "test/clips_restored_v3/389eea41-7ac5-4bcb-86c7-5a70f064c44f/389eea41-7ac5-4bcb-86c7-5a70f064c44f__0028.mp4",
+  "clip_duration_sec": 40.47,
+  "source_clip_interval": {
+   "start_sec": 515.57,
+   "end_sec": 556.04
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after the potatoes are resting in the tilted basket edge, how does that condition shape what I am trying to accomplish?",
+  "original_answer": "It leads me to prepare the potato fries for cooking by getting the potatoes properly positioned in the basket.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after the potatoes are resting in the tilted basket edge, how does that condition shape what I am trying to accomplish?",
+    "answer": "It leads me to prepare the potato fries for cooking by getting the potatoes properly positioned in the basket."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3c03af71-426c-4f59-8a20-d2f506359e12__0024",
+  "qa_id": null,
+  "video_id": "3c03af71-426c-4f59-8a20-d2f506359e12",
+  "clip_path": "test/clips_restored_v3/3c03af71-426c-4f59-8a20-d2f506359e12/3c03af71-426c-4f59-8a20-d2f506359e12__0024.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 32.41,
+   "end_sec": 64.41
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After checking the embroidery hoop, what broad action should I take next?",
+  "original_answer": "Continue working on the embroidery.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After checking the embroidery hoop, what broad action should I take next?",
+    "answer": "Continue working on the embroidery."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3c03af71-426c-4f59-8a20-d2f506359e12__0026",
+  "qa_id": null,
+  "video_id": "3c03af71-426c-4f59-8a20-d2f506359e12",
+  "clip_path": "test/clips_restored_v3/3c03af71-426c-4f59-8a20-d2f506359e12/3c03af71-426c-4f59-8a20-d2f506359e12__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 446.17,
+   "end_sec": 478.17
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Seeing the drawn pattern on the fabric, what am I trying to accomplish?",
+  "original_answer": "I am trying to embroider the pattern onto the cloth.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Seeing the drawn pattern on the fabric, what am I trying to accomplish?",
+    "answer": "I am trying to embroider the pattern onto the cloth."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3c03af71-426c-4f59-8a20-d2f506359e12__0027",
+  "qa_id": null,
+  "video_id": "3c03af71-426c-4f59-8a20-d2f506359e12",
+  "clip_path": "test/clips_restored_v3/3c03af71-426c-4f59-8a20-d2f506359e12/3c03af71-426c-4f59-8a20-d2f506359e12__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 450.67,
+   "end_sec": 482.67
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I see the marked pattern line showing where the next stitch should go, how does that visible cue shape what I intend to accomplish?",
+  "original_answer": "The marked pattern line indicates that the embroidery should continue there, prompting me to intend to embroider the pattern onto the cloth.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I see the marked pattern line showing where the next stitch should go, how does that visible cue shape what I intend to accomplish?",
+    "answer": "The marked pattern line indicates that the embroidery should continue there, prompting me to intend to embroider the pattern onto the cloth."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0026",
+  "qa_id": null,
+  "video_id": "3fe7b8aa-51ea-4f9f-b7e5-94f752a85690",
+  "clip_path": "test/clips_restored_v3/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 77.31,
+   "end_sec": 109.31
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue organizing the laundry, what should I do next?",
+  "original_answer": "Continue sorting the garment with the laundry.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue organizing the laundry, what should I do next?",
+    "answer": "Continue sorting the garment with the laundry."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0027",
+  "qa_id": null,
+  "video_id": "3fe7b8aa-51ea-4f9f-b7e5-94f752a85690",
+  "clip_path": "test/clips_restored_v3/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0027.mp4",
+  "clip_duration_sec": 32,
+  "source_clip_interval": {
+   "start_sec": 6,
+   "end_sec": 38
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Just before I act, how does the open laundry hamper on the floor nearby shape what I intend to do?",
+  "original_answer": "The open laundry hamper nearby gives me the opportunity to sort the laundry into baskets.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Just before I act, how does the open laundry hamper on the floor nearby shape what I intend to do?",
+    "answer": "The open laundry hamper nearby gives me the opportunity to sort the laundry into baskets."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0028",
+  "qa_id": null,
+  "video_id": "3fe7b8aa-51ea-4f9f-b7e5-94f752a85690",
+  "clip_path": "test/clips_restored_v3/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 498.58,
+   "end_sec": 530.58
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Upon noticing the grey container open and available on the floor, how did that condition lead me to form my intention?",
+  "original_answer": "The open grey container provided an available place to pack items, leading me to intend to put the blue basket into it; the basket's visible placement and plastic settling sound support that intent.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Upon noticing the grey container open and available on the floor, how did that condition lead me to form my intention?",
+    "answer": "The open grey container provided an available place to pack items, leading me to intend to put the blue basket into it; the basket's visible placement and plastic settling sound support that intent."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0029",
+  "qa_id": null,
+  "video_id": "3fe7b8aa-51ea-4f9f-b7e5-94f752a85690",
+  "clip_path": "test/clips_restored_v3/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690/3fe7b8aa-51ea-4f9f-b7e5-94f752a85690__0029.mp4",
+  "clip_duration_sec": 50.97,
+  "source_clip_interval": {
+   "start_sec": 313.99,
+   "end_sec": 364.96
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "With the dryer door open and clothes visible inside, what do I intend to do next?",
+  "original_answer": "I intend to unload the dry laundry from the dryer.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "With the dryer door open and clothes visible inside, what do I intend to do next?",
+    "answer": "I intend to unload the dry laundry from the dryer."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:40b86eb9-a408-4119-ba7c-402b050be506__0025",
+  "qa_id": null,
+  "video_id": "40b86eb9-a408-4119-ba7c-402b050be506",
+  "clip_path": "test/clips_restored_v3/40b86eb9-a408-4119-ba7c-402b050be506/40b86eb9-a408-4119-ba7c-402b050be506__0025.mp4",
+  "clip_duration_sec": 45.6,
+  "source_clip_interval": {
+   "start_sec": 558.57,
+   "end_sec": 604.17
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue supporting my companion during the outdoor activity, what should I do next?",
+  "original_answer": "Continue communicating with my companion about the activity.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue supporting my companion during the outdoor activity, what should I do next?",
+    "answer": "Continue communicating with my companion about the activity."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:40b86eb9-a408-4119-ba7c-402b050be506__0026",
+  "qa_id": null,
+  "video_id": "40b86eb9-a408-4119-ba7c-402b050be506",
+  "clip_path": "test/clips_restored_v3/40b86eb9-a408-4119-ba7c-402b050be506/40b86eb9-a408-4119-ba7c-402b050be506__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 7.5,
+   "end_sec": 39.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given that the recording was live, what did I intend to do?",
+  "original_answer": "I intended to introduce the recording to the audience.",
+  "minimum_modalities": "A",
+  "required_modalities": [
+   "audio"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given that the recording was live, what did I intend to do?",
+    "answer": "I intended to introduce the recording to the audience."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:40b86eb9-a408-4119-ba7c-402b050be506__0028",
+  "qa_id": null,
+  "video_id": "40b86eb9-a408-4119-ba7c-402b050be506",
+  "clip_path": "test/clips_restored_v3/40b86eb9-a408-4119-ba7c-402b050be506/40b86eb9-a408-4119-ba7c-402b050be506__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 558.57,
+   "end_sec": 590.57
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after my companion comments about the wind and the difficulty of pushing past it, how does that comment shape what I am trying to do for them during the outdoor activity?",
+  "original_answer": "Their comment shows that they are struggling with the wind and feeling discouraged, prompting me to encourage them.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after my companion comments about the wind and the difficulty of pushing past it, how does that comment shape what I am trying to do for them during the outdoor activity?",
+    "answer": "Their comment shows that they are struggling with the wind and feeling discouraged, prompting me to encourage them."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:40b86eb9-a408-4119-ba7c-402b050be506__0029",
+  "qa_id": null,
+  "video_id": "40b86eb9-a408-4119-ba7c-402b050be506",
+  "clip_path": "test/clips_restored_v3/40b86eb9-a408-4119-ba7c-402b050be506/40b86eb9-a408-4119-ba7c-402b050be506__0029.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 887.16,
+   "end_sec": 919.16
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after my companion says that the object is stuck, how does that comment shape what I intend to do?",
+  "original_answer": "It leads me to continue the conversation by agreeing about the object's situation and offering an explanation for what it may be stuck on.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after my companion says that the object is stuck, how does that comment shape what I intend to do?",
+    "answer": "It leads me to continue the conversation by agreeing about the object's situation and offering an explanation for what it may be stuck on."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4959d3de-769f-468f-82f8-105e2d0bf914__0026",
+  "qa_id": null,
+  "video_id": "4959d3de-769f-468f-82f8-105e2d0bf914",
+  "clip_path": "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0026.mp4",
+  "clip_duration_sec": 66.58,
+  "source_clip_interval": {
+   "start_sec": 187.61,
+   "end_sec": 254.19
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given the paper structure I have assembled so far and my goal of completing the paper craft model, what should I do next?",
+  "original_answer": "Continue shaping the paper craft model.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given the paper structure I have assembled so far and my goal of completing the paper craft model, what should I do next?",
+    "answer": "Continue shaping the paper craft model."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4959d3de-769f-468f-82f8-105e2d0bf914__0027",
+  "qa_id": null,
+  "video_id": "4959d3de-769f-468f-82f8-105e2d0bf914",
+  "clip_path": "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0027.mp4",
+  "clip_duration_sec": 35.04,
+  "source_clip_interval": {
+   "start_sec": 4.26,
+   "end_sec": 39.3
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After I see that the paper craft piece has a refined fold, how does that visible condition shape what I am trying to accomplish next?",
+  "original_answer": "The refined fold shows that the paper piece has progressed, leading me to continue assembling the paper craft model.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After I see that the paper craft piece has a refined fold, how does that visible condition shape what I am trying to accomplish next?",
+    "answer": "The refined fold shows that the paper piece has progressed, leading me to continue assembling the paper craft model."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4959d3de-769f-468f-82f8-105e2d0bf914__0028",
+  "qa_id": null,
+  "video_id": "4959d3de-769f-468f-82f8-105e2d0bf914",
+  "clip_path": "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0028.mp4",
+  "clip_duration_sec": 32.16,
+  "source_clip_interval": {
+   "start_sec": 393.93,
+   "end_sec": 426.09
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After I see that the paper pieces have become a partially assembled model, what larger goal does this visible condition lead me to pursue?",
+  "original_answer": "I aim to assemble the paper craft model.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After I see that the paper pieces have become a partially assembled model, what larger goal does this visible condition lead me to pursue?",
+    "answer": "I aim to assemble the paper craft model."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4959d3de-769f-468f-82f8-105e2d0bf914__0029",
+  "qa_id": null,
+  "video_id": "4959d3de-769f-468f-82f8-105e2d0bf914",
+  "clip_path": "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0029.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 701.63,
+   "end_sec": 733.63
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I act, how does seeing two separate folded paper ear pieces, one black and one white, shape what I am trying to accomplish?",
+  "original_answer": "Seeing the two folded ear pieces prompts me to ensure that they are correctly folded and symmetrical.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I act, how does seeing two separate folded paper ear pieces, one black and one white, shape what I am trying to accomplish?",
+    "answer": "Seeing the two folded ear pieces prompts me to ensure that they are correctly folded and symmetrical."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4959d3de-769f-468f-82f8-105e2d0bf914__0030",
+  "qa_id": null,
+  "video_id": "4959d3de-769f-468f-82f8-105e2d0bf914",
+  "clip_path": "test/clips_restored_v3/4959d3de-769f-468f-82f8-105e2d0bf914/4959d3de-769f-468f-82f8-105e2d0bf914__0030.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 929.45,
+   "end_sec": 961.45
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I see that the white papercraft piece has an unfolded flap, how does that condition shape what I am trying to accomplish next?",
+  "original_answer": "The unfolded flap shows that the papercraft is still incomplete, so I intend to continue assembling the papercraft model.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I see that the white papercraft piece has an unfolded flap, how does that condition shape what I am trying to accomplish next?",
+    "answer": "The unfolded flap shows that the papercraft is still incomplete, so I intend to continue assembling the papercraft model."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:49d20f86-b516-49be-a27b-a450955c9f46__0023",
+  "qa_id": null,
+  "video_id": "49d20f86-b516-49be-a27b-a450955c9f46",
+  "clip_path": "test/clips_restored_v3/49d20f86-b516-49be-a27b-a450955c9f46/49d20f86-b516-49be-a27b-a450955c9f46__0023.mp4",
+  "clip_duration_sec": 50.61,
+  "source_clip_interval": {
+   "start_sec": 11,
+   "end_sec": 61.61
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue reading the book, what should I do next?",
+  "original_answer": "I should continue reading the book.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue reading the book, what should I do next?",
+    "answer": "I should continue reading the book."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:49d20f86-b516-49be-a27b-a450955c9f46__0024",
+  "qa_id": null,
+  "video_id": "49d20f86-b516-49be-a27b-a450955c9f46",
+  "clip_path": "test/clips_restored_v3/49d20f86-b516-49be-a27b-a450955c9f46/49d20f86-b516-49be-a27b-a450955c9f46__0024.mp4",
+  "clip_duration_sec": 32,
+  "source_clip_interval": {
+   "start_sec": 0,
+   "end_sec": 32
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After the book has been opened, how does seeing that it is open to a page with mostly text shape what I am trying to do next?",
+  "original_answer": "Seeing the text-filled page leads me to continue reading the book by navigating through its pages.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After the book has been opened, how does seeing that it is open to a page with mostly text shape what I am trying to do next?",
+    "answer": "Seeing the text-filled page leads me to continue reading the book by navigating through its pages."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:49d20f86-b516-49be-a27b-a450955c9f46__0025",
+  "qa_id": null,
+  "video_id": "49d20f86-b516-49be-a27b-a450955c9f46",
+  "clip_path": "test/clips_restored_v3/49d20f86-b516-49be-a27b-a450955c9f46/49d20f86-b516-49be-a27b-a450955c9f46__0025.mp4",
+  "clip_duration_sec": 32.61,
+  "source_clip_interval": {
+   "start_sec": 29,
+   "end_sec": 61.61
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When new text pages are visible in the book, how does this condition shape what I intend to do?",
+  "original_answer": "Seeing text pages available to read leads me to intend to read the book.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When new text pages are visible in the book, how does this condition shape what I intend to do?",
+    "answer": "Seeing text pages available to read leads me to intend to read the book."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4c20d31e-a289-46f7-a7b3-364947a64bea__0026",
+  "qa_id": null,
+  "video_id": "4c20d31e-a289-46f7-a7b3-364947a64bea",
+  "clip_path": "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 159.86,
+   "end_sec": 191.86
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To complete that goal, what should I do next?",
+  "original_answer": "Prepare the weed trimmer for use.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To complete that goal, what should I do next?",
+    "answer": "Prepare the weed trimmer for use."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4c20d31e-a289-46f7-a7b3-364947a64bea__0027",
+  "qa_id": null,
+  "video_id": "4c20d31e-a289-46f7-a7b3-364947a64bea",
+  "clip_path": "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 487.23,
+   "end_sec": 519.23
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "As I move on from the cleared ground, how does coming to the uncut grass along the yard edge determine what I intend to do next?",
+  "original_answer": "The uncut grass along the yard edge gives me the task of cutting the grass and weeds there.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "As I move on from the cleared ground, how does coming to the uncut grass along the yard edge determine what I intend to do next?",
+    "answer": "The uncut grass along the yard edge gives me the task of cutting the grass and weeds there."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4c20d31e-a289-46f7-a7b3-364947a64bea__0028",
+  "qa_id": null,
+  "video_id": "4c20d31e-a289-46f7-a7b3-364947a64bea",
+  "clip_path": "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 170.36,
+   "end_sec": 202.36
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How did seeing the weed trimmer resting loosely with its head forward lead me to form my intention at that moment?",
+  "original_answer": "Seeing that the weed trimmer was resting loosely with its head forward led me to intend to operate the trimmer properly.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How did seeing the weed trimmer resting loosely with its head forward lead me to form my intention at that moment?",
+    "answer": "Seeing that the weed trimmer was resting loosely with its head forward led me to intend to operate the trimmer properly."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4c20d31e-a289-46f7-a7b3-364947a64bea__0029",
+  "qa_id": null,
+  "video_id": "4c20d31e-a289-46f7-a7b3-364947a64bea",
+  "clip_path": "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0029.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 236.23,
+   "end_sec": 268.23
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does the vegetation ahead motivate what I am trying to accomplish with the trimmer?",
+  "original_answer": "The vegetation ahead motivates me to clear the overgrown vegetation with the trimmer.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does the vegetation ahead motivate what I am trying to accomplish with the trimmer?",
+    "answer": "The vegetation ahead motivates me to clear the overgrown vegetation with the trimmer."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:4c20d31e-a289-46f7-a7b3-364947a64bea__0030",
+  "qa_id": null,
+  "video_id": "4c20d31e-a289-46f7-a7b3-364947a64bea",
+  "clip_path": "test/clips_restored_v3/4c20d31e-a289-46f7-a7b3-364947a64bea/4c20d31e-a289-46f7-a7b3-364947a64bea__0030.mp4",
+  "clip_duration_sec": 32.15,
+  "source_clip_interval": {
+   "start_sec": 688.76,
+   "end_sec": 720.91
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Seeing grass growing beside the rock, what am I trying to accomplish?",
+  "original_answer": "The grass beside the rock presents an area that needs trimming, so I am trying to maintain the yard by weed whacking the grass edges.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Seeing grass growing beside the rock, what am I trying to accomplish?",
+    "answer": "The grass beside the rock presents an area that needs trimming, so I am trying to maintain the yard by weed whacking the grass edges."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0023",
+  "qa_id": null,
+  "video_id": "5304a43a-7373-4d85-a6ef-ba0aa41c4de8",
+  "clip_path": "test/clips_restored_v3/5304a43a-7373-4d85-a6ef-ba0aa41c4de8/5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0023.mp4",
+  "clip_duration_sec": 49,
+  "source_clip_interval": {
+   "start_sec": 15,
+   "end_sec": 64
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue pruning the grapevine, what should I do next?",
+  "original_answer": "Continue pruning the grapevine.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue pruning the grapevine, what should I do next?",
+    "answer": "Continue pruning the grapevine."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0024",
+  "qa_id": null,
+  "video_id": "5304a43a-7373-4d85-a6ef-ba0aa41c4de8",
+  "clip_path": "test/clips_restored_v3/5304a43a-7373-4d85-a6ef-ba0aa41c4de8/5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0024.mp4",
+  "clip_duration_sec": 45.0,
+  "source_clip_interval": {
+   "start_sec": 990.53,
+   "end_sec": 1035.53
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does the presence of an attached vine branch support what I intend to do next?",
+  "original_answer": "The attached vine branch indicates that I intend to continue pruning the vineyard vines.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does the presence of an attached vine branch support what I intend to do next?",
+    "answer": "The attached vine branch indicates that I intend to continue pruning the vineyard vines."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0025",
+  "qa_id": null,
+  "video_id": "5304a43a-7373-4d85-a6ef-ba0aa41c4de8",
+  "clip_path": "test/clips_restored_v3/5304a43a-7373-4d85-a6ef-ba0aa41c4de8/5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0025.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 753.64,
+   "end_sec": 785.64
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Right after I see the earlier cut branch fall away and hear the snip, how does the visible condition of a branch needing pruning determine what I am trying to accomplish next?",
+  "original_answer": "Seeing that a branch crossing the trellis wire still needs pruning leads me to aim to prune and clear the grapevine trellis.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Right after I see the earlier cut branch fall away and hear the snip, how does the visible condition of a branch needing pruning determine what I am trying to accomplish next?",
+    "answer": "Seeing that a branch crossing the trellis wire still needs pruning leads me to aim to prune and clear the grapevine trellis."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0026",
+  "qa_id": null,
+  "video_id": "5304a43a-7373-4d85-a6ef-ba0aa41c4de8",
+  "clip_path": "test/clips_restored_v3/5304a43a-7373-4d85-a6ef-ba0aa41c4de8/5304a43a-7373-4d85-a6ef-ba0aa41c4de8__0026.mp4",
+  "clip_duration_sec": 47.0,
+  "source_clip_interval": {
+   "start_sec": 1473.67,
+   "end_sec": 1520.67
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When an excess vine branch is visible across the wire, what does that condition lead me to intend?",
+  "original_answer": "The excess branch shows that more of the grapevine needs pruning, so I intend to prune the grapevines.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When an excess vine branch is visible across the wire, what does that condition lead me to intend?",
+    "answer": "The excess branch shows that more of the grapevine needs pruning, so I intend to prune the grapevines."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:54707a82-2fe4-47d2-9456-d5635e358b09__0027",
+  "qa_id": null,
+  "video_id": "54707a82-2fe4-47d2-9456-d5635e358b09",
+  "clip_path": "test/clips_restored_v3/54707a82-2fe4-47d2-9456-d5635e358b09/54707a82-2fe4-47d2-9456-d5635e358b09__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 40.34,
+   "end_sec": 72.34
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After seeing that the door trim still needs painting, what am I trying to accomplish next?",
+  "original_answer": "I intend to continue painting the wall molding.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After seeing that the door trim still needs painting, what am I trying to accomplish next?",
+    "answer": "I intend to continue painting the wall molding."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:55cf6ecf-1dfc-4d79-a5a7-decb8e36195b__0026",
+  "qa_id": null,
+  "video_id": "55cf6ecf-1dfc-4d79-a5a7-decb8e36195b",
+  "clip_path": "test/clips_restored_v3/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b__0026.mp4",
+  "clip_duration_sec": 36.71,
+  "source_clip_interval": {
+   "start_sec": 345.79,
+   "end_sec": 382.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue making the cat scratcher post after cutting the rope, what should I do next?",
+  "original_answer": "Continue securing the rope around the cardboard tube.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue making the cat scratcher post after cutting the rope, what should I do next?",
+    "answer": "Continue securing the rope around the cardboard tube."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:55cf6ecf-1dfc-4d79-a5a7-decb8e36195b__0028",
+  "qa_id": null,
+  "video_id": "55cf6ecf-1dfc-4d79-a5a7-decb8e36195b",
+  "clip_path": "test/clips_restored_v3/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b__0028.mp4",
+  "clip_duration_sec": 35.0,
+  "source_clip_interval": {
+   "start_sec": 0.5,
+   "end_sec": 35.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I notice that the glue gun is low on glue while wrapping, how does that condition shape what I am trying to accomplish?",
+  "original_answer": "Seeing that the glue gun is low on glue makes me intend to refill it so I can continue crafting.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I notice that the glue gun is low on glue while wrapping, how does that condition shape what I am trying to accomplish?",
+    "answer": "Seeing that the glue gun is low on glue makes me intend to refill it so I can continue crafting."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:55cf6ecf-1dfc-4d79-a5a7-decb8e36195b__0029",
+  "qa_id": null,
+  "video_id": "55cf6ecf-1dfc-4d79-a5a7-decb8e36195b",
+  "clip_path": "test/clips_restored_v3/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b/55cf6ecf-1dfc-4d79-a5a7-decb8e36195b__0029.mp4",
+  "clip_duration_sec": 32,
+  "source_clip_interval": {
+   "start_sec": 380,
+   "end_sec": 412
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I see that the glue stick in my glue gun is depleted, what am I trying to accomplish?",
+  "original_answer": "I am trying to keep the hot glue gun functional so I can continue wrapping.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I see that the glue stick in my glue gun is depleted, what am I trying to accomplish?",
+    "answer": "I am trying to keep the hot glue gun functional so I can continue wrapping."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:5afe1e42-d44f-4c1d-bfd1-84de861b4492__0024",
+  "qa_id": null,
+  "video_id": "5afe1e42-d44f-4c1d-bfd1-84de861b4492",
+  "clip_path": "test/clips_restored_v3/5afe1e42-d44f-4c1d-bfd1-84de861b4492/5afe1e42-d44f-4c1d-bfd1-84de861b4492__0024.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 184.79,
+   "end_sec": 216.79
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I see the empty laundry basket on the carpet, what does that situation prompt me to intend to do?",
+  "original_answer": "It prompts me to intend to collect the laundry basket or tidy up the laundry items.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I see the empty laundry basket on the carpet, what does that situation prompt me to intend to do?",
+    "answer": "It prompts me to intend to collect the laundry basket or tidy up the laundry items."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:5afe1e42-d44f-4c1d-bfd1-84de861b4492__0025",
+  "qa_id": null,
+  "video_id": "5afe1e42-d44f-4c1d-bfd1-84de861b4492",
+  "clip_path": "test/clips_restored_v3/5afe1e42-d44f-4c1d-bfd1-84de861b4492/5afe1e42-d44f-4c1d-bfd1-84de861b4492__0025.mp4",
+  "clip_duration_sec": 32,
+  "source_clip_interval": {
+   "start_sec": 112,
+   "end_sec": 144
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "With wet laundry collected in the basket, what did that visible situation lead me to intend to do?",
+  "original_answer": "Seeing the wet laundry collected in the basket prompted me to intend to hang the clothes to dry by making the drying rack ready.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "With wet laundry collected in the basket, what did that visible situation lead me to intend to do?",
+    "answer": "Seeing the wet laundry collected in the basket prompted me to intend to hang the clothes to dry by making the drying rack ready."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:5f77b76b-24d9-4489-9561-861fc66a1917__0028",
+  "qa_id": null,
+  "video_id": "5f77b76b-24d9-4489-9561-861fc66a1917",
+  "clip_path": "test/clips_restored_v3/5f77b76b-24d9-4489-9561-861fc66a1917/5f77b76b-24d9-4489-9561-861fc66a1917__0028.mp4",
+  "clip_duration_sec": 65.0,
+  "source_clip_interval": {
+   "start_sec": 71.5,
+   "end_sec": 136.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To finish wrapping the cat scratching post, what should I do next?",
+  "original_answer": "Continue adjusting the rope wrapping to finish the post.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To finish wrapping the cat scratching post, what should I do next?",
+    "answer": "Continue adjusting the rope wrapping to finish the post."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:5f77b76b-24d9-4489-9561-861fc66a1917__0032",
+  "qa_id": null,
+  "video_id": "5f77b76b-24d9-4489-9561-861fc66a1917",
+  "clip_path": "test/clips_restored_v3/5f77b76b-24d9-4489-9561-861fc66a1917/5f77b76b-24d9-4489-9561-861fc66a1917__0032.mp4",
+  "clip_duration_sec": 122.0,
+  "source_clip_interval": {
+   "start_sec": 91.5,
+   "end_sec": 213.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Seeing slight gaps and uneven tension in the bottom section of the rope wrapping, what am I trying to do next?",
+  "original_answer": "The gaps and uneven tension show that the rope wrapping still needs finishing, so I am continuing to craft a cat scratching post.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Seeing slight gaps and uneven tension in the bottom section of the rope wrapping, what am I trying to do next?",
+    "answer": "The gaps and uneven tension show that the rope wrapping still needs finishing, so I am continuing to craft a cat scratching post."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:60e63a2b-cbf9-420a-b17a-c50848b7f096__0026",
+  "qa_id": null,
+  "video_id": "60e63a2b-cbf9-420a-b17a-c50848b7f096",
+  "clip_path": "test/clips_restored_v3/60e63a2b-cbf9-420a-b17a-c50848b7f096/60e63a2b-cbf9-420a-b17a-c50848b7f096__0026.mp4",
+  "clip_duration_sec": 45.68,
+  "source_clip_interval": {
+   "start_sec": 967.39,
+   "end_sec": 1013.07
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "As the dog trots ahead along the street and the leash remains extended, what intention does this external situation support?",
+  "original_answer": "It supports continuing to walk the dog along the neighborhood street, keeping pace as the dog moves ahead on the leash.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "As the dog trots ahead along the street and the leash remains extended, what intention does this external situation support?",
+    "answer": "It supports continuing to walk the dog along the neighborhood street, keeping pace as the dog moves ahead on the leash."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:68c73d6c-8102-42ae-8d07-c5529bb933fa__0026",
+  "qa_id": null,
+  "video_id": "68c73d6c-8102-42ae-8d07-c5529bb933fa",
+  "clip_path": "test/clips_restored_v3/68c73d6c-8102-42ae-8d07-c5529bb933fa/68c73d6c-8102-42ae-8d07-c5529bb933fa__0026.mp4",
+  "clip_duration_sec": 55.14,
+  "source_clip_interval": {
+   "start_sec": 2181.77,
+   "end_sec": 2236.91
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After I approached an open floor area next to the kitchen stools, what did I intend to do with the backpack?",
+  "original_answer": "I intended to put the backpack down on the floor in the open area.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After I approached an open floor area next to the kitchen stools, what did I intend to do with the backpack?",
+    "answer": "I intended to put the backpack down on the floor in the open area."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:68c73d6c-8102-42ae-8d07-c5529bb933fa__0028",
+  "qa_id": null,
+  "video_id": "68c73d6c-8102-42ae-8d07-c5529bb933fa",
+  "clip_path": "test/clips_restored_v3/68c73d6c-8102-42ae-8d07-c5529bb933fa/68c73d6c-8102-42ae-8d07-c5529bb933fa__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 1367.48,
+   "end_sec": 1399.48
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Seeing a glass available to drink from, what intention does this prompt?",
+  "original_answer": "The available glass prompts me to drink from it to quench my thirst.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Seeing a glass available to drink from, what intention does this prompt?",
+    "answer": "The available glass prompts me to drink from it to quench my thirst."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:76b6db6d-87f3-4bb2-9a32-4358cd36d65d__0023",
+  "qa_id": null,
+  "video_id": "76b6db6d-87f3-4bb2-9a32-4358cd36d65d",
+  "clip_path": "test/clips_restored_v3/76b6db6d-87f3-4bb2-9a32-4358cd36d65d/76b6db6d-87f3-4bb2-9a32-4358cd36d65d__0023.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 234.96,
+   "end_sec": 266.96
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How did seeing the mouthwash bottle on the shelf shape my intention?",
+  "original_answer": "Seeing the mouthwash bottle available on the shelf led me to select it as a dental-care item and continue with the goal of purchasing dental hygiene products.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How did seeing the mouthwash bottle on the shelf shape my intention?",
+    "answer": "Seeing the mouthwash bottle available on the shelf led me to select it as a dental-care item and continue with the goal of purchasing dental hygiene products."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:76b6db6d-87f3-4bb2-9a32-4358cd36d65d__0024",
+  "qa_id": null,
+  "video_id": "76b6db6d-87f3-4bb2-9a32-4358cd36d65d",
+  "clip_path": "test/clips_restored_v3/76b6db6d-87f3-4bb2-9a32-4358cd36d65d/76b6db6d-87f3-4bb2-9a32-4358cd36d65d__0024.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 268.96,
+   "end_sec": 300.96
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Seeing coffee filters available on the shelf, what intention does this situation support?",
+  "original_answer": "It shows that I am trying to purchase coffee supplies: I have selected the coffee filters and then put them into a shopping basket.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Seeing coffee filters available on the shelf, what intention does this situation support?",
+    "answer": "It shows that I am trying to purchase coffee supplies: I have selected the coffee filters and then put them into a shopping basket."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:7774cc59-cf39-4416-9c62-cbfcd840b160__0022",
+  "qa_id": null,
+  "video_id": "7774cc59-cf39-4416-9c62-cbfcd840b160",
+  "clip_path": "test/clips_restored_v3/7774cc59-cf39-4416-9c62-cbfcd840b160/7774cc59-cf39-4416-9c62-cbfcd840b160__0022.mp4",
+  "clip_duration_sec": 47.79,
+  "source_clip_interval": {
+   "start_sec": 55.59,
+   "end_sec": 103.38
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given that I am on the patio and preparing to head into the snowy yard, what should I do next?",
+  "original_answer": "I should continue moving out into the snowy yard.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given that I am on the patio and preparing to head into the snowy yard, what should I do next?",
+    "answer": "I should continue moving out into the snowy yard."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:7774cc59-cf39-4416-9c62-cbfcd840b160__0023",
+  "qa_id": null,
+  "video_id": "7774cc59-cf39-4416-9c62-cbfcd840b160",
+  "clip_path": "test/clips_restored_v3/7774cc59-cf39-4416-9c62-cbfcd840b160/7774cc59-cf39-4416-9c62-cbfcd840b160__0023.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 1494.35,
+   "end_sec": 1526.35
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I move, how does the static upward view of the sun visor shape what I am trying to accomplish?",
+  "original_answer": "Seeing the visor above me leads me to want to adjust my view or position inside the vehicle.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I move, how does the static upward view of the sun visor shape what I am trying to accomplish?",
+    "answer": "Seeing the visor above me leads me to want to adjust my view or position inside the vehicle."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:7774cc59-cf39-4416-9c62-cbfcd840b160__0024",
+  "qa_id": null,
+  "video_id": "7774cc59-cf39-4416-9c62-cbfcd840b160",
+  "clip_path": "test/clips_restored_v3/7774cc59-cf39-4416-9c62-cbfcd840b160/7774cc59-cf39-4416-9c62-cbfcd840b160__0024.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 87.18,
+   "end_sec": 119.18
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "While I am standing outside beside the vehicle next to the snowy house, how does that situation shape what I intend to do?",
+  "original_answer": "Being outside beside the vehicle leads me to intend to get into it, either to depart or to sit inside.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "While I am standing outside beside the vehicle next to the snowy house, how does that situation shape what I intend to do?",
+    "answer": "Being outside beside the vehicle leads me to intend to get into it, either to depart or to sit inside."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:7aa17dca-440f-4845-9831-24555a970de5__0027",
+  "qa_id": null,
+  "video_id": "7aa17dca-440f-4845-9831-24555a970de5",
+  "clip_path": "test/clips_restored_v3/7aa17dca-440f-4845-9831-24555a970de5/7aa17dca-440f-4845-9831-24555a970de5__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 51.75,
+   "end_sec": 83.75
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I arrive at the intersection corner and the roadway curves ahead, how does that situation shape what I intend to do?",
+  "original_answer": "The curving roadway ahead gives me a route to travel along the outdoor path at night.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I arrive at the intersection corner and the roadway curves ahead, how does that situation shape what I intend to do?",
+    "answer": "The curving roadway ahead gives me a route to travel along the outdoor path at night."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:7aa17dca-440f-4845-9831-24555a970de5__0028",
+  "qa_id": null,
+  "video_id": "7aa17dca-440f-4845-9831-24555a970de5",
+  "clip_path": "test/clips_restored_v3/7aa17dca-440f-4845-9831-24555a970de5/7aa17dca-440f-4845-9831-24555a970de5__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 2.5,
+   "end_sec": 34.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I notice that the door is open behind me immediately before I act, how does that visible condition shape what I intend to do before leaving?",
+  "original_answer": "Seeing the door open makes me intend to secure it by closing it before leaving.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I notice that the door is open behind me immediately before I act, how does that visible condition shape what I intend to do before leaving?",
+    "answer": "Seeing the door open makes me intend to secure it by closing it before leaving."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:819c8af7-851f-434f-ab32-318285bc54b1__0026",
+  "qa_id": null,
+  "video_id": "819c8af7-851f-434f-ab32-318285bc54b1",
+  "clip_path": "test/clips_restored_v3/819c8af7-851f-434f-ab32-318285bc54b1/819c8af7-851f-434f-ab32-318285bc54b1__0026.mp4",
+  "clip_duration_sec": 32,
+  "source_clip_interval": {
+   "start_sec": 14,
+   "end_sec": 46
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After my coworker finishes speaking, what intention does that create for me?",
+  "original_answer": "After my coworker finishes speaking, I intend to navigate down to the lower level of the industrial site.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After my coworker finishes speaking, what intention does that create for me?",
+    "answer": "After my coworker finishes speaking, I intend to navigate down to the lower level of the industrial site."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:819c8af7-851f-434f-ab32-318285bc54b1__0027",
+  "qa_id": null,
+  "video_id": "819c8af7-851f-434f-ab32-318285bc54b1",
+  "clip_path": "test/clips_restored_v3/819c8af7-851f-434f-ab32-318285bc54b1/819c8af7-851f-434f-ab32-318285bc54b1__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 40.16,
+   "end_sec": 72.16
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I act, how does the closed electrical cabinet door with its keyhole shape what I intend to accomplish?",
+  "original_answer": "The closed cabinet door presents a barrier to its interior, and the available keys indicate a way to open it, so I intend to gain access to the cabinet's interior.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I act, how does the closed electrical cabinet door with its keyhole shape what I intend to accomplish?",
+    "answer": "The closed cabinet door presents a barrier to its interior, and the available keys indicate a way to open it, so I intend to gain access to the cabinet's interior."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:819c8af7-851f-434f-ab32-318285bc54b1__0028",
+  "qa_id": null,
+  "video_id": "819c8af7-851f-434f-ab32-318285bc54b1",
+  "clip_path": "test/clips_restored_v3/819c8af7-851f-434f-ab32-318285bc54b1/819c8af7-851f-434f-ab32-318285bc54b1__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 1436.21,
+   "end_sec": 1468.21
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Now that the toolbox is closed, what do I intend to do next?",
+  "original_answer": "Because the toolbox is closed and ready to move, I intend to transport it to another work area.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Now that the toolbox is closed, what do I intend to do next?",
+    "answer": "Because the toolbox is closed and ready to move, I intend to transport it to another work area."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:9827a535-6963-434f-ad79-1940aa622c22__0020",
+  "qa_id": null,
+  "video_id": "9827a535-6963-434f-ad79-1940aa622c22",
+  "clip_path": "test/clips_restored_v3/9827a535-6963-434f-ad79-1940aa622c22/9827a535-6963-434f-ad79-1940aa622c22__0020.mp4",
+  "clip_duration_sec": 34.64,
+  "source_clip_interval": {
+   "start_sec": 163.6,
+   "end_sec": 198.24
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue exercising my dog during our park walk, what should I do next?",
+  "original_answer": "Continue walking with my dog through the park.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue exercising my dog during our park walk, what should I do next?",
+    "answer": "Continue walking with my dog through the park."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:9c05c378-1692-4670-a47f-3e24557cbb1c__0025",
+  "qa_id": null,
+  "video_id": "9c05c378-1692-4670-a47f-3e24557cbb1c",
+  "clip_path": "test/clips_restored_v3/9c05c378-1692-4670-a47f-3e24557cbb1c/9c05c378-1692-4670-a47f-3e24557cbb1c__0025.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 54.53,
+   "end_sec": 86.53
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I see that the dough is centered and ready to be rolled out, how does that condition shape what I intend to accomplish next?",
+  "original_answer": "It leads me to intend to flatten the dough portions into thin rounds.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I see that the dough is centered and ready to be rolled out, how does that condition shape what I intend to accomplish next?",
+    "answer": "It leads me to intend to flatten the dough portions into thin rounds."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:9c05c378-1692-4670-a47f-3e24557cbb1c__0026",
+  "qa_id": null,
+  "video_id": "9c05c378-1692-4670-a47f-3e24557cbb1c",
+  "clip_path": "test/clips_restored_v3/9c05c378-1692-4670-a47f-3e24557cbb1c/9c05c378-1692-4670-a47f-3e24557cbb1c__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 58.33,
+   "end_sec": 90.33
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When the dough has become a flattened round and is ready to be stacked, how does that visible condition shape what I am trying to accomplish next?",
+  "original_answer": "Because the dough is flattened and ready to be stacked, I am trying to prepare flattened dough rounds for cooking.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When the dough has become a flattened round and is ready to be stacked, how does that visible condition shape what I am trying to accomplish next?",
+    "answer": "Because the dough is flattened and ready to be stacked, I am trying to prepare flattened dough rounds for cooking."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:a22b59f9-12b4-4abc-9bc7-006f34d713cb__0024",
+  "qa_id": null,
+  "video_id": "a22b59f9-12b4-4abc-9bc7-006f34d713cb",
+  "clip_path": "test/clips_restored_v3/a22b59f9-12b4-4abc-9bc7-006f34d713cb/a22b59f9-12b4-4abc-9bc7-006f34d713cb__0024.mp4",
+  "clip_duration_sec": 33.65,
+  "source_clip_interval": {
+   "start_sec": 16.82,
+   "end_sec": 50.47
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given that setup and my plan to paint the room trim, what broad action should I take next?",
+  "original_answer": "Prepare to continue painting the trim.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given that setup and my plan to paint the room trim, what broad action should I take next?",
+    "answer": "Prepare to continue painting the trim."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:a22b59f9-12b4-4abc-9bc7-006f34d713cb__0026",
+  "qa_id": null,
+  "video_id": "a22b59f9-12b4-4abc-9bc7-006f34d713cb",
+  "clip_path": "test/clips_restored_v3/a22b59f9-12b4-4abc-9bc7-006f34d713cb/a22b59f9-12b4-4abc-9bc7-006f34d713cb__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 9.62,
+   "end_sec": 41.62
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Just before I begin, how does seeing that the upper wall trim needs painting form my intention?",
+  "original_answer": "Seeing that the upper wall trim still needs paint gives me the intention to paint the room trim.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Just before I begin, how does seeing that the upper wall trim needs painting form my intention?",
+    "answer": "Seeing that the upper wall trim still needs paint gives me the intention to paint the room trim."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:a22b59f9-12b4-4abc-9bc7-006f34d713cb__0027",
+  "qa_id": null,
+  "video_id": "a22b59f9-12b4-4abc-9bc7-006f34d713cb",
+  "clip_path": "test/clips_restored_v3/a22b59f9-12b4-4abc-9bc7-006f34d713cb/a22b59f9-12b4-4abc-9bc7-006f34d713cb__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 49.87,
+   "end_sec": 81.87
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Right after I finish painting the trim edge and the brush is depleted, how does that condition shape what I intend to do next?",
+  "original_answer": "Because the brush has run out of paint after painting the edge, I intend to reload the paintbrush.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Right after I finish painting the trim edge and the brush is depleted, how does that condition shape what I intend to do next?",
+    "answer": "Because the brush has run out of paint after painting the edge, I intend to reload the paintbrush."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:a22b59f9-12b4-4abc-9bc7-006f34d713cb__0028",
+  "qa_id": null,
+  "video_id": "a22b59f9-12b4-4abc-9bc7-006f34d713cb",
+  "clip_path": "test/clips_restored_v3/a22b59f9-12b4-4abc-9bc7-006f34d713cb/a22b59f9-12b4-4abc-9bc7-006f34d713cb__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 56.67,
+   "end_sec": 88.67
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I see that the base of the doorway frame is still unpainted or rough, what am I trying to accomplish next?",
+  "original_answer": "I am trying to paint the trim and edge along the wall.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I see that the base of the doorway frame is still unpainted or rough, what am I trying to accomplish next?",
+    "answer": "I am trying to paint the trim and edge along the wall."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:a3103e6e-311f-4d4f-8eb6-7278da3dd3e2__0026",
+  "qa_id": null,
+  "video_id": "a3103e6e-311f-4d4f-8eb6-7278da3dd3e2",
+  "clip_path": "test/clips_restored_v3/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 493.66,
+   "end_sec": 525.66
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Seeing that the black paper is no longer on the green paper, what am I trying to do next?",
+  "original_answer": "I am trying to restore the paper arrangement by placing the black rose-cutout paper back onto the green paper as part of the paper craft.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Seeing that the black paper is no longer on the green paper, what am I trying to do next?",
+    "answer": "I am trying to restore the paper arrangement by placing the black rose-cutout paper back onto the green paper as part of the paper craft."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:a3103e6e-311f-4d4f-8eb6-7278da3dd3e2__0027",
+  "qa_id": null,
+  "video_id": "a3103e6e-311f-4d4f-8eb6-7278da3dd3e2",
+  "clip_path": "test/clips_restored_v3/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 221.85,
+   "end_sec": 253.85
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I see the black paper stencil taped onto another black sheet immediately before I begin, how does that setup shape what I intend to make?",
+  "original_answer": "The taped stencil shows that a design is prepared on the black paper, leading me to intend to create a paper cutout design.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I see the black paper stencil taped onto another black sheet immediately before I begin, how does that setup shape what I intend to make?",
+    "answer": "The taped stencil shows that a design is prepared on the black paper, leading me to intend to create a paper cutout design."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:a3103e6e-311f-4d4f-8eb6-7278da3dd3e2__0028",
+  "qa_id": null,
+  "video_id": "a3103e6e-311f-4d4f-8eb6-7278da3dd3e2",
+  "clip_path": "test/clips_restored_v3/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2/a3103e6e-311f-4d4f-8eb6-7278da3dd3e2__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 491.66,
+   "end_sec": 523.66
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When the rose shape is cut out, how does that completed result shape what I intend to accomplish next with the paper?",
+  "original_answer": "The completed rose cut-out gives me the needed shape to continue creating a paper craft.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When the rose shape is cut out, how does that completed result shape what I intend to accomplish next with the paper?",
+    "answer": "The completed rose cut-out gives me the needed shape to continue creating a paper craft."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:ad08b4d6-3f23-4f3c-974c-5d9d90a727b6__0026",
+  "qa_id": null,
+  "video_id": "ad08b4d6-3f23-4f3c-974c-5d9d90a727b6",
+  "clip_path": "test/clips_restored_v3/ad08b4d6-3f23-4f3c-974c-5d9d90a727b6/ad08b4d6-3f23-4f3c-974c-5d9d90a727b6__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 550.43,
+   "end_sec": 582.43
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after the leash shifts position as the dog changes direction, how does that change shape what I am trying to achieve?",
+  "original_answer": "The shifted leash creates a need to keep the leash and waste bag secure so I can walk the dog comfortably.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after the leash shifts position as the dog changes direction, how does that change shape what I am trying to achieve?",
+    "answer": "The shifted leash creates a need to keep the leash and waste bag secure so I can walk the dog comfortably."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44__0024",
+  "qa_id": null,
+  "video_id": "b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44",
+  "clip_path": "test/clips_restored_v3/b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44/b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44__0024.mp4",
+  "clip_duration_sec": 66.3,
+  "source_clip_interval": {
+   "start_sec": 145.38,
+   "end_sec": 211.68
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To view the storefront display, what should I do next?",
+  "original_answer": "Reorient myself toward the storefront display.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To view the storefront display, what should I do next?",
+    "answer": "Reorient myself toward the storefront display."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44__0025",
+  "qa_id": null,
+  "video_id": "b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44",
+  "clip_path": "test/clips_restored_v3/b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44/b5f7b1db-6c43-4bc1-b09a-0a545e0d3e44__0025.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 1338.3,
+   "end_sec": 1370.3
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When the mannequin display with its scarf and shirt became visible at the transition from my earlier shot, how did that view shape my next overall goal?",
+  "original_answer": "Seeing the mannequin display with its scarf and shirt led me to intend to photograph or record the overall mannequin display.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When the mannequin display with its scarf and shirt became visible at the transition from my earlier shot, how did that view shape my next overall goal?",
+    "answer": "Seeing the mannequin display with its scarf and shirt led me to intend to photograph or record the overall mannequin display."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:b75bf090-1439-4b11-862b-d1dadab7f854__0023",
+  "qa_id": null,
+  "video_id": "b75bf090-1439-4b11-862b-d1dadab7f854",
+  "clip_path": "test/clips_restored_v3/b75bf090-1439-4b11-862b-d1dadab7f854/b75bf090-1439-4b11-862b-d1dadab7f854__0023.mp4",
+  "clip_duration_sec": 40.44,
+  "source_clip_interval": {
+   "start_sec": 98.9,
+   "end_sec": 139.34
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "As the dog continues ahead along the roadside, what am I trying to accomplish?",
+  "original_answer": "I am continuing to walk the dog outdoors along the roadside.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "As the dog continues ahead along the roadside, what am I trying to accomplish?",
+    "answer": "I am continuing to walk the dog outdoors along the roadside."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0026",
+  "qa_id": null,
+  "video_id": "c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8",
+  "clip_path": "test/clips_restored_v3/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 305.94,
+   "end_sec": 337.94
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "With that shopping goal in mind, what should I do next?",
+  "original_answer": "I should examine a snack option.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "With that shopping goal in mind, what should I do next?",
+    "answer": "I should examine a snack option."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0027",
+  "qa_id": null,
+  "video_id": "c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8",
+  "clip_path": "test/clips_restored_v3/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 1213.42,
+   "end_sec": 1245.42
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After I noticed an unusual smell from the food, what did I intend to do?",
+  "original_answer": "I intended to warn my companion that the food smelled unusual before she continued with the condiments.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After I noticed an unusual smell from the food, what did I intend to do?",
+    "answer": "I intended to warn my companion that the food smelled unusual before she continued with the condiments."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0028",
+  "qa_id": null,
+  "video_id": "c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8",
+  "clip_path": "test/clips_restored_v3/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 305.94,
+   "end_sec": 337.94
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after I look at the shelves with Pop-Tarts and breakfast pastries, how does that sight shape what I am trying to do in the store?",
+  "original_answer": "Seeing the Pop-Tarts and breakfast-pastry shelves prompts me to look for desired snack items in the store, supported by my calling out \"Blueberry Pop-Tarts.\"",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after I look at the shelves with Pop-Tarts and breakfast pastries, how does that sight shape what I am trying to do in the store?",
+    "answer": "Seeing the Pop-Tarts and breakfast-pastry shelves prompts me to look for desired snack items in the store, supported by my calling out \"Blueberry Pop-Tarts.\""
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0030",
+  "qa_id": null,
+  "video_id": "c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8",
+  "clip_path": "test/clips_restored_v3/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8/c0a19ccf-66ad-44b5-9b3d-2f20d49bc0a8__0030.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 277.79,
+   "end_sec": 309.79
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Seeing the service counter and refrigerators, what does that lead me to intend to do in the shop?",
+  "original_answer": "It prompts me to decide what to purchase or do in the shop, including considering getting drinks.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Seeing the service counter and refrigerators, what does that lead me to intend to do in the shop?",
+    "answer": "It prompts me to decide what to purchase or do in the shop, including considering getting drinks."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:c398a6bf-58cf-4318-9b98-babf649827e5__0027",
+  "qa_id": null,
+  "video_id": "c398a6bf-58cf-4318-9b98-babf649827e5",
+  "clip_path": "test/clips_restored_v3/c398a6bf-58cf-4318-9b98-babf649827e5/c398a6bf-58cf-4318-9b98-babf649827e5__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 28.57,
+   "end_sec": 60.57
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue painting the room wall, what should I do next?",
+  "original_answer": "Continue painting the wall.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue painting the room wall, what should I do next?",
+    "answer": "Continue painting the wall."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:c7d5d40f-840c-4be0-b79d-ab41394479a2__0026",
+  "qa_id": null,
+  "video_id": "c7d5d40f-840c-4be0-b79d-ab41394479a2",
+  "clip_path": "test/clips_restored_v3/c7d5d40f-840c-4be0-b79d-ab41394479a2/c7d5d40f-840c-4be0-b79d-ab41394479a2__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 26.5,
+   "end_sec": 58.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To complete that goal, what should I do next?",
+  "original_answer": "Continue my turn in the card game.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To complete that goal, what should I do next?",
+    "answer": "Continue my turn in the card game."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:c7d5d40f-840c-4be0-b79d-ab41394479a2__0027",
+  "qa_id": null,
+  "video_id": "c7d5d40f-840c-4be0-b79d-ab41394479a2",
+  "clip_path": "test/clips_restored_v3/c7d5d40f-840c-4be0-b79d-ab41394479a2/c7d5d40f-840c-4be0-b79d-ab41394479a2__0027.mp4",
+  "clip_duration_sec": 38.54,
+  "source_clip_interval": {
+   "start_sec": 1041.3,
+   "end_sec": 1079.84
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After I see that my playing cards are fanned out and organized, how does that condition shape what I intend to do next?",
+  "original_answer": "Seeing that my cards are organized into a playable hand gives me the opportunity to play a card game.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After I see that my playing cards are fanned out and organized, how does that condition shape what I intend to do next?",
+    "answer": "Seeing that my cards are organized into a playable hand gives me the opportunity to play a card game."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:c7d5d40f-840c-4be0-b79d-ab41394479a2__0029",
+  "qa_id": null,
+  "video_id": "c7d5d40f-840c-4be0-b79d-ab41394479a2",
+  "clip_path": "test/clips_restored_v3/c7d5d40f-840c-4be0-b79d-ab41394479a2/c7d5d40f-840c-4be0-b79d-ab41394479a2__0029.mp4",
+  "clip_duration_sec": 32,
+  "source_clip_interval": {
+   "start_sec": 4,
+   "end_sec": 36
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately after I receive a new card, what does that lead me to want to accomplish with my cards?",
+  "original_answer": "I want to organize my cards for better play.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately after I receive a new card, what does that lead me to want to accomplish with my cards?",
+    "answer": "I want to organize my cards for better play."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:d0e2251d-886b-4a89-b7fc-12135271cfc2__0024",
+  "qa_id": null,
+  "video_id": "d0e2251d-886b-4a89-b7fc-12135271cfc2",
+  "clip_path": "test/clips_restored_v3/d0e2251d-886b-4a89-b7fc-12135271cfc2/d0e2251d-886b-4a89-b7fc-12135271cfc2__0024.mp4",
+  "clip_duration_sec": 83.13,
+  "source_clip_interval": {
+   "start_sec": 0,
+   "end_sec": 83.13
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To complete the paper-model project, what should I do next?",
+  "original_answer": "Continue preparing the paper pieces for the model.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To complete the paper-model project, what should I do next?",
+    "answer": "Continue preparing the paper pieces for the model."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:d0e2251d-886b-4a89-b7fc-12135271cfc2__0025",
+  "qa_id": null,
+  "video_id": "d0e2251d-886b-4a89-b7fc-12135271cfc2",
+  "clip_path": "test/clips_restored_v3/d0e2251d-886b-4a89-b7fc-12135271cfc2/d0e2251d-886b-4a89-b7fc-12135271cfc2__0025.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 47.53,
+   "end_sec": 79.53
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does the newly cut paper shape my current intention for the project?",
+  "original_answer": "Seeing that the paper has been cut leads me to intend to craft a paper model.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does the newly cut paper shape my current intention for the project?",
+    "answer": "Seeing that the paper has been cut leads me to intend to craft a paper model."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:d0e2251d-886b-4a89-b7fc-12135271cfc2__0026",
+  "qa_id": null,
+  "video_id": "d0e2251d-886b-4a89-b7fc-12135271cfc2",
+  "clip_path": "test/clips_restored_v3/d0e2251d-886b-4a89-b7fc-12135271cfc2/d0e2251d-886b-4a89-b7fc-12135271cfc2__0026.mp4",
+  "clip_duration_sec": 33.6,
+  "source_clip_interval": {
+   "start_sec": 49.53,
+   "end_sec": 83.13
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When I see that the paper is in position, how does this visible result shape what I am trying to accomplish next?",
+  "original_answer": "Seeing the paper in position shows that it is ready for the next step, supporting my intention to craft a paper model.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When I see that the paper is in position, how does this visible result shape what I am trying to accomplish next?",
+    "answer": "Seeing the paper in position shows that it is ready for the next step, supporting my intention to craft a paper model."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:d105bd99-44e5-4582-b545-362a0cf11420__0025",
+  "qa_id": null,
+  "video_id": "d105bd99-44e5-4582-b545-362a0cf11420",
+  "clip_path": "test/clips_restored_v3/d105bd99-44e5-4582-b545-362a0cf11420/d105bd99-44e5-4582-b545-362a0cf11420__0025.mp4",
+  "clip_duration_sec": 36.61,
+  "source_clip_interval": {
+   "start_sec": 124.87,
+   "end_sec": 161.48
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given that the PC case is set up and I am working on its wiring, what broad action should I take next to continue the task?",
+  "original_answer": "Continue adjusting the internal cable connections.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given that the PC case is set up and I am working on its wiring, what broad action should I take next to continue the task?",
+    "answer": "Continue adjusting the internal cable connections."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:d105bd99-44e5-4582-b545-362a0cf11420__0026",
+  "qa_id": null,
+  "video_id": "d105bd99-44e5-4582-b545-362a0cf11420",
+  "clip_path": "test/clips_restored_v3/d105bd99-44e5-4582-b545-362a0cf11420/d105bd99-44e5-4582-b545-362a0cf11420__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 112.43,
+   "end_sec": 144.43
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I act, how does seeing an unconnected cable connector next to the drive slot inside the computer chassis shape what I intend to accomplish?",
+  "original_answer": "Seeing the unconnected connector next to the drive slot forms my intention to assemble or wire the desktop computer components by connecting the cable.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I act, how does seeing an unconnected cable connector next to the drive slot inside the computer chassis shape what I intend to accomplish?",
+    "answer": "Seeing the unconnected connector next to the drive slot forms my intention to assemble or wire the desktop computer components by connecting the cable."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:d105bd99-44e5-4582-b545-362a0cf11420__0028",
+  "qa_id": null,
+  "video_id": "d105bd99-44e5-4582-b545-362a0cf11420",
+  "clip_path": "test/clips_restored_v3/d105bd99-44e5-4582-b545-362a0cf11420/d105bd99-44e5-4582-b545-362a0cf11420__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 193.32,
+   "end_sec": 225.32
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I begin working on it, how does seeing the graphics card placed in the PCIe slot inside the chassis shape what I am trying to accomplish?",
+  "original_answer": "Seeing the graphics card placed in the PCIe slot forms my intention to assemble the desktop computer.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I begin working on it, how does seeing the graphics card placed in the PCIe slot inside the chassis shape what I am trying to accomplish?",
+    "answer": "Seeing the graphics card placed in the PCIe slot forms my intention to assemble the desktop computer."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:d70be6cb-867f-4657-9a87-5d44ab30527a__0024",
+  "qa_id": null,
+  "video_id": "d70be6cb-867f-4657-9a87-5d44ab30527a",
+  "clip_path": "test/clips_restored_v3/d70be6cb-867f-4657-9a87-5d44ab30527a/d70be6cb-867f-4657-9a87-5d44ab30527a__0024.mp4",
+  "clip_duration_sec": 38.0,
+  "source_clip_interval": {
+   "start_sec": 68.69,
+   "end_sec": 106.69
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given that preparation and goal, what broad action should I take next?",
+  "original_answer": "I should inspect the climbing safety equipment.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given that preparation and goal, what broad action should I take next?",
+    "answer": "I should inspect the climbing safety equipment."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:d70be6cb-867f-4657-9a87-5d44ab30527a__0025",
+  "qa_id": null,
+  "video_id": "d70be6cb-867f-4657-9a87-5d44ab30527a",
+  "clip_path": "test/clips_restored_v3/d70be6cb-867f-4657-9a87-5d44ab30527a/d70be6cb-867f-4657-9a87-5d44ab30527a__0025.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 698.17,
+   "end_sec": 730.17
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "As slack develops in the rope while the climber moves, how does that change what I am trying to accomplish?",
+  "original_answer": "Seeing slack develop as the climber moves makes me focus on belaying the climber safely.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "As slack develops in the rope while the climber moves, how does that change what I am trying to accomplish?",
+    "answer": "Seeing slack develop as the climber moves makes me focus on belaying the climber safely."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:d70be6cb-867f-4657-9a87-5d44ab30527a__0027",
+  "qa_id": null,
+  "video_id": "d70be6cb-867f-4657-9a87-5d44ab30527a",
+  "clip_path": "test/clips_restored_v3/d70be6cb-867f-4657-9a87-5d44ab30527a/d70be6cb-867f-4657-9a87-5d44ab30527a__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 7.5,
+   "end_sec": 39.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Just after I look over at the fellow climbers gathered near the base of the rock wall, how does that observation shape what I intend to do?",
+  "original_answer": "Seeing the climbers gathered at the base makes me intend to move closer to the group and the rock face.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Just after I look over at the fellow climbers gathered near the base of the rock wall, how does that observation shape what I intend to do?",
+    "answer": "Seeing the climbers gathered at the base makes me intend to move closer to the group and the rock face."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0026",
+  "qa_id": null,
+  "video_id": "de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7",
+  "clip_path": "test/clips_restored_v3/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0026.mp4",
+  "clip_duration_sec": 38.3,
+  "source_clip_interval": {
+   "start_sec": 1503.13,
+   "end_sec": 1541.43
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "After I am down on the mat from the previous movement, how does the app timer counting down and giving an instruction shape what I intend to do next?",
+  "original_answer": "It cues me to continue performing the home workout exercise routine.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "After I am down on the mat from the previous movement, how does the app timer counting down and giving an instruction shape what I intend to do next?",
+    "answer": "It cues me to continue performing the home workout exercise routine."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0027",
+  "qa_id": null,
+  "video_id": "de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7",
+  "clip_path": "test/clips_restored_v3/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 365.13,
+   "end_sec": 397.13
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does the mat supporting me during the exercise lead to my intention to continue the workout?",
+  "original_answer": "The mat provides a stable surface for the exercise, supporting my intention to continue the set of abdominal exercises.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does the mat supporting me during the exercise lead to my intention to continue the workout?",
+    "answer": "The mat provides a stable surface for the exercise, supporting my intention to continue the set of abdominal exercises."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0028",
+  "qa_id": null,
+  "video_id": "de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7",
+  "clip_path": "test/clips_restored_v3/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0028.mp4",
+  "clip_duration_sec": 33.0,
+  "source_clip_interval": {
+   "start_sec": 833.41,
+   "end_sec": 866.41
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does the yoga mat laid out in the room shape what I intend to do?",
+  "original_answer": "It leads me to intend to prepare for or engage in physical exercise in the room.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does the yoga mat laid out in the room shape what I intend to do?",
+    "answer": "It leads me to intend to prepare for or engage in physical exercise in the room."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0029",
+  "qa_id": null,
+  "video_id": "de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7",
+  "clip_path": "test/clips_restored_v3/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7/de8ea8a7-6bdb-4679-9b17-9dc6a79e45e7__0029.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 634.03,
+   "end_sec": 666.03
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "When the workout app gives the “go” command, how does that cue shape what I intend to do?",
+  "original_answer": "It prompts me to perform the instructed exercise.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "When the workout app gives the “go” command, how does that cue shape what I intend to do?",
+    "answer": "It prompts me to perform the instructed exercise."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0026",
+  "qa_id": null,
+  "video_id": "e826857f-8b94-4168-bc5a-7aaff9cdc7c0",
+  "clip_path": "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0026.mp4",
+  "clip_duration_sec": 41.93,
+  "source_clip_interval": {
+   "start_sec": 259.21,
+   "end_sec": 301.14
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To complete that goal, what broad action should I take next?",
+  "original_answer": "Finish repositioning the chair and move away from the chair area.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To complete that goal, what broad action should I take next?",
+    "answer": "Finish repositioning the chair and move away from the chair area."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0027",
+  "qa_id": null,
+  "video_id": "e826857f-8b94-4168-bc5a-7aaff9cdc7c0",
+  "clip_path": "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 520.06,
+   "end_sec": 552.06
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given the available carpeted floor space, what is my current intention?",
+  "original_answer": "I intend to perform a floor-based exercise, specifically a push-up routine.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given the available carpeted floor space, what is my current intention?",
+    "answer": "I intend to perform a floor-based exercise, specifically a push-up routine."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0028",
+  "qa_id": null,
+  "video_id": "e826857f-8b94-4168-bc5a-7aaff9cdc7c0",
+  "clip_path": "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0028.mp4",
+  "clip_duration_sec": 36.18,
+  "source_clip_interval": {
+   "start_sec": 688.42,
+   "end_sec": 724.6
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given the resistance band's tension, what do I intend to do next?",
+  "original_answer": "The band's tension indicates that I intend to continue exercising with the resistance band.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given the resistance band's tension, what do I intend to do next?",
+    "answer": "The band's tension indicates that I intend to continue exercising with the resistance band."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0029",
+  "qa_id": null,
+  "video_id": "e826857f-8b94-4168-bc5a-7aaff9cdc7c0",
+  "clip_path": "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0029.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 143.58,
+   "end_sec": 175.58
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Just after I see and hear water fill the glass, how does that newly filled state shape what I intend to do?",
+  "original_answer": "Having a glass filled with water prompts me to intend to hydrate by drinking the water.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Just after I see and hear water fill the glass, how does that newly filled state shape what I intend to do?",
+    "answer": "Having a glass filled with water prompts me to intend to hydrate by drinking the water."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0030",
+  "qa_id": null,
+  "video_id": "e826857f-8b94-4168-bc5a-7aaff9cdc7c0",
+  "clip_path": "test/clips_restored_v3/e826857f-8b94-4168-bc5a-7aaff9cdc7c0/e826857f-8b94-4168-bc5a-7aaff9cdc7c0__0030.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 296.44,
+   "end_sec": 328.44
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "With the counter surface available for the glass, what did I intend to do with it?",
+  "original_answer": "I intended to return the glass to the counter surface.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "With the counter surface available for the glass, what did I intend to do with it?",
+    "answer": "I intended to return the glass to the counter surface."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:eab3bfc0-d611-4a40-89b4-7f9747b55e6a__0025",
+  "qa_id": null,
+  "video_id": "eab3bfc0-d611-4a40-89b4-7f9747b55e6a",
+  "clip_path": "test/clips_restored_v3/eab3bfc0-d611-4a40-89b4-7f9747b55e6a/eab3bfc0-d611-4a40-89b4-7f9747b55e6a__0025.mp4",
+  "clip_duration_sec": 32,
+  "source_clip_interval": {
+   "start_sec": 0,
+   "end_sec": 32
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does seeing the open physics book beside the spiral notebook shape what I intend to do?",
+  "original_answer": "The open physics book and nearby notebook indicate a study setup, leading me to intend to study the physics text and take notes from it.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does seeing the open physics book beside the spiral notebook shape what I intend to do?",
+    "answer": "The open physics book and nearby notebook indicate a study setup, leading me to intend to study the physics text and take notes from it."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:ed8d28d1-5d1e-4370-a946-9c39fe5c679b__0024",
+  "qa_id": null,
+  "video_id": "ed8d28d1-5d1e-4370-a946-9c39fe5c679b",
+  "clip_path": "test/clips_restored_v3/ed8d28d1-5d1e-4370-a946-9c39fe5c679b/ed8d28d1-5d1e-4370-a946-9c39fe5c679b__0024.mp4",
+  "clip_duration_sec": 46.28,
+  "source_clip_interval": {
+   "start_sec": 22.08,
+   "end_sec": 68.36
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To cook the meal evenly, what should I do next?",
+  "original_answer": "Continue tending the ingredients in the pan so they cook evenly.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To cook the meal evenly, what should I do next?",
+    "answer": "Continue tending the ingredients in the pan so they cook evenly."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:ed8d28d1-5d1e-4370-a946-9c39fe5c679b__0025",
+  "qa_id": null,
+  "video_id": "ed8d28d1-5d1e-4370-a946-9c39fe5c679b",
+  "clip_path": "test/clips_restored_v3/ed8d28d1-5d1e-4370-a946-9c39fe5c679b/ed8d28d1-5d1e-4370-a946-9c39fe5c679b__0025.mp4",
+  "clip_duration_sec": 45.02,
+  "source_clip_interval": {
+   "start_sec": 389.43,
+   "end_sec": 434.45
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Given that the cutting board has been scrubbed and is ready to be put away near the sink, what am I trying to accomplish overall?",
+  "original_answer": "I am trying to continue cleaning and organizing the kitchen dishes.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Given that the cutting board has been scrubbed and is ready to be put away near the sink, what am I trying to accomplish overall?",
+    "answer": "I am trying to continue cleaning and organizing the kitchen dishes."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:ed8d28d1-5d1e-4370-a946-9c39fe5c679b__0026",
+  "qa_id": null,
+  "video_id": "ed8d28d1-5d1e-4370-a946-9c39fe5c679b",
+  "clip_path": "test/clips_restored_v3/ed8d28d1-5d1e-4370-a946-9c39fe5c679b/ed8d28d1-5d1e-4370-a946-9c39fe5c679b__0026.mp4",
+  "clip_duration_sec": 47.36,
+  "source_clip_interval": {
+   "start_sec": 575.87,
+   "end_sec": 623.23
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Right after I see the eggs become a liquid mixture in the bowl and hear the rapid whisking, how does that completed result shape what I am trying to accomplish next?",
+  "original_answer": "Because the eggs are now blended into a liquid mixture, I need milk to add to it, so I intend to prepare an egg mixture with milk.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Right after I see the eggs become a liquid mixture in the bowl and hear the rapid whisking, how does that completed result shape what I am trying to accomplish next?",
+    "answer": "Because the eggs are now blended into a liquid mixture, I need milk to add to it, so I intend to prepare an egg mixture with milk."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:f2efd904-9a3b-4a59-b1fc-dfa982de920c__0026",
+  "qa_id": null,
+  "video_id": "f2efd904-9a3b-4a59-b1fc-dfa982de920c",
+  "clip_path": "test/clips_restored_v3/f2efd904-9a3b-4a59-b1fc-dfa982de920c/f2efd904-9a3b-4a59-b1fc-dfa982de920c__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 284.19,
+   "end_sec": 316.19
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "How does the visible outdoor area around me shape what I intend to do?",
+  "original_answer": "The surrounding outdoor area prompts me to survey the surroundings to understand the area.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "How does the visible outdoor area around me shape what I intend to do?",
+    "answer": "The surrounding outdoor area prompts me to survey the surroundings to understand the area."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:f2efd904-9a3b-4a59-b1fc-dfa982de920c__0027",
+  "qa_id": null,
+  "video_id": "f2efd904-9a3b-4a59-b1fc-dfa982de920c",
+  "clip_path": "test/clips_restored_v3/f2efd904-9a3b-4a59-b1fc-dfa982de920c/f2efd904-9a3b-4a59-b1fc-dfa982de920c__0027.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 35.72,
+   "end_sec": 67.72
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I interacted with it, how did the nearby red metal fence provide a reason to do so?",
+  "original_answer": "The red metal fence was nearby and within reach, making it directly available for interaction.",
+  "minimum_modalities": "A+V",
+  "required_modalities": [
+   "audio",
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I interacted with it, how did the nearby red metal fence provide a reason to do so?",
+    "answer": "The red metal fence was nearby and within reach, making it directly available for interaction."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:f2efd904-9a3b-4a59-b1fc-dfa982de920c__0028",
+  "qa_id": null,
+  "video_id": "f2efd904-9a3b-4a59-b1fc-dfa982de920c",
+  "clip_path": "test/clips_restored_v3/f2efd904-9a3b-4a59-b1fc-dfa982de920c/f2efd904-9a3b-4a59-b1fc-dfa982de920c__0028.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 148.35,
+   "end_sec": 180.35
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-NEE",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Just as I see the red jump rope resting on the wooden platform, how does that visible situation shape what I am trying to accomplish?",
+  "original_answer": "Seeing the jump rope available on the platform gives me the opportunity to prepare for a workout.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Just as I see the red jump rope resting on the wooden platform, how does that visible situation shape what I am trying to accomplish?",
+    "answer": "Seeing the jump rope available on the platform gives me the opportunity to prepare for a workout."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:fbbfb7ed-4414-42b1-a22e-35e1a1c51647__0024",
+  "qa_id": null,
+  "video_id": "fbbfb7ed-4414-42b1-a22e-35e1a1c51647",
+  "clip_path": "test/clips_restored_v3/fbbfb7ed-4414-42b1-a22e-35e1a1c51647/fbbfb7ed-4414-42b1-a22e-35e1a1c51647__0024.mp4",
+  "clip_duration_sec": 38.0,
+  "source_clip_interval": {
+   "start_sec": 326.5,
+   "end_sec": 364.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "GP",
+  "subcategory": "GP-NXT",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "To continue opening the PC case, what should I do next?",
+  "original_answer": "Continue disassembling the PC case by loosening its remaining fasteners.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": true,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "needs_review",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "To continue opening the PC case, what should I do next?",
+    "answer": "Continue disassembling the PC case by loosening its remaining fasteners."
+   }
+  ]
+ },
+ {
+  "sample_id": "restored_v3:fbbfb7ed-4414-42b1-a22e-35e1a1c51647__0026",
+  "qa_id": null,
+  "video_id": "fbbfb7ed-4414-42b1-a22e-35e1a1c51647",
+  "clip_path": "test/clips_restored_v3/fbbfb7ed-4414-42b1-a22e-35e1a1c51647/fbbfb7ed-4414-42b1-a22e-35e1a1c51647__0026.mp4",
+  "clip_duration_sec": 32.0,
+  "source_clip_interval": {
+   "start_sec": 326.5,
+   "end_sec": 358.5
+  },
+  "timestamp_reference": "clip_seconds",
+  "split": "test",
+  "source_kind": "restored_single",
+  "category": "WI",
+  "subcategory": "WI-TRG",
+  "benchmark_track": null,
+  "original_question_format": "open",
+  "options": null,
+  "correct_options": [],
+  "original_question": "Immediately before I begin working on it, how does seeing the PC tower sitting on the desk ready for disassembly shape what I intend to do?",
+  "original_answer": "Seeing the PC tower ready for disassembly leads me to intend to open the PC tower case.",
+  "minimum_modalities": "V",
+  "required_modalities": [
+   "visual"
+  ],
+  "modalities": null,
+  "round_count": 1,
+  "depends_on_earlier_rounds": false,
+  "reasoning_level": "edge",
+  "restoration_previous_status": "reject",
+  "quality_verified": false,
+  "qa": [
+   {
+    "turn_index": 1,
+    "question": "Immediately before I begin working on it, how does seeing the PC tower sitting on the desk ready for disassembly shape what I intend to do?",
+    "answer": "Seeing the PC tower ready for disassembly leads me to intend to open the PC tower case."
+   }
+  ]
+ }
+]
