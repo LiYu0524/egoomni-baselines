@@ -1,0 +1,167 @@
+{
+  "tag": "kit_base",
+  "judge_unparsed": 0,
+  "judged_items": 9982,
+  "direct": {
+    "n": 8783,
+    "em": 30.07,
+    "judge": 34.41,
+    "yesno_acc": 63.05,
+    "open_em": 15.45,
+    "open_judge": 21.71,
+    "type": {
+      "counterfactual": {
+        "n": 1391,
+        "em": 30.63,
+        "judge": 31.34
+      },
+      "descriptive": {
+        "n": 4546,
+        "em": 33.66,
+        "judge": 38.12
+      },
+      "explanatory": {
+        "n": 2257,
+        "em": 27.16,
+        "judge": 33.63
+      },
+      "prediction": {
+        "n": 882,
+        "em": 16.21,
+        "judge": 19.27
+      }
+    },
+    "category": {
+      "intent": {
+        "n": 1064,
+        "em": 19.92,
+        "judge": 25.09
+      },
+      "multiagent": {
+        "n": 1399,
+        "em": 19.16,
+        "judge": 22.66
+      },
+      "world": {
+        "n": 7126,
+        "em": 33.6,
+        "judge": 37.93
+      }
+    },
+    "semantic": {
+      "action": {
+        "n": 3961,
+        "em": 19.06,
+        "judge": 22.9
+      },
+      "change": {
+        "n": 1974,
+        "em": 62.31,
+        "judge": 63.27
+      },
+      "object": {
+        "n": 818,
+        "em": 15.04,
+        "judge": 24.45
+      },
+      "state": {
+        "n": 2030,
+        "em": 26.26,
+        "judge": 32.81
+      }
+    },
+    "structural": {
+      "query": {
+        "n": 6091,
+        "em": 15.43,
+        "judge": 21.69
+      },
+      "verify": {
+        "n": 2692,
+        "em": 63.19,
+        "judge": 63.19
+      }
+    }
+  },
+  "indirect": {
+    "n": 10153,
+    "em": 34.6,
+    "judge": 38.33,
+    "yesno_acc": 59.14,
+    "open_em": 15.73,
+    "open_judge": 22.33,
+    "type": {
+      "counterfactual": {
+        "n": 1866,
+        "em": 31.99,
+        "judge": 32.96
+      },
+      "descriptive": {
+        "n": 5811,
+        "em": 37.84,
+        "judge": 41.75
+      },
+      "explanatory": {
+        "n": 2344,
+        "em": 29.65,
+        "judge": 35.07
+      },
+      "prediction": {
+        "n": 476,
+        "em": 17.23,
+        "judge": 21.01
+      }
+    },
+    "category": {
+      "intent": {
+        "n": 900,
+        "em": 26.78,
+        "judge": 34.44
+      },
+      "multiagent": {
+        "n": 1836,
+        "em": 18.41,
+        "judge": 22.06
+      },
+      "world": {
+        "n": 8450,
+        "em": 38.02,
+        "judge": 41.44
+      }
+    },
+    "semantic": {
+      "action": {
+        "n": 3079,
+        "em": 26.96,
+        "judge": 29.07
+      },
+      "change": {
+        "n": 3195,
+        "em": 59.31,
+        "judge": 60.06
+      },
+      "object": {
+        "n": 1241,
+        "em": 14.83,
+        "judge": 24.5
+      },
+      "state": {
+        "n": 2638,
+        "em": 22.9,
+        "judge": 29.34
+      }
+    },
+    "structural": {
+      "query": {
+        "n": 5751,
+        "em": 15.7,
+        "judge": 22.29
+      },
+      "verify": {
+        "n": 4402,
+        "em": 59.29,
+        "judge": 59.29
+      }
+    }
+  }
+}

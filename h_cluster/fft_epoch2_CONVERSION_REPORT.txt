@@ -1,0 +1,152 @@
+download complete 2026-09-25T01:58:22+08:00
+source tensors 1346 | base thinker tensors 1346 | missing 0 extra 0 dtype/shape mismatch 0
+model-00001-of-00004.safetensors: 1041 tensors, 4.98 GB, data sha256 a9d5495654e4b381 verified
+model-00002-of-00004.safetensors: 131 tensors, 4.99 GB, data sha256 55a6ad2714810790 verified
+model-00003-of-00004.safetensors: 131 tensors, 4.99 GB, data sha256 de48ced2609be4f4 verified
+model-00004-of-00004.safetensors: 43 tensors, 2.90 GB, data sha256 fa87fed5c416bd2d verified
+
+per-module comparison with the base weights (tensors changed / tensors, GB changed / GB):
+  audio_tower                    477/489     1.28/1.28
+  lm_head                          1/1       1.09/1.09
+  model.embed_tokens               1/1       1.09/1.09
+  model.layers                   333/336    13.05/13.05
+  model.norm                       0/1       0.00/0.00
+  visual                         460/518     1.35/1.35
+
+source config vs base thinker_config (differences):
+  _attn_implementation_autoset: source="<absent>" base=true
+  _name_or_path: source="<absent>" base="Qwen2.5-Omni-7B/thinker"
+  architectures: source=["Qwen2_5OmniThinkerForConditionalGeneration"] base=["Qwen2OmniNaViTThinkerForConditionalGeneration"]
+  audio_config._attn_implementation_autoset: source="<absent>" base=true
+  audio_config._name_or_path: source="<absent>" base=""
+  audio_config.add_cross_attention: source="<absent>" base=false
+  audio_config.architectures: source="<absent>" base=null
+  audio_config.bad_words_ids: source="<absent>" base=null
+  audio_config.begin_suppress_tokens: source="<absent>" base=null
+  audio_config.bos_token_id: source="<absent>" base=null
+  audio_config.chunk_size_feed_forward: source="<absent>" base=0
+  audio_config.cross_attention_hidden_size: source="<absent>" base=null
+  audio_config.decoder_start_token_id: source="<absent>" base=null
+  audio_config.diversity_penalty: source="<absent>" base=0.0
+  audio_config.do_sample: source="<absent>" base=false
+  audio_config.early_stopping: source="<absent>" base=false
+  audio_config.encoder_no_repeat_ngram_size: source="<absent>" base=0
+  audio_config.eos_token_id: source="<absent>" base=null
+  audio_config.exponential_decay_length_penalty: source="<absent>" base=null
+  audio_config.finetuning_task: source="<absent>" base=null
+  audio_config.forced_bos_token_id: source="<absent>" base=null
+  audio_config.forced_eos_token_id: source="<absent>" base=null
+  audio_config.id2label: source="<absent>" base={"0": "LABEL_0", "1": "LABEL_1"}
+  audio_config.initializer_range: source=0.02 base="<absent>"
+  audio_config.is_decoder: source="<absent>" base=false
+  audio_config.is_encoder_decoder: source="<absent>" base=false
+  audio_config.label2id: source="<absent>" base={"LABEL_0": 0, "LABEL_1": 1}
+  audio_config.length_penalty: source="<absent>" base=1.0
+  audio_config.max_length: source="<absent>" base=20
+  audio_config.min_length: source="<absent>" base=0
+  audio_config.no_repeat_ngram_size: source="<absent>" base=0
+  audio_config.num_beam_groups: source="<absent>" base=1
+  audio_config.num_beams: source="<absent>" base=1
+  audio_config.num_return_sequences: source="<absent>" base=1
+  audio_config.output_attentions: source="<absent>" base=false
+  audio_config.output_hidden_states: source="<absent>" base=false
+  audio_config.output_scores: source="<absent>" base=false
+  audio_config.pad_token_id: source="<absent>" base=null
+  audio_config.prefix: source="<absent>" base=null
+  audio_config.problem_type: source="<absent>" base=null
+  audio_config.pruned_heads: source="<absent>" base={}
+  audio_config.remove_invalid_values: source="<absent>" base=false
+  audio_config.repetition_penalty: source="<absent>" base=1.0
+  audio_config.return_dict: source="<absent>" base=true
+  audio_config.return_dict_in_generate: source="<absent>" base=false
+  audio_config.sep_token_id: source="<absent>" base=null
+  audio_config.suppress_tokens: source="<absent>" base=null
+  audio_config.task_specific_params: source="<absent>" base=null
+  audio_config.temperature: source="<absent>" base=1.0
+  audio_config.tf_legacy_loss: source="<absent>" base=false
+  audio_config.tie_encoder_decoder: source="<absent>" base=false
+  audio_config.tie_word_embeddings: source="<absent>" base=true
+  audio_config.tokenizer_class: source="<absent>" base=null
+  audio_config.top_k: source="<absent>" base=50
+  audio_config.top_p: source="<absent>" base=1.0
+  audio_config.torch_dtype: source="<absent>" base=null
+  audio_config.torchscript: source="<absent>" base=false
+  audio_config.typical_p: source="<absent>" base=1.0
+  audio_config.use_bfloat16: source="<absent>" base=false
+  initializer_range: source=0.02 base="<absent>"
+  text_config.initializer_range: source=0.02 base="<absent>"
+  text_config.tie_word_embeddings: source="<absent>" base=false
+  transformers_version: source="4.52.3" base="<absent>"
+  use_cache: source=false base="<absent>"
+  vision_config._attn_implementation_autoset: source="<absent>" base=true
+  vision_config._name_or_path: source="<absent>" base=""
+  vision_config.add_cross_attention: source="<absent>" base=false
+  vision_config.architectures: source="<absent>" base=null
+  vision_config.bad_words_ids: source="<absent>" base=null
+  vision_config.begin_suppress_tokens: source="<absent>" base=null
+  vision_config.bos_token_id: source="<absent>" base=null
+  vision_config.chunk_size_feed_forward: source="<absent>" base=0
+  vision_config.cross_attention_hidden_size: source="<absent>" base=null
+  vision_config.decoder_start_token_id: source="<absent>" base=null
+  vision_config.diversity_penalty: source="<absent>" base=0.0
+  vision_config.do_sample: source="<absent>" base=false
+  vision_config.early_stopping: source="<absent>" base=false
+  vision_config.encoder_no_repeat_ngram_size: source="<absent>" base=0
+  vision_config.eos_token_id: source="<absent>" base=null
+  vision_config.exponential_decay_length_penalty: source="<absent>" base=null
+  vision_config.finetuning_task: source="<absent>" base=null
+  vision_config.forced_bos_token_id: source="<absent>" base=null
+  vision_config.forced_eos_token_id: source="<absent>" base=null
+  vision_config.id2label: source="<absent>" base={"0": "LABEL_0", "1": "LABEL_1"}
+  vision_config.initializer_range: source=0.02 base="<absent>"
+  vision_config.is_decoder: source="<absent>" base=false
+  vision_config.is_encoder_decoder: source="<absent>" base=false
+  vision_config.label2id: source="<absent>" base={"LABEL_0": 0, "LABEL_1": 1}
+  vision_config.length_penalty: source="<absent>" base=1.0
+  vision_config.max_length: source="<absent>" base=20
+  vision_config.min_length: source="<absent>" base=0
+  vision_config.no_repeat_ngram_size: source="<absent>" base=0
+  vision_config.num_beam_groups: source="<absent>" base=1
+  vision_config.num_beams: source="<absent>" base=1
+  vision_config.num_return_sequences: source="<absent>" base=1
+  vision_config.output_attentions: source="<absent>" base=false
+  vision_config.output_hidden_states: source="<absent>" base=false
+  vision_config.output_scores: source="<absent>" base=false
+  vision_config.pad_token_id: source="<absent>" base=null
+  vision_config.prefix: source="<absent>" base=null
+  vision_config.problem_type: source="<absent>" base=null
+  vision_config.pruned_heads: source="<absent>" base={}
+  vision_config.remove_invalid_values: source="<absent>" base=false
+  vision_config.repetition_penalty: source="<absent>" base=1.0
+  vision_config.return_dict: source="<absent>" base=true
+  vision_config.return_dict_in_generate: source="<absent>" base=false
+  vision_config.sep_token_id: source="<absent>" base=null
+  vision_config.suppress_tokens: source="<absent>" base=null
+  vision_config.task_specific_params: source="<absent>" base=null
+  vision_config.temperature: source="<absent>" base=1.0
+  vision_config.tf_legacy_loss: source="<absent>" base=false
+  vision_config.tie_encoder_decoder: source="<absent>" base=false
+  vision_config.tie_word_embeddings: source="<absent>" base=true
+  vision_config.tokenizer_class: source="<absent>" base=null
+  vision_config.top_k: source="<absent>" base=50
+  vision_config.top_p: source="<absent>" base=1.0
+  vision_config.torch_dtype: source="<absent>" base=null
+  vision_config.torchscript: source="<absent>" base=false
+  vision_config.typical_p: source="<absent>" base=1.0
+  vision_config.use_bfloat16: source="<absent>" base=false
+
+source non-weight files vs base (sha256):
+  added_tokens.json                identical
+  chat_template.jinja              absent in base
+  config.json                      DIFFERENT
+  generation_config.json           DIFFERENT
+  latest                           absent in base
+  merges.txt                       identical
+  preprocessor_config.json         identical
+  special_tokens_map.json          DIFFERENT
+  tokenizer.json                   identical
+  tokenizer_config.json            DIFFERENT
+  video_preprocessor_config.json   absent in base
+  vocab.json                       identical
+finished 2026-09-25T01:59:24+08:00
+CONVERT EXIT 0

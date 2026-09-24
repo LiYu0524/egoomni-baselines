@@ -1,0 +1,8 @@
+file_name,category,score
+kit_ckpt_epoch2.json,Temporal Reasoning,2.231
+kit_ckpt_epoch2.json,Audio-Visual Segment Narration,1.647
+kit_ckpt_epoch2.json,Sound Source Association,1.538
+kit_ckpt_epoch2.json,Audio-Visual Dense Narration,1.656
+kit_ckpt_epoch2.json,Audio Visual Hallucination (Action),2.883
+kit_ckpt_epoch2.json,Audio Visual Hallucination (Sound),2.403
+kit_ckpt_epoch2.json,Audio Visual Hallucination (Object),2.359

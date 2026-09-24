@@ -1,0 +1,8 @@
+file_name,category,score
+kit_base.json,Temporal Reasoning,2.215
+kit_base.json,Audio-Visual Segment Narration,1.823
+kit_base.json,Sound Source Association,1.448
+kit_base.json,Audio-Visual Dense Narration,1.78
+kit_base.json,Audio Visual Hallucination (Action),2.735
+kit_base.json,Audio Visual Hallucination (Sound),1.893
+kit_base.json,Audio Visual Hallucination (Object),2.245

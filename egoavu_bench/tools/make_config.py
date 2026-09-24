@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """Write a LLaMAFactory predict config. Media/template/cutoff settings are the training recipe's
 (train_configs/egoavu_lora_r100k_mt_5ep.yaml); decoding is greedy with max_new_tokens 1024 (longest
-gold answer = 483 tokens). usage: make_config.py TAG ADAPTER_DIR|none DATASET OUT_YAML"""
+gold answer = 483 tokens). usage: make_config.py TAG ADAPTER_DIR|none|model=DIR DATASET OUT_YAML"""
 import sys
 tag, adapter, dataset, out = sys.argv[1:5]
+MODEL = "/ai4good1-shared/liyu/egoavu/models/Qwen2.5-Omni-7B-thinker-train"
+if adapter.startswith("model="):   # a full-weight model (e.g. a full fine-tune) instead of base + LoRA adapter
+    MODEL, adapter = adapter[len("model="):], "none"
 BI = "/ai4good1-shared/liyu/egoavu/bench_infer"
 lines = [
     "### model",
-    "model_name_or_path: /ai4good1-shared/liyu/egoavu/models/Qwen2.5-Omni-7B-thinker-train",
+    f"model_name_or_path: {MODEL}",
 ] + ([f"adapter_name_or_path: {adapter}"] if adapter != "none" else []) + [
     "trust_remote_code: true",
     "flash_attn: fa2",

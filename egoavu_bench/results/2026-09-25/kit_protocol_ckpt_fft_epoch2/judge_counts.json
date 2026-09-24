@@ -1,0 +1,37 @@
+{
+ "kit_ckpt_fft_epoch2.json|Temporal Reasoning": {
+  "items": 1100,
+  "scored": 1100,
+  "skipped_unparseable": 0
+ },
+ "kit_ckpt_fft_epoch2.json|Audio-Visual Segment Narration": {
+  "items": 1200,
+  "scored": 1200,
+  "skipped_unparseable": 0
+ },
+ "kit_ckpt_fft_epoch2.json|Sound Source Association": {
+  "items": 600,
+  "scored": 600,
+  "skipped_unparseable": 0
+ },
+ "kit_ckpt_fft_epoch2.json|Audio-Visual Dense Narration": {
+  "items": 500,
+  "scored": 500,
+  "skipped_unparseable": 0
+ },
+ "kit_ckpt_fft_epoch2.json|Audio Visual Hallucination (Action)": {
+  "items": 196,
+  "scored": 196,
+  "skipped_unparseable": 0
+ },
+ "kit_ckpt_fft_epoch2.json|Audio Visual Hallucination (Sound)": {
+  "items": 196,
+  "scored": 196,
+  "skipped_unparseable": 0
+ },
+ "kit_ckpt_fft_epoch2.json|Audio Visual Hallucination (Object)": {
+  "items": 184,
+  "scored": 184,
+  "skipped_unparseable": 0
+ }
+}

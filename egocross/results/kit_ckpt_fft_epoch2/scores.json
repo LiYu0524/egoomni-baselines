@@ -1,0 +1,54 @@
+{
+  "tag": "kit_ckpt_fft_epoch2",
+  "official_parse": {
+    "acc": 42.22,
+    "n": 957,
+    "by_domain": {
+      "Animal": 45.36,
+      "Industry": 42.45,
+      "Surgery": 40.64,
+      "XSports": 41.46
+    },
+    "by_category": {
+      "Counting": 43.86,
+      "Identification": 51.51,
+      "Localization": 33.8,
+      "Prediction": 32.92
+    }
+  },
+  "official_parse_complete_frames": {
+    "acc": 42.36,
+    "n": 916,
+    "by_domain": {
+      "Animal": 45.36,
+      "Industry": 42.39,
+      "Surgery": 40.98,
+      "XSports": 41.46
+    },
+    "by_category": {
+      "Counting": 43.27,
+      "Identification": 52.29,
+      "Localization": 34.29,
+      "Prediction": 32.92
+    }
+  },
+  "lenient_parse": {
+    "acc": 42.22,
+    "n": 957,
+    "by_domain": {
+      "Animal": 45.36,
+      "Industry": 42.45,
+      "Surgery": 40.64,
+      "XSports": 41.46
+    },
+    "by_category": {
+      "Counting": 43.86,
+      "Identification": 51.51,
+      "Localization": 33.8,
+      "Prediction": 32.92
+    }
+  },
+  "parse_status": {
+    "primary": 957
+  }
+}

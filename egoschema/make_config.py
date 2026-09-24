@@ -1,10 +1,13 @@
 #!/usr/bin/env python3
 """LLaMAFactory predict config for EgoSchema: the EgoAVU training media recipe (2 fps, <=64 frames, <=200,704 px, audio in
-video) and template; greedy, 64 new tokens (letter answers). usage: make_config.py TAG ADAPTER|none DATASET OUT"""
+video) and template; greedy, 64 new tokens (letter answers). usage: make_config.py TAG ADAPTER|none|model=DIR DATASET OUT"""
 import sys
 tag, adapter, dataset, out = sys.argv[1:5]
+MODEL = "/ai4good1-shared/liyu/egoavu/models/Qwen2.5-Omni-7B-thinker-train"
+if adapter.startswith("model="):   # a full-weight model (e.g. a full fine-tune) instead of base + LoRA adapter
+    MODEL, adapter = adapter[len("model="):], "none"
 R = "/ai4good1-shared/liyu/egoschema_eval_h"
-lines = ["model_name_or_path: /ai4good1-shared/liyu/egoavu/models/Qwen2.5-Omni-7B-thinker-train"] + \
+lines = [f"model_name_or_path: {MODEL}"] + \
     ([f"adapter_name_or_path: {adapter}"] if adapter != "none" else []) + [
     "trust_remote_code: true", "flash_attn: fa2", "video_fps: 2.0", "video_maxlen: 64", "video_max_pixels: 200704",
     "use_audio_in_video: true", "stage: sft", "do_predict: true", "predict_with_generate: true",

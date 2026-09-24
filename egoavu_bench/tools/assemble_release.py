@@ -25,7 +25,9 @@ for tag in tags:
     counts = {}
     for r, g in zip(data, gen):                     # same order; label check re-done here as a guard
         assert g["label"].strip() == r["messages"][1]["content"].strip(), r["bench_idx"]
-        counts[r["bench_idx"]] = (g["prompt"].count("<|VIDEO|>"), g["prompt"].count("<|AUDIO|>"))
+        # native (EgoToM-kit) runs record the counts measured on input_ids; LLaMAFactory prompts carry the expanded tokens
+        counts[r["bench_idx"]] = (g["n_video_tokens"], g["n_audio_tokens"]) if "n_video_tokens" in g else \
+            (g["prompt"].count("<|VIDEO|>"), g["prompt"].count("<|AUDIO|>"))
     rows = [json.loads(l) for l in open(f"{rd}/predictions.jsonl")]
     rows.sort(key=lambda r: r["bench_idx"])
     assert [r["bench_idx"] for r in rows] == list(range(3976)), tag

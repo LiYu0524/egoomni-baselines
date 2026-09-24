@@ -1,8 +1,20 @@
-# EgoAVU-Bench — full fine-tune checkpoint (prepared, not yet run)
+# Full fine-tune checkpoint `ckpt_fft_epoch2` (groo_legend/ckpts)
 
-Harness for evaluating a **full fine-tune** of Qwen2.5-Omni on EgoAVU-Bench, next to the LoRA runs in
-[`../egoavu_bench/`](../egoavu_bench/README.md). Prepared 2026-09-23; the run itself did not happen (the GPUs were
-returned before the 17.9 GB checkpoint finished downloading), so there are no predictions here yet.
+> **Done 2026-09-25 on the H cluster** — evaluated on all five benchmarks (results in the top-level README). How it was run:
+> - Downloaded with `ms_dl.py groo_legend/ckpts ckpt_fft_epoch2 <dir> 24` from the H dev box through the institutional proxy
+>   (10–26 MB/s per file, ~30 min; sha256 verified against ModelScope).
+> - **Loader fix:** the checkpoint is thinker-only (`qwen2_5_omni_thinker`, tensor names without `thinker.`).
+>   [`../h_cluster/convert_thinker_ckpt.py`](../h_cluster/convert_thinker_ckpt.py) rewrites each safetensors header with the `thinker.`
+>   prefix and copies the tensor bytes verbatim (data sha256 checked), verifies all 1,346 tensors against the base thinker
+>   (names / dtypes / shapes), and uses the base's full-Omni thinker-view config (`qwen2_5_omni`, `enable_audio_output: false`) plus the
+>   base tokenizer / processor files — the checkpoint's own differ only in serialization and training fields (`padding_side: right`,
+>   `use_cache: false`, generation-config token ids); vocab, merges and chat template are identical. LLaMA-Factory then loads it like
+>   the base (8,931,813,888 params, no missing or unused weights). Report: [`../h_cluster/fft_epoch2_CONVERSION_REPORT.txt`](../h_cluster/fft_epoch2_CONVERSION_REPORT.txt).
+> - **What was trained:** every module differs from the base — LLM layers (333 / 336 tensors), `lm_head`, `embed_tokens`,
+>   `audio_tower` (477 / 489), `visual` (460 / 518); the unchanged tensors are norms / biases whose updates round away in bf16.
+> - Evaluated as a full model through each benchmark's `make_config.py` with `ADAPTER = model=<dir>`; egoOmni instance `../eval/fft_epoch2/`.
+>
+> The files below are the 2026-09-23 P-cluster harness, kept for reference.
 
 **Target checkpoint:** `groo_legend/ckpts`, subdir `ckpt_fft_epoch2` — 4 shards, 17.88 GB, config
 `model_type: qwen2_5_omni_thinker` / `Qwen2_5OmniThinkerForConditionalGeneration`, bf16.

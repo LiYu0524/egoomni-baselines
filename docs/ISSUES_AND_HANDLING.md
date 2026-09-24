@@ -234,3 +234,26 @@ here (7176 rows = the expected (key, protocol) set; missing / extra / duplicate 
   session twice — patterns are anchored with `^` now. Long jobs are started with `setsid nohup`; one job launched in the
   foreground lost its parent when the SSH connection dropped (its workers survived). An earlier training job on the GPUs was
   stopped for the evaluation with the owner's agreement.
+
+## 11. H cluster, 2026-09-24/25: full fine-tune, EgoTaskQA and the EgoToM-kit re-test
+
+- **Thinker-only full fine-tune would not load.** `ckpt_fft_epoch2` is saved as `qwen2_5_omni_thinker`
+  (`Qwen2_5OmniThinkerForConditionalGeneration`, tensor names without `thinker.`); transformers 4.54's Auto mappings and the
+  LLaMA-Factory recipe only know the full `qwen2_5_omni` model. **Handled:** `h_cluster/convert_thinker_ckpt.py` re-headers the
+  safetensors shards with the `thinker.` prefix and copies the bytes verbatim (data sha256 verified, all 1,346 tensors checked against
+  the base thinker), using the base's thinker-view config and tokenizer/processor files (the checkpoint's own differ only in
+  serialization/training fields). A smoke job (EgoCross + EgoSchema) had to log a clean load before the other benchmarks were submitted.
+- **GPUs idle while jobs waited.** 1-GPU jobs requesting 24 CPUs / 192 GB sat Inqueue with "Insufficient cpu" on the nodes that still
+  had free GPUs (their CPUs were largely taken by our own 24-CPU jobs). **Handled:** request the per-GPU share (8 CPU / 64 GB) and run
+  3–4 bs=1 processes per H200 (~26 GB each).
+- **Uneven shard tails.** With 30 shards the slowest EgoAVU-Bench shard would have finished ~40 min after the rest. **Handled:** the
+  unfinished rows were redistributed (longest windows first, snake order) over 64 fresh shards and merged back
+  (`split_kit_rest.py` / `finalize_kit_rest.py`); a chain restarted with "attempts = 3" markers still resubmitted the stopped jobs once
+  (the name it checks did not exist yet) — they were stopped within a minute and the base was removed from that chain's loop.
+- **egoOmni under the kit protocol (dropped).** The kit instances were first launched without their data files; then decord could
+  not decode the egoOmni source clips and `qwen_omni_utils` fell back to `torchvision.io.read_video`, which loads a whole clip at full
+  resolution (~17 GB for 90 s of 1080p) and got the 4-process jobs OOM-killed. `nat_predict_lf.py` now falls back to a PyAV reader
+  with the same frame selection, and 2 fps proxies were being prepared, when the user decided egoOmni does not need this re-test; no
+  kit-protocol egoOmni numbers are reported.
+- **Short windows.** `qwen_omni_utils` needs ≥ 2 frames; 2 EgoAVU-Bench windows (0.125 s, 0.94 s) were widened to 1 s for the video
+  under the kit protocol (audio keeps the original window).

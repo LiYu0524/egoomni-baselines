@@ -1,0 +1,123 @@
+# qwen25omni7b_base — protocol self
+
+rows: 5176 | status: {'ok': 5176} | mean latency 0.0 s
+
+| metric | value |
+|---|---|
+| overall acc | 0.3501 |
+| single-turn acc (n=3176) | 0.3369 |
+| multi-turn round acc (n=2000) | 0.3710 |
+| multi-turn all-rounds-correct (n=725) | 0.1090 |
+
+## format
+
+| group | n | acc |
+|---|---|---|
+| mcq | 79 | 0.7215 |
+| open | 5097 | 0.3443 |
+
+## track
+
+| group | n | acc |
+|---|---|---|
+| edge | 788 | 0.4340 |
+| loop | 2000 | 0.3710 |
+| node | 2252 | 0.2926 |
+
+## category
+
+| group | n | acc |
+|---|---|---|
+| AD | 890 | 0.2067 |
+| AE | 235 | 0.3319 |
+| AI | 174 | 0.5230 |
+| EP | 670 | 0.2701 |
+| ES | 345 | 0.4754 |
+| GP | 43 | 0.3953 |
+| SA | 334 | 0.4641 |
+| WI | 138 | 0.5072 |
+| WS | 347 | 0.3746 |
+
+## subcategory
+
+| group | n | acc |
+|---|---|---|
+| AD-ID | 550 | 0.2218 |
+| AD-ORD | 340 | 0.1824 |
+| AE-SEN | 208 | 0.3269 |
+| AE-STA | 22 | 0.4545 |
+| AI-ALT | 126 | 0.5794 |
+| AI-IMM | 1 | 1.0000 |
+| AI-TSK | 47 | 0.3617 |
+| EP-AVC | 63 | 0.2063 |
+| EP-AVT | 7 | 0.0000 |
+| EP-GAZ | 327 | 0.2416 |
+| EP-ID | 9 | 0.6667 |
+| EP-SPA | 26 | 0.2692 |
+| EP-TRT | 99 | 0.3131 |
+| ES-BOD | 230 | 0.5261 |
+| ES-LOC | 104 | 0.3846 |
+| ES-MEM | 1 | 0.0000 |
+| ES-PER | 10 | 0.3000 |
+| GP-NXT | 43 | 0.3953 |
+| SA-AFF | 130 | 0.5077 |
+| SA-CMP | 32 | 0.5938 |
+| SA-PRE | 148 | 0.3716 |
+| SA-RCH | 24 | 0.6250 |
+| WI-NEE | 64 | 0.5156 |
+| WI-TRG | 74 | 0.5000 |
+| WS-AGT | 15 | 0.2667 |
+| WS-CHG | 57 | 0.2632 |
+| WS-MOV | 6 | 0.5000 |
+| WS-OBJ | 122 | 0.3852 |
+| WS-SOC | 5 | 0.2000 |
+| WS-SPA | 138 | 0.4203 |
+| WS-TMP | 4 | 0.5000 |
+
+## min_modalities
+
+| group | n | acc |
+|---|---|---|
+| A | 48 | 0.2708 |
+| A+V | 377 | 0.3130 |
+| V | 1725 | 0.2841 |
+| unspecified | 3026 | 0.3936 |
+
+## clip_audio
+
+| group | n | acc |
+|---|---|---|
+| audio+video | 2951 | 0.3456 |
+| video-only clip | 2225 | 0.3560 |
+
+## modality_used
+
+| group | n | acc |
+|---|---|---|
+| av | 2951 | 0.3456 |
+| v | 2225 | 0.3560 |
+
+## lang
+
+| group | n | acc |
+|---|---|---|
+| en | 3280 | 0.3378 |
+| zh | 1896 | 0.3713 |
+
+## multi_turn_round
+
+| group | n | acc |
+|---|---|---|
+| round1 | 725 | 0.3586 |
+| round2 | 725 | 0.3545 |
+| round3 | 543 | 0.4107 |
+| round4 | 7 | 0.2857 |
+
+## clip_duration
+
+| group | n | acc |
+|---|---|---|
+| 2-10min | 572 | 0.3182 |
+| 30-120s | 3417 | 0.3439 |
+| <30s | 1153 | 0.3825 |
+| >10min | 34 | 0.4118 |

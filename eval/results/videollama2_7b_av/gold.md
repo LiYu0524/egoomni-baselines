@@ -1,11 +1,11 @@
 # videollama2_7b_av — protocol gold
 
-rows: 5040 | status: {'ok': 5040} | mean latency 0.94 s
+rows: 5176 | status: {'ok': 5176} | mean latency 0.93 s
 
 | metric | value |
 |---|---|
-| overall acc | 0.2065 |
-| single-turn acc (n=3040) | 0.2112 |
+| overall acc | 0.2081 |
+| single-turn acc (n=3176) | 0.2135 |
 | multi-turn round acc (n=2000) | 0.1995 |
 | multi-turn all-rounds-correct (n=725) | 0.0207 |
 
@@ -14,7 +14,7 @@ rows: 5040 | status: {'ok': 5040} | mean latency 0.94 s
 | group | n | acc |
 |---|---|---|
 | mcq | 79 | 0.6835 |
-| open | 4961 | 0.1990 |
+| open | 5097 | 0.2007 |
 
 ## track
 
@@ -33,9 +33,9 @@ rows: 5040 | status: {'ok': 5040} | mean latency 0.94 s
 | AI | 174 | 0.3908 |
 | EP | 670 | 0.1716 |
 | ES | 345 | 0.3275 |
-| GP | 15 | 0.4000 |
+| GP | 43 | 0.3721 |
 | SA | 334 | 0.2665 |
-| WI | 30 | 0.1333 |
+| WI | 138 | 0.2174 |
 | WS | 347 | 0.2651 |
 
 ## subcategory
@@ -59,13 +59,13 @@ rows: 5040 | status: {'ok': 5040} | mean latency 0.94 s
 | ES-LOC | 104 | 0.3173 |
 | ES-MEM | 1 | 0.0000 |
 | ES-PER | 10 | 0.2000 |
-| GP-NXT | 15 | 0.4000 |
+| GP-NXT | 43 | 0.3721 |
 | SA-AFF | 130 | 0.2769 |
 | SA-CMP | 32 | 0.3438 |
 | SA-PRE | 148 | 0.2230 |
 | SA-RCH | 24 | 0.3750 |
-| WI-NEE | 14 | 0.1429 |
-| WI-TRG | 16 | 0.1250 |
+| WI-NEE | 64 | 0.2656 |
+| WI-TRG | 74 | 0.1757 |
 | WS-AGT | 15 | 0.1333 |
 | WS-CHG | 57 | 0.1754 |
 | WS-MOV | 6 | 0.3333 |
@@ -78,30 +78,30 @@ rows: 5040 | status: {'ok': 5040} | mean latency 0.94 s
 
 | group | n | acc |
 |---|---|---|
-| A | 46 | 0.3043 |
-| A+V | 327 | 0.1376 |
-| V | 1641 | 0.1761 |
+| A | 48 | 0.2917 |
+| A+V | 377 | 0.1565 |
+| V | 1725 | 0.1803 |
 | unspecified | 3026 | 0.2290 |
 
 ## clip_audio
 
 | group | n | acc |
 |---|---|---|
-| audio+video | 2861 | 0.2038 |
-| video-only clip | 2179 | 0.2102 |
+| audio+video | 2951 | 0.2040 |
+| video-only clip | 2225 | 0.2135 |
 
 ## modality_used
 
 | group | n | acc |
 |---|---|---|
-| av | 2861 | 0.2038 |
-| v | 2179 | 0.2102 |
+| av | 2951 | 0.2040 |
+| v | 2225 | 0.2135 |
 
 ## lang
 
 | group | n | acc |
 |---|---|---|
-| en | 3144 | 0.2160 |
+| en | 3280 | 0.2180 |
 | zh | 1896 | 0.1909 |
 
 ## multi_turn_round
@@ -117,7 +117,7 @@ rows: 5040 | status: {'ok': 5040} | mean latency 0.94 s
 
 | group | n | acc |
 |---|---|---|
-| 2-10min | 569 | 0.2425 |
-| 30-120s | 3284 | 0.2077 |
+| 2-10min | 572 | 0.2430 |
+| 30-120s | 3417 | 0.2098 |
 | <30s | 1153 | 0.1865 |
 | >10min | 34 | 0.1765 |

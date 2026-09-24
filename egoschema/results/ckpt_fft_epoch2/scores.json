@@ -1,0 +1,23 @@
+{
+  "tag": "ckpt_fft_epoch2",
+  "n": 500,
+  "acc_lmms_eval_parse": 57.6,
+  "acc_lenient_parse": 57.6,
+  "acc_lenient_with_audio": 0.0,
+  "acc_lenient_no_audio": 57.6,
+  "n_with_audio": 0,
+  "pred_letter_dist_lmms": {
+    "D": 84,
+    "A": 109,
+    "C": 107,
+    "E": 110,
+    "B": 90
+  },
+  "gold_dist": {
+    "D": 83,
+    "B": 108,
+    "A": 101,
+    "E": 117,
+    "C": 91
+  }
+}

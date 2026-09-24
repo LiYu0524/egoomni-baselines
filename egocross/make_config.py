@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
 """LLaMAFactory predict config for EgoCross. Model/template as in the EgoAVU runs; media per the EgoCross protocol
-(frame list at the protocol fps, max_pixels 360*480, no audio); greedy. usage: make_config.py TAG ADAPTER|none DATASET FPS OUT"""
+(frame list at the protocol fps, max_pixels 360*480, no audio); greedy. usage: make_config.py TAG ADAPTER|none|model=DIR DATASET FPS OUT"""
 import sys
 tag, adapter, dataset, fps, out = sys.argv[1:6]
+MODEL = "/ai4good1-shared/liyu/egoavu/models/Qwen2.5-Omni-7B-thinker-train"
+if adapter.startswith("model="):   # a full-weight model (e.g. a full fine-tune) instead of base + LoRA adapter
+    MODEL, adapter = adapter[len("model="):], "none"
 R = "/ai4good1-shared/liyu/egocross_eval_h"
 lines = [
-    "model_name_or_path: /ai4good1-shared/liyu/egoavu/models/Qwen2.5-Omni-7B-thinker-train",
+    f"model_name_or_path: {MODEL}",
 ] + ([f"adapter_name_or_path: {adapter}"] if adapter != "none" else []) + [
     "trust_remote_code: true", "flash_attn: fa2",
     f"video_fps: {fps}", "video_maxlen: 256", "video_max_pixels: 172800", "use_audio_in_video: false",
