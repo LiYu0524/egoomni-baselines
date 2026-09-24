@@ -1,4 +1,4 @@
-# EgoCross (closed set) — untuned Qwen2.5-Omni-7B and the three EgoAVU LoRAs
+# EgoCross (closed set) — untuned Qwen2.5-Omni-7B, the three EgoAVU LoRAs and the two colleague LoRAs
 
 EgoCross: cross-domain egocentric video QA (arXiv 2508.10729), 957 four-way MCQs in 4 domains (Surgery 283, Industry 245,
 XSports 246, Animal 183). **The test answers are hidden (Codabench leaderboard), so this directory holds only each model's
@@ -23,6 +23,8 @@ predictions in the Codabench submission format (`results/<tag>/predictions.json`
 | r100k | 43.89 | 40.3 | 45.3 | 45.5 | 45.4 | 44.00 | −1.36, p = 0.40 |
 | r20k-8gpu | 45.66 | 41.7 | 43.7 | 50.0 | 48.6 | 45.96 | +0.42, p = 0.82 |
 | r20k-32gpu | 45.14 | 39.2 | 44.9 | 50.4 | 47.5 | 45.52 | −0.10, p = 1.00 |
+| ckpt_sft (colleague LoRA) | 44.41 | 42.8 | 44.1 | 45.9 | 45.4 | 44.87 | −0.84, p = 0.54 |
+| ckpt_epoch2 (colleague LoRA) | 43.57 | 41.7 | 46.1 | 42.7 | 44.3 | 43.78 | −1.67, p = 0.23 |
 
 For reference, earlier submissions scored with the same rules: Qwen3-VL-4B 45.14, Qwen3-VL-4B full-SFT 46.08,
 Qwen3.5-397B-A17B 48.48 (931 answered).

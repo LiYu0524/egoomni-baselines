@@ -6,7 +6,7 @@ Inference outputs and evaluation code for four benchmarks:
 |---|---|---|---|---|
 | **egoOmni** — final test set (`test.qa.jsonl`, 3,882 QAs = 3,765 original + 117 restored) | 3,882 QAs | VideoLLaMA2.1-AV-7B, video-SALMONN 2+ 7B / 72B, MiniCPM-o 2.6, Gemini 3.8 Flash, **EgoAVU LoRAs (ours): r100k, r20k-8gpu, r20k-32gpu** | [`eval/`](eval/README.md) | predictions for **3,877 / 3,882** QAs on all models (5 restored QAs have no video); judged: VideoLLaMA2.1-AV-7B and **the three EgoAVU LoRAs** |
 | **EgoAVU-Bench** | 3,976 QAs, 500 videos | two Qwen2.5-Omni-7B LoRAs (`ckpt_sft`, `ckpt_epoch2`) + untuned Qwen2.5-Omni-7B control | [`egoavu_bench/`](egoavu_bench/README.md) | predictions complete (3,976 / 3,976 each); **v2: scored to the official standard + untuned-base control** ([`results/`](egoavu_bench/results/README.md)) — neither LoRA beats the base except `ckpt_epoch2` on hallucination probes; **v3 (2026-09-24): + the three EgoAVU LoRAs (ours)**, which beat the base on every judged category |
-| **EgoCross** (closed set) | 957 MCQs, 4 domains | untuned Qwen2.5-Omni-7B + the three EgoAVU LoRAs | [`egocross/`](egocross/README.md) | done; predictions (Codabench format) + aggregate scores only — the test answers are hidden |
+| **EgoCross** (closed set) | 957 MCQs, 4 domains | untuned Qwen2.5-Omni-7B + the three EgoAVU LoRAs + the two colleague LoRAs (`ckpt_sft`, `ckpt_epoch2`) | [`egocross/`](egocross/README.md) | done; predictions (Codabench format) + aggregate scores only — the test answers are hidden |
 | **EgoSchema** (public Subset) | 500 five-way MCQs | untuned Qwen2.5-Omni-7B + the three EgoAVU LoRAs + the two colleague LoRAs (`ckpt_sft`, `ckpt_epoch2`) | [`egoschema/`](egoschema/README.md) | done (full 5,031-question set not run: answers are server-side) |
 
 Every problem hit and how it was handled: [`docs/ISSUES_AND_HANDLING.md`](docs/ISSUES_AND_HANDLING.md).
@@ -55,6 +55,8 @@ Final-bench-only scores (`eval/results_final/`, 5,152 rows) differ by ≤ 0.1 pt
 | r100k | 43.89 | 40.3 | 45.3 | 45.5 | 45.4 | −1.36, p = 0.40 |
 | r20k-8gpu | 45.66 | 41.7 | 43.7 | 50.0 | 48.6 | +0.42, p = 0.82 |
 | r20k-32gpu | 45.14 | 39.2 | 44.9 | 50.4 | 47.5 | −0.10, p = 1.00 |
+| ckpt_sft (colleague) | 44.41 | 42.8 | 44.1 | 45.9 | 45.4 | −0.84, p = 0.54 |
+| ckpt_epoch2 (colleague) | 43.57 | 41.7 | 46.1 | 42.7 | 44.3 | −1.67, p = 0.23 |
 
 **EgoSchema** (public 500-question Subset, lmms-eval prompt; the videos have no audio; [`egoschema/`](egoschema/README.md))
 
