@@ -16,7 +16,7 @@ ENV=/shared/egoavu/env; LF=/shared/egoavu/vendor/LlamaFactory; PY=$ENV/bin/pytho
 export PATH="$ENV/bin:$PATH" HF_HUB_OFFLINE=1 TRANSFORMERS_OFFLINE=1 HF_DATASETS_OFFLINE=1
 export HF_DATASETS_CACHE=/tmp/r100k_cache/hf_datasets HF_HOME=/tmp/r100k_cache/hf_home WANDB_DISABLED=true TOKENIZERS_PARALLELISM=false
 export OMP_NUM_THREADS=2 PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True PYTHONUNBUFFERED=1 EGOAVU_MM_META_CACHE=1
-export FORCE_TORCHRUN=1 NPROC_PER_NODE=$NPROC NNODES=1 NODE_RANK=0 MASTER_ADDR=127.0.0.1 MASTER_PORT=29641
+export FORCE_TORCHRUN=1 NPROC_PER_NODE=$NPROC NNODES=1 NODE_RANK=0 MASTER_ADDR=127.0.0.1 MASTER_PORT=${MASTER_PORT:-29641}
 mkdir -p /tmp/r100k_cache
 predict() {   # $1 = dataset name
   local ds=$1 n; n=$(wc -l < $R/data/$ds.jsonl)

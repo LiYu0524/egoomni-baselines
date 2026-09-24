@@ -1,0 +1,22 @@
+file_name,category,score
+r100k.json,Temporal Reasoning,2.474
+r100k.json,Audio-Visual Segment Narration,2.011
+r100k.json,Sound Source Association,2.653
+r100k.json,Audio-Visual Dense Narration,2.014
+r100k.json,Audio Visual Hallucination (Action),3.76
+r100k.json,Audio Visual Hallucination (Sound),3.592
+r100k.json,Audio Visual Hallucination (Object),3.484
+r20k32g.json,Temporal Reasoning,2.465
+r20k32g.json,Audio-Visual Segment Narration,2.058
+r20k32g.json,Sound Source Association,2.62
+r20k32g.json,Audio-Visual Dense Narration,2.028
+r20k32g.json,Audio Visual Hallucination (Action),3.541
+r20k32g.json,Audio Visual Hallucination (Sound),3.367
+r20k32g.json,Audio Visual Hallucination (Object),3.321
+r20k8g.json,Temporal Reasoning,2.419
+r20k8g.json,Audio-Visual Segment Narration,2.047
+r20k8g.json,Sound Source Association,2.647
+r20k8g.json,Audio-Visual Dense Narration,2.018
+r20k8g.json,Audio Visual Hallucination (Action),3.51
+r20k8g.json,Audio Visual Hallucination (Sound),3.372
+r20k8g.json,Audio Visual Hallucination (Object),3.37

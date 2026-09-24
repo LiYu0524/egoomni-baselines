@@ -1,0 +1,56 @@
+{
+  "tag": "r20k32g",
+  "official_parse": {
+    "acc": 45.14,
+    "n": 957,
+    "by_domain": {
+      "Animal": 47.54,
+      "Industry": 44.9,
+      "Surgery": 39.22,
+      "XSports": 50.41
+    },
+    "by_category": {
+      "Counting": 46.49,
+      "Identification": 57.04,
+      "Localization": 36.97,
+      "Prediction": 29.19
+    }
+  },
+  "official_parse_complete_frames": {
+    "acc": 45.52,
+    "n": 916,
+    "by_domain": {
+      "Animal": 47.54,
+      "Industry": 44.86,
+      "Surgery": 39.75,
+      "XSports": 50.41
+    },
+    "by_category": {
+      "Counting": 46.15,
+      "Identification": 58.76,
+      "Localization": 37.14,
+      "Prediction": 29.19
+    }
+  },
+  "lenient_parse": {
+    "acc": 45.25,
+    "n": 957,
+    "by_domain": {
+      "Animal": 47.54,
+      "Industry": 45.31,
+      "Surgery": 39.22,
+      "XSports": 50.41
+    },
+    "by_category": {
+      "Counting": 47.37,
+      "Identification": 57.04,
+      "Localization": 36.97,
+      "Prediction": 29.19
+    }
+  },
+  "parse_status": {
+    "secondary": 647,
+    "primary": 307,
+    "unparsed": 3
+  }
+}

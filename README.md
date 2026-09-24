@@ -1,13 +1,72 @@
-# egoOmni baselines (+ EgoAVU-Bench)
+# egoOmni baselines (+ EgoAVU-Bench, EgoCross, EgoSchema)
 
-Inference outputs and evaluation code for two benchmarks:
+Inference outputs and evaluation code for four benchmarks:
 
 | benchmark | size | models | where | status |
 |---|---|---|---|---|
-| **egoOmni** — final test set (`test.qa.jsonl`, 3,882 QAs = 3,765 original + 117 restored) | 3,882 QAs | VideoLLaMA2.1-AV-7B, video-SALMONN 2+ 7B / 72B, MiniCPM-o 2.6, Gemini 3.8 Flash, EgoAVU r100k LoRA (ours) | [`eval/`](eval/README.md) | predictions for **3,877 / 3,882** QAs on all six models (5 restored QAs have no video); judged: VideoLLaMA2.1-AV-7B only |
-| **EgoAVU-Bench** | 3,976 QAs, 500 videos | two Qwen2.5-Omni-7B LoRAs (`ckpt_sft`, `ckpt_epoch2`) + untuned Qwen2.5-Omni-7B control | [`egoavu_bench/`](egoavu_bench/README.md) | predictions complete (3,976 / 3,976 each); **v2: scored to the official standard + untuned-base control** ([`results/`](egoavu_bench/results/README.md)) — neither LoRA beats the base except `ckpt_epoch2` on hallucination probes |
+| **egoOmni** — final test set (`test.qa.jsonl`, 3,882 QAs = 3,765 original + 117 restored) | 3,882 QAs | VideoLLaMA2.1-AV-7B, video-SALMONN 2+ 7B / 72B, MiniCPM-o 2.6, Gemini 3.8 Flash, **EgoAVU LoRAs (ours): r100k, r20k-8gpu, r20k-32gpu** | [`eval/`](eval/README.md) | predictions for **3,877 / 3,882** QAs on all models (5 restored QAs have no video); judged: VideoLLaMA2.1-AV-7B and **the three EgoAVU LoRAs** |
+| **EgoAVU-Bench** | 3,976 QAs, 500 videos | two Qwen2.5-Omni-7B LoRAs (`ckpt_sft`, `ckpt_epoch2`) + untuned Qwen2.5-Omni-7B control | [`egoavu_bench/`](egoavu_bench/README.md) | predictions complete (3,976 / 3,976 each); **v2: scored to the official standard + untuned-base control** ([`results/`](egoavu_bench/results/README.md)) — neither LoRA beats the base except `ckpt_epoch2` on hallucination probes; **v3 (2026-09-24): + the three EgoAVU LoRAs (ours)**, which beat the base on every judged category |
+| **EgoCross** (closed set) | 957 MCQs, 4 domains | untuned Qwen2.5-Omni-7B + the three EgoAVU LoRAs | [`egocross/`](egocross/README.md) | done; predictions (Codabench format) + aggregate scores only — the test answers are hidden |
+| **EgoSchema** (public Subset) | 500 five-way MCQs | untuned Qwen2.5-Omni-7B + the three EgoAVU LoRAs | [`egoschema/`](egoschema/README.md) | done (full 5,031-question set not run: answers are server-side) |
 
 Every problem hit and how it was handled: [`docs/ISSUES_AND_HANDLING.md`](docs/ISSUES_AND_HANDLING.md).
+
+## EgoAVU LoRAs (ours) — results on four benchmarks (2026-09-24)
+
+Three LoRA fine-tunes of **Qwen2.5-Omni-7B (Thinker)** on EgoAVU window groups (LoRA r8/α16, 5 epochs; adapters are in private
+ModelScope repos, not here): **r100k** (100k-row subset, 8 GPUs), **r20k-8gpu** and **r20k-32gpu** (20k-row subset on 8 / 32 GPUs).
+"base" is the untuned Qwen2.5-Omni-7B through the identical pipeline. All runs: H cluster, H200, LLaMA-Factory predict with each
+benchmark's protocol, greedy decoding; scripts in [`h_cluster/`](h_cluster/README.md).
+
+**EgoAVU-Bench** (official protocol; judge Qwen3-235B-A22B-Instruct-2507; S = judge 1–5, M/R = METEOR/ROUGE-L; details
+[`egoavu_bench/results/tables.md`](egoavu_bench/results/tables.md))
+
+| model | SSA S | AVDN S | AVDN M | AVDN R | AVSN S | AVSN M | AVSN R | TR Acc | AVH Acc |
+|---|---|---|---|---|---|---|---|---|---|
+| base | 1.50 | 1.78 | 15.93 | 15.53 | 1.92 | 10.47 | 15.30 | 44.6 | 23.6 |
+| ckpt_sft | 1.53 | 1.73 | 7.99 | 11.92 | 1.68 | 4.39 | 9.75 | 43.6 | 13.0 |
+| ckpt_epoch2 | 1.56 | 1.70 | 4.93 | 9.91 | 1.67 | 5.11 | 10.76 | 45.0 | 36.1 |
+| **r20k-32gpu** | 2.62 | 2.03 | 12.57 | 16.76 | 2.06 | 19.57 | 24.76 | 47.2 | 97.1 |
+| **r100k** | 2.65 | 2.01 | 11.97 | 16.82 | 2.01 | 20.59 | 26.26 | 44.2 | 98.4 |
+| **r20k-8gpu** | 2.65 | 2.02 | 12.71 | 16.92 | 2.05 | 19.33 | 24.83 | 42.0 | 97.5 |
+| paper: base / paper LoRA | 1.50 / 3.15 | 2.37 / 2.60 | 10.69 / 12.20 | 14.74 / 17.19 | 1.99 / 2.45 | 9.99 / 22.53 | 13.39 / 28.34 | 53.2 / 64.3 | 42.7 / 61.7 |
+
+All three LoRAs beat the base on every judged category (paired 95% CIs exclude 0); TR accuracy differences are not significant.
+AVH yes/no: 290 of the 304 probes have the gold answer "No" (always-"No" = 95.4); the LoRAs' gain is the removal of the base's
+"Yes" bias (base says "Yes" to 80.9% of probes, LoRAs to 3–6%).
+
+**egoOmni** (this repo's benchmark; judge Qwen3-32B; 5,176 gold rows = 3,765 original + 136 restored items; `eval/results/`)
+
+| model | gold overall | gold single-turn | gold multi-turn round | gold all-rounds-correct | self overall | self multi-turn round |
+|---|---|---|---|---|---|---|
+| **r20k-8gpu** | **30.12** | 28.94 | **32.00** | **5.93** | **28.77** | **28.50** |
+| r20k-32gpu | 29.56 | **29.35** | 29.90 | 5.10 | 27.94 | 25.70 |
+| r100k | 28.69 | 28.05 | 29.70 | 5.52 | 26.60 | 24.30 |
+| VideoLLaMA2.1-AV-7B (original items only) | 20.65 | 21.12 | 19.95 | 2.07 | 18.95 | 15.65 |
+
+Final-bench-only scores (`eval/results_final/`, 5,152 rows) differ by ≤ 0.1 pt. r20k-32gpu was first run on the P cluster
+(29.52 / 27.57); the H rerun gives 29.56 / 27.94. The r100k predictions from the P run were replaced by the judged H rerun (8 shards).
+
+**EgoCross** (closed set, official Codabench scoring; [`egocross/`](egocross/README.md))
+
+| model | overall | Surgery | Industry | XSports | Animal | vs base (McNemar) |
+|---|---|---|---|---|---|---|
+| base | 45.25 | 43.1 | 46.5 | 44.3 | 48.1 | — |
+| r100k | 43.89 | 40.3 | 45.3 | 45.5 | 45.4 | −1.36, p = 0.40 |
+| r20k-8gpu | 45.66 | 41.7 | 43.7 | 50.0 | 48.6 | +0.42, p = 0.82 |
+| r20k-32gpu | 45.14 | 39.2 | 44.9 | 50.4 | 47.5 | −0.10, p = 1.00 |
+
+**EgoSchema** (public 500-question Subset, lmms-eval prompt; the videos have no audio; [`egoschema/`](egoschema/README.md))
+
+| model | accuracy | vs base (McNemar) |
+|---|---|---|
+| base | **65.2** | — |
+| r20k-8gpu | 64.0 | −1.2, p = 0.59 |
+| r20k-32gpu | 60.4 | −4.8, p = 0.02 |
+| r100k | 58.0 | −7.2, p = 0.0006 |
+
+Summary: large in-domain gains (EgoAVU-Bench), ~29–30% on egoOmni, no change on EgoCross, and a loss on long-form, video-only
+EgoSchema that grows with the amount of EgoAVU training.
 
 ## egoOmni
 
@@ -21,7 +80,9 @@ The original egoOmni test set (`grooLegend/egoOmni` on Hugging Face) has 3765 it
 | video-SALMONN 2+ 72B | `tsinghua-ee/video-SALMONN2_plus_72B_full` | `eval/preds/salmonn2plus_72b/` | pending |
 | MiniCPM-o 2.6 (8B) | `openbmb/MiniCPM-o-2_6` | `eval/preds/minicpmo_2_6_8b/` | pending |
 | Gemini 3.8 Flash | API (`gemini-3.8-flash`, default media resolution) | `eval/preds/gemini_3_8_flash/` | pending |
-| **EgoAVU r100k LoRA (ours)** — Qwen2.5-Omni-7B + LoRA r8, EgoAVU r100k subset, 5 ep | adapter not in this repo | `eval/preds/egoavu_r100k/` | pending |
+| **EgoAVU r100k LoRA (ours)** — Qwen2.5-Omni-7B + LoRA r8, EgoAVU r100k subset, 5 ep | adapter not in this repo | `eval/preds/egoavu_r100k/` | ✅ `eval/judgments/`, `eval/results/egoavu_r100k/` |
+| **EgoAVU r20k-8gpu LoRA (ours)** — same recipe, r20k subset, 8 GPUs | adapter not in this repo | `eval/preds/egoavu_r20k8g/` | ✅ `eval/results/egoavu_r20k8g/` |
+| **EgoAVU r20k-32gpu LoRA (ours)** — same recipe, r20k subset, 32 GPUs (global batch 32, lr 2.83e-5) | adapter not in this repo | `eval/preds/egoavu_r20k32g/` | ✅ `eval/results/egoavu_r20k32g/` |
 
 > **Problems and how they were handled:** every issue hit during setup and inference — blocked downloads, dependency conflicts,
 > silent audio drop, SALMONN checkpoint choice, a ZeRO-3 deadlock, the Gemini usage-report quirk, the unjudged models, and the

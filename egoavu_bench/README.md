@@ -100,3 +100,11 @@ vision encoders untouched; applied to Qwen2.5-Omni-7B Thinker and merged for inf
 env, writes the config with `tools/make_config.py`, runs predict, then `tools/collect_predictions.py`) → `tools/window_media_flags.py`
 → `tools/assemble_release.py`. `configs/` holds the exact predict configs; `submit_clusterx.sh` shows the cluster submission
 (`ckpt_sft` ran as a P-cluster job, `ckpt_epoch2` on an 8-GPU dev box, both from the same env tarball).
+
+## v3 (2026-09-24): the three EgoAVU LoRAs (ours)
+`predictions/{r100k,r20k8g,r20k32g}.json`, `stats/`, per-shard configs in `configs/`, judge outputs in
+`results/judge_items/<tag>.jsonl`, `results/judge_scores_egoavu_lora.csv`, captioning metrics `results/caption_*_egoavu_lora.csv`,
+closed-ended items `results/closed_ended/<tag>_closed_items.jsonl`; `results/tables.md` / `summary.json` now cover all six models.
+Same protocol as above, run on the H cluster: the bench was split into 8 interleaved shards (bench_idx % 8), two bs=1 predict
+processes per H200, merged back in bench order (`tools/merge_bench_shards.py`) and re-verified with `collect_predictions.py`.
+Official judge Qwen3-235B-A22B-Instruct-2507 (HF snapshot 56e16a6…, vLLM TP4 on H200), 11,928 / 11,928 items parsed.

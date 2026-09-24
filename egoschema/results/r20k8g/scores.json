@@ -1,0 +1,23 @@
+{
+  "tag": "r20k8g",
+  "n": 500,
+  "acc_lmms_eval_parse": 64.0,
+  "acc_lenient_parse": 64.0,
+  "acc_lenient_with_audio": 0.0,
+  "acc_lenient_no_audio": 64.0,
+  "n_with_audio": 0,
+  "pred_letter_dist_lmms": {
+    "D": 88,
+    "B": 97,
+    "E": 118,
+    "A": 90,
+    "C": 107
+  },
+  "gold_dist": {
+    "D": 83,
+    "B": 108,
+    "A": 101,
+    "E": 117,
+    "C": 91
+  }
+}

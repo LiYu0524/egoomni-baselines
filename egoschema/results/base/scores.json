@@ -1,0 +1,23 @@
+{
+  "tag": "base",
+  "n": 500,
+  "acc_lmms_eval_parse": 65.2,
+  "acc_lenient_parse": 65.2,
+  "acc_lenient_with_audio": 0.0,
+  "acc_lenient_no_audio": 65.2,
+  "n_with_audio": 0,
+  "pred_letter_dist_lmms": {
+    "D": 85,
+    "A": 100,
+    "B": 105,
+    "E": 106,
+    "C": 104
+  },
+  "gold_dist": {
+    "D": 83,
+    "B": 108,
+    "A": 101,
+    "E": 117,
+    "C": 91
+  }
+}

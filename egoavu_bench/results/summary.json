@@ -395,6 +395,410 @@
     }
    },
    "judge_unparseable": 0
+  },
+  "r20k32g": {
+   "SSA": 2.62,
+   "AVDN_S": 2.028,
+   "AVDN_M": 12.57,
+   "AVDN_R": 16.76,
+   "AVSN_S": 2.058,
+   "AVSN_M": 19.57,
+   "AVSN_R": 24.76,
+   "TR": 47.2,
+   "TR_ci95": [
+    42.8,
+    51.6
+   ],
+   "TR_n": 500,
+   "AVH": 97.13,
+   "AVH_by_subtype": {
+    "Action": 100.0,
+    "Object": 93.4,
+    "Sound": 98.0
+   },
+   "AVH_n": 304,
+   "AVH_yes_rate": 3.0,
+   "judge_S_all_categories": {
+    "SSA": {
+     "n": 600,
+     "S": 2.62,
+     "ci95": [
+      2.505,
+      2.732
+     ]
+    },
+    "AVDN": {
+     "n": 500,
+     "S": 2.028,
+     "ci95": [
+      1.96,
+      2.098
+     ]
+    },
+    "AVSN": {
+     "n": 1200,
+     "S": 2.058,
+     "ci95": [
+      2.011,
+      2.106
+     ]
+    },
+    "TR": {
+     "n": 1100,
+     "S": 2.465,
+     "ci95": [
+      2.374,
+      2.549
+     ]
+    },
+    "AVH-Action": {
+     "n": 196,
+     "S": 3.541,
+     "ci95": [
+      3.378,
+      3.704
+     ]
+    },
+    "AVH-Object": {
+     "n": 184,
+     "S": 3.321,
+     "ci95": [
+      3.12,
+      3.511
+     ]
+    },
+    "AVH-Sound": {
+     "n": 196,
+     "S": 3.367,
+     "ci95": [
+      3.209,
+      3.515
+     ]
+    }
+   },
+   "judge_S_closed_open_split": {
+    "TR/closed": {
+     "n": 500,
+     "S": 3.104
+    },
+    "TR/open": {
+     "n": 600,
+     "S": 1.932
+    },
+    "AVH-Action/closed": {
+     "n": 98,
+     "S": 4.184
+    },
+    "AVH-Action/open": {
+     "n": 98,
+     "S": 2.898
+    },
+    "AVH-Object/closed": {
+     "n": 106,
+     "S": 3.953
+    },
+    "AVH-Object/open": {
+     "n": 78,
+     "S": 2.462
+    },
+    "AVH-Sound/closed": {
+     "n": 100,
+     "S": 3.79
+    },
+    "AVH-Sound/open": {
+     "n": 96,
+     "S": 2.927
+    }
+   },
+   "median_output_to_gold_word_ratio": {
+    "AVSN": 0.98,
+    "AVDN": 0.68,
+    "SSA": 0.9,
+    "TR": 1.0
+   },
+   "closed_ended_extraction": {
+    "TR": {
+     "phrase": 260,
+     "unparsed": 58,
+     "fuzzy_option_text": 18,
+     "contains_option_text": 160,
+     "letter": 3,
+     "exact_option_text": 1
+    },
+    "AVH": {
+     "first_word": 304
+    }
+   },
+   "judge_unparseable": 0
+  },
+  "r100k": {
+   "SSA": 2.653,
+   "AVDN_S": 2.014,
+   "AVDN_M": 11.97,
+   "AVDN_R": 16.82,
+   "AVSN_S": 2.011,
+   "AVSN_M": 20.59,
+   "AVSN_R": 26.26,
+   "TR": 44.2,
+   "TR_ci95": [
+    39.8,
+    48.6
+   ],
+   "TR_n": 500,
+   "AVH": 98.39,
+   "AVH_by_subtype": {
+    "Action": 100.0,
+    "Object": 97.17,
+    "Sound": 98.0
+   },
+   "AVH_n": 304,
+   "AVH_yes_rate": 5.6,
+   "judge_S_all_categories": {
+    "SSA": {
+     "n": 600,
+     "S": 2.653,
+     "ci95": [
+      2.535,
+      2.763
+     ]
+    },
+    "AVDN": {
+     "n": 500,
+     "S": 2.014,
+     "ci95": [
+      1.942,
+      2.09
+     ]
+    },
+    "AVSN": {
+     "n": 1200,
+     "S": 2.011,
+     "ci95": [
+      1.964,
+      2.058
+     ]
+    },
+    "TR": {
+     "n": 1100,
+     "S": 2.474,
+     "ci95": [
+      2.384,
+      2.561
+     ]
+    },
+    "AVH-Action": {
+     "n": 196,
+     "S": 3.76,
+     "ci95": [
+      3.612,
+      3.903
+     ]
+    },
+    "AVH-Object": {
+     "n": 184,
+     "S": 3.484,
+     "ci95": [
+      3.293,
+      3.679
+     ]
+    },
+    "AVH-Sound": {
+     "n": 196,
+     "S": 3.592,
+     "ci95": [
+      3.434,
+      3.745
+     ]
+    }
+   },
+   "judge_S_closed_open_split": {
+    "TR/closed": {
+     "n": 500,
+     "S": 3.076
+    },
+    "TR/open": {
+     "n": 600,
+     "S": 1.972
+    },
+    "AVH-Action/closed": {
+     "n": 98,
+     "S": 4.265
+    },
+    "AVH-Action/open": {
+     "n": 98,
+     "S": 3.255
+    },
+    "AVH-Object/closed": {
+     "n": 106,
+     "S": 4.226
+    },
+    "AVH-Object/open": {
+     "n": 78,
+     "S": 2.474
+    },
+    "AVH-Sound/closed": {
+     "n": 100,
+     "S": 4.01
+    },
+    "AVH-Sound/open": {
+     "n": 96,
+     "S": 3.156
+    }
+   },
+   "median_output_to_gold_word_ratio": {
+    "AVSN": 1.03,
+    "AVDN": 0.61,
+    "SSA": 0.91,
+    "TR": 1.0
+   },
+   "closed_ended_extraction": {
+    "TR": {
+     "contains_option_text": 209,
+     "fuzzy_option_text": 28,
+     "phrase": 176,
+     "unparsed": 87
+    },
+    "AVH": {
+     "first_word": 303,
+     "heuristic_affirmative": 1
+    }
+   },
+   "judge_unparseable": 0
+  },
+  "r20k8g": {
+   "SSA": 2.647,
+   "AVDN_S": 2.018,
+   "AVDN_M": 12.71,
+   "AVDN_R": 16.92,
+   "AVSN_S": 2.047,
+   "AVSN_M": 19.33,
+   "AVSN_R": 24.83,
+   "TR": 42.0,
+   "TR_ci95": [
+    37.8,
+    46.4
+   ],
+   "TR_n": 500,
+   "AVH": 97.45,
+   "AVH_by_subtype": {
+    "Action": 100.0,
+    "Object": 94.34,
+    "Sound": 98.0
+   },
+   "AVH_n": 304,
+   "AVH_yes_rate": 3.3,
+   "judge_S_all_categories": {
+    "SSA": {
+     "n": 600,
+     "S": 2.647,
+     "ci95": [
+      2.533,
+      2.757
+     ]
+    },
+    "AVDN": {
+     "n": 500,
+     "S": 2.018,
+     "ci95": [
+      1.944,
+      2.096
+     ]
+    },
+    "AVSN": {
+     "n": 1200,
+     "S": 2.047,
+     "ci95": [
+      2.001,
+      2.096
+     ]
+    },
+    "TR": {
+     "n": 1100,
+     "S": 2.419,
+     "ci95": [
+      2.339,
+      2.502
+     ]
+    },
+    "AVH-Action": {
+     "n": 196,
+     "S": 3.51,
+     "ci95": [
+      3.332,
+      3.679
+     ]
+    },
+    "AVH-Object": {
+     "n": 184,
+     "S": 3.37,
+     "ci95": [
+      3.163,
+      3.565
+     ]
+    },
+    "AVH-Sound": {
+     "n": 196,
+     "S": 3.372,
+     "ci95": [
+      3.23,
+      3.51
+     ]
+    }
+   },
+   "judge_S_closed_open_split": {
+    "TR/closed": {
+     "n": 500,
+     "S": 2.974
+    },
+    "TR/open": {
+     "n": 600,
+     "S": 1.957
+    },
+    "AVH-Action/closed": {
+     "n": 98,
+     "S": 4.163
+    },
+    "AVH-Action/open": {
+     "n": 98,
+     "S": 2.857
+    },
+    "AVH-Object/closed": {
+     "n": 106,
+     "S": 4.038
+    },
+    "AVH-Object/open": {
+     "n": 78,
+     "S": 2.462
+    },
+    "AVH-Sound/closed": {
+     "n": 100,
+     "S": 3.8
+    },
+    "AVH-Sound/open": {
+     "n": 96,
+     "S": 2.927
+    }
+   },
+   "median_output_to_gold_word_ratio": {
+    "AVSN": 0.95,
+    "AVDN": 0.71,
+    "SSA": 0.86,
+    "TR": 1.0
+   },
+   "closed_ended_extraction": {
+    "TR": {
+     "phrase": 209,
+     "contains_option_text": 187,
+     "fuzzy_option_text": 25,
+     "unparsed": 77,
+     "exact_option_text": 2
+    },
+    "AVH": {
+     "first_word": 303,
+     "heuristic_affirmative": 1
+    }
+   },
+   "judge_unparseable": 0
   }
  },
  "paired_differences": {
@@ -402,15 +806,15 @@
    "SSA": {
     "mean_diff": 0.03,
     "ci95": [
-     -0.04,
-     0.098
+     -0.037,
+     0.097
     ]
    },
    "AVDN": {
     "mean_diff": -0.056,
     "ci95": [
-     -0.114,
-     0.0
+     -0.11,
+     0.004
     ]
    },
    "AVSN": {
@@ -423,29 +827,29 @@
    "TR": {
     "mean_diff": -0.045,
     "ci95": [
-     -0.134,
-     0.044
+     -0.127,
+     0.043
     ]
    },
    "AVH-Action": {
     "mean_diff": -0.5,
     "ci95": [
-     -0.709,
-     -0.301
+     -0.714,
+     -0.291
     ]
    },
    "AVH-Object": {
     "mean_diff": -0.272,
     "ci95": [
      -0.462,
-     -0.087
+     -0.082
     ]
    },
    "AVH-Sound": {
     "mean_diff": 0.036,
     "ci95": [
-     -0.066,
-     0.148
+     -0.071,
+     0.138
     ]
    },
    "TR_acc_pts": {
@@ -461,56 +865,230 @@
     "mean_diff": 0.062,
     "ci95": [
      -0.007,
-     0.132
+     0.13
     ]
    },
    "AVDN": {
     "mean_diff": -0.08,
     "ci95": [
-     -0.136,
-     -0.022
+     -0.138,
+     -0.02
     ]
    },
    "AVSN": {
     "mean_diff": -0.247,
     "ci95": [
-     -0.293,
-     -0.203
+     -0.292,
+     -0.2
     ]
    },
    "TR": {
     "mean_diff": -0.028,
     "ci95": [
-     -0.109,
-     0.054
+     -0.107,
+     0.048
     ]
    },
    "AVH-Action": {
     "mean_diff": 0.087,
     "ci95": [
-     -0.117,
-     0.296
+     -0.122,
+     0.301
     ]
    },
    "AVH-Object": {
     "mean_diff": 0.082,
     "ci95": [
-     -0.136,
-     0.304
+     -0.147,
+     0.31
     ]
    },
    "AVH-Sound": {
     "mean_diff": 0.434,
     "ci95": [
-     0.235,
+     0.24,
      0.638
     ]
    },
    "TR_acc_pts": {
     "mean_diff": 0.4,
     "ci95": [
-     -3.4,
-     4.4
+     -3.6,
+     4.2
+    ]
+   }
+  },
+  "r20k32g - base_qwen25omni7b": {
+   "SSA": {
+    "mean_diff": 1.118,
+    "ci95": [
+     0.978,
+     1.257
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.246,
+    "ci95": [
+     0.186,
+     0.304
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.142,
+    "ci95": [
+     0.095,
+     0.19
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.154,
+    "ci95": [
+     0.068,
+     0.238
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 0.99,
+    "ci95": [
+     0.719,
+     1.26
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 1.049,
+    "ci95": [
+     0.755,
+     1.353
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 1.474,
+    "ci95": [
+     1.245,
+     1.714
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": 2.6,
+    "ci95": [
+     -1.8,
+     7.4
+    ]
+   }
+  },
+  "r100k - base_qwen25omni7b": {
+   "SSA": {
+    "mean_diff": 1.152,
+    "ci95": [
+     1.013,
+     1.303
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.232,
+    "ci95": [
+     0.172,
+     0.294
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.094,
+    "ci95": [
+     0.05,
+     0.142
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.163,
+    "ci95": [
+     0.07,
+     0.265
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 1.209,
+    "ci95": [
+     0.959,
+     1.464
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 1.212,
+    "ci95": [
+     0.929,
+     1.495
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 1.699,
+    "ci95": [
+     1.459,
+     1.923
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": -0.4,
+    "ci95": [
+     -5.8,
+     4.8
+    ]
+   }
+  },
+  "r20k8g - base_qwen25omni7b": {
+   "SSA": {
+    "mean_diff": 1.145,
+    "ci95": [
+     1.0,
+     1.292
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.236,
+    "ci95": [
+     0.18,
+     0.296
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.13,
+    "ci95": [
+     0.086,
+     0.177
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.108,
+    "ci95": [
+     0.017,
+     0.196
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 0.959,
+    "ci95": [
+     0.704,
+     1.24
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 1.098,
+    "ci95": [
+     0.788,
+     1.38
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 1.48,
+    "ci95": [
+     1.25,
+     1.719
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": -2.6,
+    "ci95": [
+     -7.4,
+     2.0
     ]
    }
   },
@@ -518,42 +1096,42 @@
    "SSA": {
     "mean_diff": 0.032,
     "ci95": [
-     -0.027,
-     0.095
+     -0.028,
+     0.093
     ]
    },
    "AVDN": {
     "mean_diff": -0.024,
     "ci95": [
-     -0.078,
-     0.032
+     -0.08,
+     0.034
     ]
    },
    "AVSN": {
     "mean_diff": -0.012,
     "ci95": [
-     -0.054,
-     0.03
+     -0.051,
+     0.029
     ]
    },
    "TR": {
     "mean_diff": 0.016,
     "ci95": [
-     -0.065,
-     0.089
+     -0.059,
+     0.098
     ]
    },
    "AVH-Action": {
     "mean_diff": 0.587,
     "ci95": [
-     0.357,
-     0.827
+     0.352,
+     0.832
     ]
    },
    "AVH-Object": {
     "mean_diff": 0.353,
     "ci95": [
-     0.136,
+     0.125,
      0.587
     ]
    },
@@ -561,14 +1139,536 @@
     "mean_diff": 0.398,
     "ci95": [
      0.214,
-     0.597
+     0.592
     ]
    },
    "TR_acc_pts": {
     "mean_diff": 1.4,
     "ci95": [
      -2.4,
-     5.0
+     5.2
+    ]
+   }
+  },
+  "r20k32g - ckpt_sft": {
+   "SSA": {
+    "mean_diff": 1.088,
+    "ci95": [
+     0.953,
+     1.233
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.302,
+    "ci95": [
+     0.238,
+     0.364
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.378,
+    "ci95": [
+     0.328,
+     0.427
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.198,
+    "ci95": [
+     0.101,
+     0.292
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 1.49,
+    "ci95": [
+     1.224,
+     1.74
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 1.321,
+    "ci95": [
+     1.016,
+     1.614
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 1.439,
+    "ci95": [
+     1.189,
+     1.684
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": 3.6,
+    "ci95": [
+     -1.6,
+     9.0
+    ]
+   }
+  },
+  "r100k - ckpt_sft": {
+   "SSA": {
+    "mean_diff": 1.122,
+    "ci95": [
+     0.982,
+     1.265
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.288,
+    "ci95": [
+     0.226,
+     0.352
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.33,
+    "ci95": [
+     0.282,
+     0.378
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.207,
+    "ci95": [
+     0.104,
+     0.303
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 1.709,
+    "ci95": [
+     1.469,
+     1.959
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 1.484,
+    "ci95": [
+     1.196,
+     1.755
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 1.663,
+    "ci95": [
+     1.418,
+     1.903
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": 0.6,
+    "ci95": [
+     -5.0,
+     5.8
+    ]
+   }
+  },
+  "r20k8g - ckpt_sft": {
+   "SSA": {
+    "mean_diff": 1.115,
+    "ci95": [
+     0.978,
+     1.255
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.292,
+    "ci95": [
+     0.232,
+     0.356
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.366,
+    "ci95": [
+     0.317,
+     0.414
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.153,
+    "ci95": [
+     0.055,
+     0.243
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 1.459,
+    "ci95": [
+     1.204,
+     1.714
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 1.37,
+    "ci95": [
+     1.054,
+     1.668
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 1.444,
+    "ci95": [
+     1.199,
+     1.673
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": -1.6,
+    "ci95": [
+     -6.6,
+     3.4
+    ]
+   }
+  },
+  "r20k32g - ckpt_epoch2": {
+   "SSA": {
+    "mean_diff": 1.057,
+    "ci95": [
+     0.912,
+     1.195
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.326,
+    "ci95": [
+     0.264,
+     0.39
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.389,
+    "ci95": [
+     0.338,
+     0.438
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.182,
+    "ci95": [
+     0.082,
+     0.278
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 0.903,
+    "ci95": [
+     0.653,
+     1.163
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 0.967,
+    "ci95": [
+     0.701,
+     1.228
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 1.041,
+    "ci95": [
+     0.765,
+     1.311
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": 2.2,
+    "ci95": [
+     -2.8,
+     7.2
+    ]
+   }
+  },
+  "r100k - ckpt_epoch2": {
+   "SSA": {
+    "mean_diff": 1.09,
+    "ci95": [
+     0.947,
+     1.223
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.312,
+    "ci95": [
+     0.252,
+     0.378
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.342,
+    "ci95": [
+     0.292,
+     0.393
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.191,
+    "ci95": [
+     0.089,
+     0.29
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 1.122,
+    "ci95": [
+     0.888,
+     1.357
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 1.13,
+    "ci95": [
+     0.87,
+     1.397
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 1.265,
+    "ci95": [
+     0.99,
+     1.526
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": -0.8,
+    "ci95": [
+     -6.4,
+     4.6
+    ]
+   }
+  },
+  "r20k8g - ckpt_epoch2": {
+   "SSA": {
+    "mean_diff": 1.083,
+    "ci95": [
+     0.947,
+     1.222
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.316,
+    "ci95": [
+     0.254,
+     0.378
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.378,
+    "ci95": [
+     0.329,
+     0.427
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.136,
+    "ci95": [
+     0.047,
+     0.232
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 0.872,
+    "ci95": [
+     0.638,
+     1.112
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 1.016,
+    "ci95": [
+     0.745,
+     1.304
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 1.046,
+    "ci95": [
+     0.776,
+     1.316
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": -3.0,
+    "ci95": [
+     -7.8,
+     2.0
+    ]
+   }
+  },
+  "r100k - r20k32g": {
+   "SSA": {
+    "mean_diff": 0.033,
+    "ci95": [
+     -0.015,
+     0.083
+    ]
+   },
+   "AVDN": {
+    "mean_diff": -0.014,
+    "ci95": [
+     -0.076,
+     0.044
+    ]
+   },
+   "AVSN": {
+    "mean_diff": -0.048,
+    "ci95": [
+     -0.088,
+     -0.007
+    ]
+   },
+   "TR": {
+    "mean_diff": 0.009,
+    "ci95": [
+     -0.075,
+     0.1
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": 0.219,
+    "ci95": [
+     0.071,
+     0.367
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 0.163,
+    "ci95": [
+     -0.005,
+     0.321
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 0.224,
+    "ci95": [
+     0.077,
+     0.367
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": -3.0,
+    "ci95": [
+     -7.8,
+     1.8
+    ]
+   }
+  },
+  "r20k8g - r20k32g": {
+   "SSA": {
+    "mean_diff": 0.027,
+    "ci95": [
+     -0.01,
+     0.063
+    ]
+   },
+   "AVDN": {
+    "mean_diff": -0.01,
+    "ci95": [
+     -0.056,
+     0.034
+    ]
+   },
+   "AVSN": {
+    "mean_diff": -0.012,
+    "ci95": [
+     -0.046,
+     0.021
+    ]
+   },
+   "TR": {
+    "mean_diff": -0.045,
+    "ci95": [
+     -0.1,
+     0.007
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": -0.031,
+    "ci95": [
+     -0.133,
+     0.077
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": 0.049,
+    "ci95": [
+     -0.06,
+     0.158
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": 0.005,
+    "ci95": [
+     -0.097,
+     0.107
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": -5.2,
+    "ci95": [
+     -8.4,
+     -2.2
+    ]
+   }
+  },
+  "r20k8g - r100k": {
+   "SSA": {
+    "mean_diff": -0.007,
+    "ci95": [
+     -0.057,
+     0.04
+    ]
+   },
+   "AVDN": {
+    "mean_diff": 0.004,
+    "ci95": [
+     -0.048,
+     0.058
+    ]
+   },
+   "AVSN": {
+    "mean_diff": 0.036,
+    "ci95": [
+     -0.002,
+     0.076
+    ]
+   },
+   "TR": {
+    "mean_diff": -0.055,
+    "ci95": [
+     -0.135,
+     0.026
+    ]
+   },
+   "AVH-Action": {
+    "mean_diff": -0.25,
+    "ci95": [
+     -0.393,
+     -0.107
+    ]
+   },
+   "AVH-Object": {
+    "mean_diff": -0.114,
+    "ci95": [
+     -0.272,
+     0.033
+    ]
+   },
+   "AVH-Sound": {
+    "mean_diff": -0.219,
+    "ci95": [
+     -0.347,
+     -0.087
+    ]
+   },
+   "TR_acc_pts": {
+    "mean_diff": -2.2,
+    "ci95": [
+     -6.6,
+     2.2
     ]
    }
   }

@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+"""LLaMAFactory predict config for EgoSchema: the EgoAVU training media recipe (2 fps, <=64 frames, <=200,704 px, audio in
+video) and template; greedy, 64 new tokens (letter answers). usage: make_config.py TAG ADAPTER|none DATASET OUT"""
+import sys
+tag, adapter, dataset, out = sys.argv[1:5]
+R = "/ai4good1-shared/liyu/egoschema_eval_h"
+lines = ["model_name_or_path: /ai4good1-shared/liyu/egoavu/models/Qwen2.5-Omni-7B-thinker-train"] + \
+    ([f"adapter_name_or_path: {adapter}"] if adapter != "none" else []) + [
+    "trust_remote_code: true", "flash_attn: fa2", "video_fps: 2.0", "video_maxlen: 64", "video_max_pixels: 200704",
+    "use_audio_in_video: true", "stage: sft", "do_predict: true", "predict_with_generate: true",
+    f"finetuning_type: {'lora' if adapter != 'none' else 'full'}", f"eval_dataset: {dataset}", f"dataset_dir: {R}/data",
+    "template: qwen2_omni", "cutoff_len: 32768", "overwrite_cache: true", "preprocessing_num_workers: 8",
+    "dataloader_num_workers: 4", f"output_dir: {R}/runs/{tag}/{dataset}", "overwrite_output_dir: true", "report_to: none",
+    "per_device_eval_batch_size: 1", "bf16: true", "do_sample: false", "max_new_tokens: 64", "repetition_penalty: 1.0",
+    "ddp_timeout: 180000000"]
+open(out, "w").write("\n".join(lines) + "\n")
