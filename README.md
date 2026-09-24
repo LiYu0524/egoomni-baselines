@@ -7,7 +7,7 @@ Inference outputs and evaluation code for four benchmarks:
 | **egoOmni** — final test set (`test.qa.jsonl`, 3,882 QAs = 3,765 original + 117 restored) | 3,882 QAs | VideoLLaMA2.1-AV-7B, video-SALMONN 2+ 7B / 72B, MiniCPM-o 2.6, Gemini 3.8 Flash, **EgoAVU LoRAs (ours): r100k, r20k-8gpu, r20k-32gpu** | [`eval/`](eval/README.md) | predictions for **3,877 / 3,882** QAs on all models (5 restored QAs have no video); judged: VideoLLaMA2.1-AV-7B and **the three EgoAVU LoRAs** |
 | **EgoAVU-Bench** | 3,976 QAs, 500 videos | two Qwen2.5-Omni-7B LoRAs (`ckpt_sft`, `ckpt_epoch2`) + untuned Qwen2.5-Omni-7B control | [`egoavu_bench/`](egoavu_bench/README.md) | predictions complete (3,976 / 3,976 each); **v2: scored to the official standard + untuned-base control** ([`results/`](egoavu_bench/results/README.md)) — neither LoRA beats the base except `ckpt_epoch2` on hallucination probes; **v3 (2026-09-24): + the three EgoAVU LoRAs (ours)**, which beat the base on every judged category |
 | **EgoCross** (closed set) | 957 MCQs, 4 domains | untuned Qwen2.5-Omni-7B + the three EgoAVU LoRAs | [`egocross/`](egocross/README.md) | done; predictions (Codabench format) + aggregate scores only — the test answers are hidden |
-| **EgoSchema** (public Subset) | 500 five-way MCQs | untuned Qwen2.5-Omni-7B + the three EgoAVU LoRAs | [`egoschema/`](egoschema/README.md) | done (full 5,031-question set not run: answers are server-side) |
+| **EgoSchema** (public Subset) | 500 five-way MCQs | untuned Qwen2.5-Omni-7B + the three EgoAVU LoRAs + the two colleague LoRAs (`ckpt_sft`, `ckpt_epoch2`) | [`egoschema/`](egoschema/README.md) | done (full 5,031-question set not run: answers are server-side) |
 
 Every problem hit and how it was handled: [`docs/ISSUES_AND_HANDLING.md`](docs/ISSUES_AND_HANDLING.md).
 
@@ -64,9 +64,11 @@ Final-bench-only scores (`eval/results_final/`, 5,152 rows) differ by ≤ 0.1 pt
 | r20k-8gpu | 64.0 | −1.2, p = 0.59 |
 | r20k-32gpu | 60.4 | −4.8, p = 0.02 |
 | r100k | 58.0 | −7.2, p = 0.0006 |
+| ckpt_sft (colleague) | 56.4 | −8.8, p < 0.0001 |
+| ckpt_epoch2 (colleague) | 54.2 | −11.0, p < 0.0001 |
 
 Summary: large in-domain gains (EgoAVU-Bench), ~29–30% on egoOmni, no change on EgoCross, and a loss on long-form, video-only
-EgoSchema that grows with the amount of EgoAVU training.
+EgoSchema that grows with the amount of EgoAVU training; the two colleague LoRAs lose even more (−8.8 / −11.0).
 
 ## egoOmni
 
