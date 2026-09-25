@@ -1,0 +1,65 @@
+{
+ "overall": {
+  "acc": 22.18,
+  "mean_score": 1.752,
+  "n": 496
+ },
+ "type:action sequence": {
+  "acc": 8.0,
+  "mean_score": 1.74,
+  "n": 50
+ },
+ "type:action-specific object": {
+  "acc": 32.0,
+  "mean_score": 2.1,
+  "n": 50
+ },
+ "type:counting actions": {
+  "acc": 16.33,
+  "mean_score": 1.224,
+  "n": 49
+ },
+ "type:counting objects": {
+  "acc": 46.94,
+  "mean_score": 2.469,
+  "n": 49
+ },
+ "type:future action prediction": {
+  "acc": 14.0,
+  "mean_score": 1.52,
+  "n": 50
+ },
+ "type:locating object": {
+  "acc": 30.0,
+  "mean_score": 1.72,
+  "n": 50
+ },
+ "type:object sequence": {
+  "acc": 14.29,
+  "mean_score": 1.571,
+  "n": 49
+ },
+ "type:object-specific action": {
+  "acc": 24.0,
+  "mean_score": 2.06,
+  "n": 50
+ },
+ "type:spatial relationship": {
+  "acc": 22.45,
+  "mean_score": 1.816,
+  "n": 49
+ },
+ "type:temporal event ordering": {
+  "acc": 14.0,
+  "mean_score": 1.3,
+  "n": 50
+ },
+ "_meta": {
+  "judge": "gemini-2.5-flash-nothinking",
+  "gold": 500,
+  "with_pred": 500,
+  "judged": 496,
+  "missing_pred": 0,
+  "judge_errors": 4
+ }
+}

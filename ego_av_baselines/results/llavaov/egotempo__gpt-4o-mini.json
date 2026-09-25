@@ -1,0 +1,65 @@
+{
+ "overall": {
+  "acc": 16.6,
+  "mean_score": 1.486,
+  "n": 500
+ },
+ "type:action sequence": {
+  "acc": 0.0,
+  "mean_score": 1.16,
+  "n": 50
+ },
+ "type:action-specific object": {
+  "acc": 22.0,
+  "mean_score": 1.6,
+  "n": 50
+ },
+ "type:counting actions": {
+  "acc": 18.0,
+  "mean_score": 1.24,
+  "n": 50
+ },
+ "type:counting objects": {
+  "acc": 46.0,
+  "mean_score": 2.36,
+  "n": 50
+ },
+ "type:future action prediction": {
+  "acc": 12.0,
+  "mean_score": 1.52,
+  "n": 50
+ },
+ "type:locating object": {
+  "acc": 24.0,
+  "mean_score": 1.46,
+  "n": 50
+ },
+ "type:object sequence": {
+  "acc": 16.0,
+  "mean_score": 1.26,
+  "n": 50
+ },
+ "type:object-specific action": {
+  "acc": 12.0,
+  "mean_score": 1.76,
+  "n": 50
+ },
+ "type:spatial relationship": {
+  "acc": 10.0,
+  "mean_score": 1.4,
+  "n": 50
+ },
+ "type:temporal event ordering": {
+  "acc": 6.0,
+  "mean_score": 1.1,
+  "n": 50
+ },
+ "_meta": {
+  "judge": "gpt-4o-mini",
+  "gold": 500,
+  "with_pred": 500,
+  "judged": 500,
+  "missing_pred": 0,
+  "judge_errors": 0
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "overall": {
+  "acc": 31.72,
+  "mean_score": 1.816,
+  "n": 7315
+ },
+ "subset:ego4d": {
+  "acc": 24.55,
+  "mean_score": 1.505,
+  "n": 2346
+ },
+ "subset:egoblind": {
+  "acc": 35.1,
+  "mean_score": 1.964,
+  "n": 4969
+ },
+ "type:Counting": {
+  "acc": 41.99,
+  "mean_score": 2.187,
+  "n": 1024
+ },
+ "type:Cross-Modal Reasoning": {
+  "acc": 29.04,
+  "mean_score": 1.708,
+  "n": 644
+ },
+ "type:Cross-Modal Reasoning (Audio-Guided Visual)": {
+  "acc": 20.0,
+  "mean_score": 2.4,
+  "n": 5
+ },
+ "type:Cross-Modal Reasoning (Sound to Visual)": {
+  "acc": 100.0,
+  "mean_score": 4.0,
+  "n": 2
+ },
+ "type:Cross-Modal Reasoning (Visual to Sound)": {
+  "acc": 28.57,
+  "mean_score": 1.429,
+  "n": 7
+ },
+ "type:Cross-Modal Reasoning (Visual-Guided Audio)": {
+  "acc": 0.0,
+  "mean_score": 0.0,
+  "n": 1
+ },
+ "type:Inferential & Contextual Causality": {
+  "acc": 38.43,
+  "mean_score": 2.106,
+  "n": 1491
+ },
+ "type:Sound Characteristics": {
+  "acc": 21.62,
+  "mean_score": 1.653,
+  "n": 1175
+ },
+ "type:Sound Source Identification": {
+  "acc": 29.9,
+  "mean_score": 1.68,
+  "n": 1164
+ },
+ "type:Spatial Location (Direction & Distance)": {
+  "acc": 26.43,
+  "mean_score": 1.43,
+  "n": 855
+ },
+ "type:Temporal Information": {
+  "acc": 31.36,
+  "mean_score": 1.751,
+  "n": 947
+ },
+ "_meta": {
+  "judge": "gpt-5",
+  "gold": 7315,
+  "with_pred": 7315,
+  "judged": 7315,
+  "missing_pred": 0,
+  "judge_errors": 0
+ }
+}

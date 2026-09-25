@@ -1,0 +1,65 @@
+{
+ "overall": {
+  "acc": 23.0,
+  "mean_score": 1.852,
+  "n": 500
+ },
+ "type:action sequence": {
+  "acc": 14.0,
+  "mean_score": 1.7,
+  "n": 50
+ },
+ "type:action-specific object": {
+  "acc": 26.0,
+  "mean_score": 1.84,
+  "n": 50
+ },
+ "type:counting actions": {
+  "acc": 20.0,
+  "mean_score": 1.66,
+  "n": 50
+ },
+ "type:counting objects": {
+  "acc": 32.0,
+  "mean_score": 2.1,
+  "n": 50
+ },
+ "type:future action prediction": {
+  "acc": 20.0,
+  "mean_score": 1.68,
+  "n": 50
+ },
+ "type:locating object": {
+  "acc": 24.0,
+  "mean_score": 1.92,
+  "n": 50
+ },
+ "type:object sequence": {
+  "acc": 18.0,
+  "mean_score": 1.76,
+  "n": 50
+ },
+ "type:object-specific action": {
+  "acc": 16.0,
+  "mean_score": 1.78,
+  "n": 50
+ },
+ "type:spatial relationship": {
+  "acc": 42.0,
+  "mean_score": 2.48,
+  "n": 50
+ },
+ "type:temporal event ordering": {
+  "acc": 18.0,
+  "mean_score": 1.6,
+  "n": 50
+ },
+ "_meta": {
+  "judge": "gemini-2.5-flash-lite",
+  "gold": 500,
+  "with_pred": 500,
+  "judged": 500,
+  "missing_pred": 0,
+  "judge_errors": 0
+ }
+}

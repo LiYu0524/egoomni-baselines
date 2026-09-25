@@ -1,0 +1,123 @@
+{
+ "all|fullcontext|actions": {
+  "acc": 32.2,
+  "n": 354,
+  "unparsed": 0
+ },
+ "all|fullcontext|belief": {
+  "acc": 42.22,
+  "n": 334,
+  "unparsed": 0
+ },
+ "all|fullcontext|goal": {
+  "acc": 87.75,
+  "n": 351,
+  "unparsed": 0
+ },
+ "all|fullcontext|overall": {
+  "acc": 54.19,
+  "n": 1039,
+  "unparsed": 0
+ },
+ "all|last30sec|actions": {
+  "acc": 41.24,
+  "n": 354,
+  "unparsed": 0
+ },
+ "all|last30sec|belief": {
+  "acc": 49.7,
+  "n": 334,
+  "unparsed": 0
+ },
+ "all|last30sec|goal": {
+  "acc": 91.74,
+  "n": 351,
+  "unparsed": 1
+ },
+ "all|last30sec|overall": {
+  "acc": 61.02,
+  "n": 1039,
+  "unparsed": 1
+ },
+ "all|last5sec|actions": {
+  "acc": 48.59,
+  "n": 354,
+  "unparsed": 0
+ },
+ "all|last5sec|belief": {
+  "acc": 49.4,
+  "n": 334,
+  "unparsed": 0
+ },
+ "all|last5sec|goal": {
+  "acc": 90.88,
+  "n": 351,
+  "unparsed": 2
+ },
+ "all|last5sec|overall": {
+  "acc": 63.14,
+  "n": 1039,
+  "unparsed": 2
+ },
+ "paper|fullcontext|actions": {
+  "acc": 30.71,
+  "n": 267,
+  "unparsed": 0
+ },
+ "paper|fullcontext|belief": {
+  "acc": 42.57,
+  "n": 202,
+  "unparsed": 0
+ },
+ "paper|fullcontext|goal": {
+  "acc": 87.76,
+  "n": 237,
+  "unparsed": 0
+ },
+ "paper|fullcontext|overall": {
+  "acc": 53.26,
+  "n": 706,
+  "unparsed": 0
+ },
+ "paper|last30sec|actions": {
+  "acc": 41.2,
+  "n": 267,
+  "unparsed": 0
+ },
+ "paper|last30sec|belief": {
+  "acc": 50.99,
+  "n": 202,
+  "unparsed": 0
+ },
+ "paper|last30sec|goal": {
+  "acc": 91.98,
+  "n": 237,
+  "unparsed": 0
+ },
+ "paper|last30sec|overall": {
+  "acc": 61.05,
+  "n": 706,
+  "unparsed": 0
+ },
+ "paper|last5sec|actions": {
+  "acc": 48.69,
+  "n": 267,
+  "unparsed": 0
+ },
+ "paper|last5sec|belief": {
+  "acc": 49.5,
+  "n": 202,
+  "unparsed": 0
+ },
+ "paper|last5sec|goal": {
+  "acc": 90.72,
+  "n": 237,
+  "unparsed": 1
+ },
+ "paper|last5sec|overall": {
+  "acc": 63.03,
+  "n": 706,
+  "unparsed": 1
+ },
+ "_missing_predictions": 0
+}
